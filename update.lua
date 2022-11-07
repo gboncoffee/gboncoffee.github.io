@@ -28,7 +28,10 @@
 -- SOFTWARE.
 --
 
-timestamp = os.date()
+filetimestamp = function(file)
+    return io.popen('stat -c %w "' .. file .. '"'):read("*a")
+end
+
 l = io.popen("ls -c _markdown")
 updated = false
 
@@ -36,10 +39,9 @@ for file in l:lines() do
     local outname = "posts/" .. file:gsub(".md", ".html")
 
     if not io.open(outname, "r") then
-        updated = true
         print("Generating article from " .. file)
 
-        local out = io.open(outname, "a")
+        local out = io.open(outname, "w")
         -- write headers and stuff to output {{{
         out:write([[<!DOCTYPE html>
 <html lang="en">
@@ -51,7 +53,7 @@ for file in l:lines() do
 </head>
 
 <body>
-<p style="color: #f8f8f2;">Written in ]]..timestamp..[[</p>
+<p style="color: #f8f8f2;">Written in ]]..filetimestamp("_markdown/" .. file)..[[</p>
 <a href="../index.html">Home page.</a>
 <a href="../posts.html">Other posts.</a>
 ]]) -- }}}
@@ -76,46 +78,44 @@ for file in l:lines() do
     end
 end
 
-if updated then
-    posts_file = io.open("posts.html", "w")
-    -- we need to relist the directory because io:lines() only support one
-    -- iteration
-    l = io.popen("ls -c _markdown")
+posts_file = io.open("posts.html", "w")
+-- we need to relist the directory because io:lines() only support one
+-- iteration
+l = io.popen("ls -c _markdown")
 
-    -- write headers and stuff {{{
-    posts_file:write([[<!DOCTYPE html>
+-- write headers and stuff {{{
+posts_file:write([[<!DOCTYPE html>
 
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Gabriel's posts</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Gabriel's posts</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <a href="index.html">Home page.</a><br>
 <ul>]])
-    -- }}}
+-- }}}
 
-    for file in l:lines() do
-        posts_file:write([[<li><a href="posts/]]..file:gsub(".md", ".html")..[[">]]..timestamp..[[ :: ]]..file:gsub(".md", "")..[[</a>]])
-        posts_file:write("")
-    end
+for file in l:lines() do
+    posts_file:write([[<li><a href="posts/]]..file:gsub(".md", ".html")..[[">]]..filetimestamp("_markdown/" .. file)..[[ :: ]]..file:gsub(".md", "")..[[</a>]])
+    posts_file:write("")
+end
 
-    -- write footer and stuff {{{
-    posts_file:write([[</ul>
+-- write footer and stuff {{{
+posts_file:write([[</ul>
 <footer style="color: #f8f8f2; font: normal 12pt monospace; text-align: center;">
-    &copy; Gabriel G. de Brito<br>
-    This content is licensed as Creative Commons CC-BY-NC<br>
-    Code for this website is free and open source, licensed under the MIT
-    license. Help improving it on <a style="font: normal 12pt monospace;"
-        href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>
+&copy; Gabriel G. de Brito<br>
+This content is licensed as Creative Commons CC-BY-NC<br>
+Code for this website is free and open source, licensed under the MIT
+license. Help improving it on <a style="font: normal 12pt monospace;"
+    href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>
 </footer>
 </body>
 </html>]])
-    -- }}}
+-- }}}
 
-    posts_file:close()
-end
+posts_file:close()
