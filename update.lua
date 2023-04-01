@@ -29,7 +29,7 @@
 --
 
 filetimestamp = function(file)
-    return io.popen('grep "' .. file .. '" timestamps.txt | cut -d" " -f1-3'):read("*a")
+    return io.popen('grep -F "' .. file .. '" timestamps.txt | cut -d" " -f1-3'):read("*a")
 end
 
 l = io.popen("ls -c _markdown")
