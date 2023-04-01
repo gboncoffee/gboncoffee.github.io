@@ -32,7 +32,7 @@ filetimestamp = function(file)
     return io.popen('grep -F "' .. file .. '" timestamps.txt | cut -d" " -f1-3'):read("*a")
 end
 
-l = io.popen("ls -c _markdown")
+l = io.popen("cat timestamps.txt | cut -d' ' -f4-")
 updated = false
 
 for file in l:lines() do
@@ -53,7 +53,7 @@ for file in l:lines() do
 </head>
 
 <body>
-<p style="color: #f8f8f2;">Written in ]]..filetimestamp("_markdown/" .. file)..[[</p>
+<p style="color: #f8f8f2;">Written in ]]..filetimestamp(file)..[[</p>
 <a href="../index.html">Home page.</a>
 <a href="../posts.html">Other posts.</a>
 ]]) -- }}}
@@ -81,7 +81,7 @@ end
 posts_file = io.open("posts.html", "w")
 -- we need to relist the directory because io:lines() only support one
 -- iteration
-l = io.popen("ls -c _markdown")
+l = io.popen("cat timestamps.txt | cut -d' ' -f4-")
 
 -- write headers and stuff {{{
 posts_file:write([[<!DOCTYPE html>
@@ -101,7 +101,7 @@ posts_file:write([[<!DOCTYPE html>
 -- }}}
 
 for file in l:lines() do
-    posts_file:write([[<li><a href="posts/]]..file:gsub(".md", ".html")..[[">]]..filetimestamp("_markdown/" .. file)..[[ :: ]]..file:gsub(".md", "")..[[</a>]])
+    posts_file:write([[<li><a href="posts/]]..file:gsub(".md", ".html")..[[">]]..filetimestamp(file)..[[ :: ]]..file:gsub(".md", "")..[[</a>]])
     posts_file:write("")
 end
 

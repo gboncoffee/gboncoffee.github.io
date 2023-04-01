@@ -1,19 +1,19 @@
-2023-03-31 00:20:12.107546465 -0300 _markdown/Es Real?.md
-2023-02-15 22:40:59.833389201 -0300 _markdown/Seres Humanos.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Simulações.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Skin in the game.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Sobre a Estética Clássica Camoniana.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Soneto sobre café e gatos.md
-2023-02-23 22:51:17.310551401 -0300 _markdown/Teoria do Caos.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/THIS IS A F***ING WEBSITE.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/A Declaration of Independence of Cyberspace.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Curto Artigo Sobre a Leitura.md
-2023-03-09 00:08:00.361118579 -0300 _markdown/Em Lenta Marcha a Caminhada.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/English Pratice: Who's Hatsune Miku.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Expresso-me em tal língua.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Humanos e Funções.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Infinito.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Me mudarei para Arcádia.md
-2023-02-15 23:09:37.716730925 -0300 _markdown/Meu Amigo do Chile.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Minecraft End Poem.md
-2023-01-22 17:51:55.446742767 -0300 _markdown/Poema à Bianca Ferreira.md
+2023-03-31 00:20:12.107546465 -0300 Es Real.md
+2023-03-09 00:08:00.361118579 -0300 Em Lenta Marcha a Caminhada.md
+2023-02-23 22:51:17.310551401 -0300 Teoria do Caos.md
+2023-02-15 23:09:37.716730925 -0300 Meu Amigo do Chile.md
+2023-02-15 22:40:59.833389201 -0300 Seres Humanos.md
+2023-01-22 17:51:55.446742767 -0300 Minecraft End Poem.md
+2023-01-22 17:51:55.446742767 -0300 Poema à Bianca Ferreira.md
+2023-01-22 17:51:55.446742767 -0300 Simulações.md
+2023-01-22 17:51:55.446742767 -0300 Skin in the game.md
+2023-01-22 17:51:55.446742767 -0300 Sobre a Estética Clássica Camoniana.md
+2023-01-22 17:51:55.446742767 -0300 Soneto sobre café e gatos.md
+2023-01-22 17:51:55.446742767 -0300 THIS IS A F***ING WEBSITE.md
+2023-01-22 17:51:55.446742767 -0300 A Declaration of Independence of Cyberspace.md
+2023-01-22 17:51:55.446742767 -0300 Curto Artigo Sobre a Leitura.md
+2023-01-22 17:51:55.446742767 -0300 English Pratice: Who's Hatsune Miku.md
+2023-01-22 17:51:55.446742767 -0300 Expresso-me em tal língua.md
+2023-01-22 17:51:55.446742767 -0300 Humanos e Funções.md
+2023-01-22 17:51:55.446742767 -0300 Infinito.md
+2023-01-22 17:51:55.446742767 -0300 Me mudarei para Arcádia.md
