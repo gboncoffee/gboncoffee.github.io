@@ -1,6 +1,6 @@
 * {
-    background-color: #282a36;
-    color: #ff92df;
+    background-color: #1E1E2E;
+    color: #CDD6F4;
     font: normal 15pt monospace;
     text-align: justify;
 }
@@ -24,43 +24,43 @@ div#images {
 h1 {
     font: bold 24pt monospace;
     text-align: center;
-    color: #8be9fd;
+    color: #89B4FA;
 }
 
 h2 {
     font: normal 20pt monospace;
     text-align: center;
-    color: #8be9fd;
+    color: #89B4FA;
 }
 
 h3 {
     font: normal 17pt monospace;
     margin-left: 5%;
-    color: #8be9fd;
+    color: #89B4FA;
 }
 
 code {
     font: italic 15pt monospace;
-    color: #ffffa5;
+    color: #F9E2AF;
 }
 
 b {
-    color: #69ff94;
+    color: #A6E3A1;
 }
 
 a {
-    color: #bd93f9;
+    color: #F5C2E7;
 }
 
 img {
-    border: solid 3px #bd93f9;
+    border: solid 3px #F5C2E7;
     float: right;
     margin-bottom: 6px;
 }
 
 div#imgline {
     font: italic 13pt monospace;
-    color: #ffffa5;
+    color: #F9E2AF;
     text-align: right;
     clear: right;
 }
