@@ -1,6 +1,6 @@
 * {
-    background-color: #1E1E2E;
-    color: #CDD6F4;
+    background-color: #272822;
+    color: #f1ebeb;
     font: normal 15pt monospace;
     text-align: justify;
 }
@@ -24,43 +24,43 @@ div#images {
 h1 {
     font: bold 24pt monospace;
     text-align: center;
-    color: #89B4FA;
+    color: #66d9ee;
 }
 
 h2 {
     font: normal 20pt monospace;
     text-align: center;
-    color: #89B4FA;
+    color: #66d9ee;
 }
 
 h3 {
     font: normal 17pt monospace;
     margin-left: 5%;
-    color: #89B4FA;
+    color: #66d9ee;
 }
 
 code {
     font: italic 15pt monospace;
-    color: #F9E2AF;
+    color: #a7e22e;
 }
 
 b {
-    color: #A6E3A1;
+    color: #ae82ff;
 }
 
 a {
-    color: #F5C2E7;
+    color: #e7db75;
 }
 
 img {
-    border: solid 3px #F5C2E7;
+    border: solid 3px #ae82ff;
     float: right;
     margin-bottom: 6px;
 }
 
 div#imgline {
     font: italic 13pt monospace;
-    color: #F9E2AF;
+    color: #e7db75;
     text-align: right;
     clear: right;
 }
