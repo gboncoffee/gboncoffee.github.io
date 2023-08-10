@@ -11,8 +11,8 @@ learning OCaml.
 
 ## Find me at:
 - [GitHub](https://github.com/gboncoffee)  
-- [Academic mail: ggb23@inf.ufpr.br](mailto:ggb23@inf.ufpr.br)  
 - [Twitter](https://twitter.com/gboncoffee)  
+- [Academic mail: ggb23@inf.ufpr.br](mailto:ggb23@inf.ufpr.br)  
 
 When I'm not studying computing, I like cars, photography and hiking! Here you
 can see a photo I took from a beach where I went camping.

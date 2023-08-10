@@ -12,7 +12,8 @@ programming. Also, I have experience with a lot of languages:
 - OCaml  
 - Go  
 - Lisp(s)  
-- Python
+- Python  
+- Web (JS + CSS + HTML)  
 
 Currently, I'm focusing in studying OCaml for fun and C for systems programming.
 My ultimate goal is to write an entire operational system from scratch for fun.
