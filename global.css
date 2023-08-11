@@ -20,9 +20,10 @@ header {
     color: #ffffff;
     font-size: 30pt;
     vertical-align: middle;
+
 }
 
-@media (min-width: 800px) {
+@media only screen and (min-device-width: 800px) and (orientation: landscape) {
     #header-title {
 	margin-left: 5%;
     }
