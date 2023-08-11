@@ -1,0 +1,15 @@
+#all {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (min-width: 800px) {
+    #all {
+	margin-right: 30%;
+    }
+}
+
+li {
+    list-style: none;
+    font-size: 20pt;
+}

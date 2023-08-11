@@ -1,0 +1,16 @@
+#all {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
+
+#all > * {
+    padding: 5%;
+}
+
+@media (min-width: 800px) {
+    #all {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    }
+}

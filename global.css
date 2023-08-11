@@ -1,0 +1,46 @@
+body {
+    background: #303030;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font: normal 18pt monospace;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+header {
+    background: #171421;
+    line-height: 40pt;
+}
+
+#header-title {
+    color: #ffffff;
+    font-size: 30pt;
+    vertical-align: middle;
+}
+
+@media (min-width: 800px) {
+    #header-title {
+	margin-left: 5%;
+    }
+}
+
+.header-link {
+    font-size: 20pt;
+    vertical-align: middle;
+}
+
+a {
+    color: #2a7bde;
+    text-decoration: none;
+}
+
+footer {
+    font: normal 15pt monospace;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #d0cfcc;
+}
