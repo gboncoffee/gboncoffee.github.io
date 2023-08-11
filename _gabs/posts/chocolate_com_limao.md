@@ -1,4 +1,4 @@
-#!gabs post: Chocolate Com Limão
+#!gabs poem: Chocolate Com Limão
 
 # Chocolate Com Limão
 

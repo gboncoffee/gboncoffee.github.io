@@ -1,4 +1,4 @@
-#!gabs post: Distraiste-me
+#!gabs poem: Distraiste-me
 
 Distraiste-me na aula de cálculo  
 E caso eu reprove a culpa é tua  

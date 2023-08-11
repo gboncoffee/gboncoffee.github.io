@@ -1,4 +1,4 @@
-#!gabs post: Explodir-me-ei Para Longe
+#!gabs poem: Explodir-me-ei Para Longe
 
 # Explodir-me-ei Para Longe
 

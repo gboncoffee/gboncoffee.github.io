@@ -1,4 +1,4 @@
-#!gabs post: Soneto sobre café e sobre gatos
+#!gabs poem: Soneto sobre café e sobre gatos
 
 # Soneto sobre café e sobre gatos
 

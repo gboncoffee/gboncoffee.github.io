@@ -1,4 +1,4 @@
-#!gabs post: Poema à Bianca Ferreira
+#!gabs poem: Poema à Bianca Ferreira
 
 # Poema à Bianca Ferreira
 

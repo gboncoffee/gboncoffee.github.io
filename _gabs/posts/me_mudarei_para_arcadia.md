@@ -1,4 +1,4 @@
-#!gabs post: Me Mudarei para Arcádia
+#!gabs poem: Me Mudarei para Arcádia
 
 Me mudarei para Arcádia  
 Virarei assim apátrida  

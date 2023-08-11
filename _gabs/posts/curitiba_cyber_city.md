@@ -1,4 +1,4 @@
-#!gabs post: Curitiba Cyber City
+#!gabs poem: Curitiba Cyber City
 
 # Curitiba Cyber City
 

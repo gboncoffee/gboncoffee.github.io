@@ -1,4 +1,4 @@
-#!gabs post: Quando Achei
+#!gabs poem: Quando Achei
 
 Quando achei que não tinha como estar mais bonita  
 Tu vieste assim, mais que no dia anterior, bem-vestida  

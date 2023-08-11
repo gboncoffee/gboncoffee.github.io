@@ -1,4 +1,4 @@
-#!gabs post: Mea Culpa
+#!gabs poem: Mea Culpa
 
 Ainda que a culpa seja minha  
 E não possa transferi-la a ti  

@@ -1,4 +1,4 @@
-#!gabs post: Em Lenta Marcha a Caminhada
+#!gabs poem: Em Lenta Marcha a Caminhada
 
 Em lenta marcha a caminhada  
 Acelero a cada dia que passa  

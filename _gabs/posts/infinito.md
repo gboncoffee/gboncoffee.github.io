@@ -1,4 +1,4 @@
-#!gabs post: Infinito
+#!gabs poem: Infinito
 
 Assim como um gato que quer pegar a Lua  
 Sou um humano querendo contar ao fim  

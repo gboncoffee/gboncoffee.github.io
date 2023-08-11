@@ -1,4 +1,4 @@
-#!gabs post: Haja Amor
+#!gabs poem: Haja Amor
 
 Havia uma abelha,  
 uma coruja  

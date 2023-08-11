@@ -1,4 +1,4 @@
-#!gabs post: És Real?
+#!gabs poem: És Real?
 
 Tens um nome do que não é real  
 Então devo perguntar-me se és  

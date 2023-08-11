@@ -1,0 +1,14 @@
+#all {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (min-width: 800px) {
+    #all {
+	margin-right: 30%;
+    }
+}
+
+p {
+    text-indent: 0px;
+}
