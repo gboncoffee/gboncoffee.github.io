@@ -3,20 +3,20 @@
 Here you can see my blogposts. Some articles, poems and other stuff, written
 both in English and Portuguese. Enjoy!
 
-- [Explodir-me-ei Para Longe](posts/explodir-me-ei-para-longe.html)  
+- [Explodir-me-ei Para Longe](posts/explodir-me-ei_para_longe.html)  
   Portuguese poem written in 2023-06-04 00:15:22
 
-- [Chocolate Com Limão](posts/chocolate-com-limao.html)  
+- [Chocolate Com Limão](posts/chocolate_com_limao.html)  
   Portuguese poem written in 2023-05-14 03:42:06
 
-- [Curitiba Cyber City](posts/curitiba-cyber-city.html)  
+- [Curitiba Cyber City](posts/curitiba_cyber_city.html)  
   English poem written in 2023-05-13 20:31:46 while going back home with the
   bus.
 
-- [Mea Culpa](posts/mea-culpa.html)  
+- [Mea Culpa](posts/mea_culpa.html)  
   Portuguese poem written in 2023-05-12 23:09:49 while feeling gulty.
 
-- [Haja Amor](posts/haja-amor.html)  
+- [Haja Amor](posts/haja_amor.html)  
   Portuguese poem written in 2023-05-06 01:26:52
 
 - [Distraiste-me](posts/distraiste-me.html)  
@@ -29,7 +29,7 @@ both in English and Portuguese. Enjoy!
 - [Que Seja Então Fruto de Nossa Potência](posts/que_seja_entao_fruto_de_nossa_potencia.html)  
   Portuguese text about everything written in 2023-04-03 20:55:41
 
-- [Es Real](posts/es_real.html)  
+- [És Real?](posts/es_real.html)  
   Portuguese poem about someone that don't look real written in 2023-03-31
   00:20:12
 

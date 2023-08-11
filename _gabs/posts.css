@@ -9,6 +9,7 @@
     }
 }
 
-a {
-    font-size: 24pt;
+li {
+    list-style: none;
+    font-size: 20pt;
 }
