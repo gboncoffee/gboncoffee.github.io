@@ -3,7 +3,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    font: normal 18pt monospace;
+    font: normal 14pt monospace;
 }
 
 p {
@@ -18,7 +18,7 @@ header {
 
 #header-title {
     color: #ffffff;
-    font-size: 30pt;
+    font-size: 26pt;
     vertical-align: middle;
 
 }
@@ -30,7 +30,7 @@ header {
 }
 
 .header-link {
-    font-size: 20pt;
+    font-size: 16pt;
     vertical-align: middle;
 }
 
@@ -40,7 +40,7 @@ a {
 }
 
 footer {
-    font: normal 15pt monospace;
+    font: normal 10pt monospace;
     text-align: center;
     margin-bottom: 5%;
     color: #d0cfcc;
