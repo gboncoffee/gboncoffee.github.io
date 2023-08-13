@@ -3,6 +3,9 @@
 Here you can see my blogposts. Some articles, poems and other stuff, written
 both in English and Portuguese. Enjoy!
 
+- [O que eu queria era](posts/o_que_eu_queria.html)  
+  Portuguese text about what I wish written in 2023-08-13 01:07:34
+
 - [Explodir-me-ei Para Longe](posts/explodir-me-ei_para_longe.html)  
   Portuguese poem written in 2023-06-04 00:15:22
 
