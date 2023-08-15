@@ -14,6 +14,4 @@ learning OCaml.
 - [Twitter](https://twitter.com/gboncoffee)  
 - [Academic mail: ggb23@inf.ufpr.br](mailto:ggb23@inf.ufpr.br)  
 
-When I'm not studying computing, I like cars, photography, anime and hiking! Rin
-Shima from Yuru Camp, of course, also likes hiking, and has a personality more
-or less like mine.
+When I'm not studying computing, I like cars, photography, anime and hiking!
