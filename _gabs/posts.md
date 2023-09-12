@@ -3,6 +3,9 @@
 Here you can see my blogposts. Some articles, poems and other stuff, written
 both in English and Portuguese. Enjoy!
 
+- [Stupid Sorting Algorithms](posts/stupid_sorting.html)  
+  A show-off of some stupid sorting algorithms, written in 2023-09-12 10:02:53
+
 - [Sono](posts/sono.html)  
   Portuguese poem written in 2023-08-31 23:22:36
 
