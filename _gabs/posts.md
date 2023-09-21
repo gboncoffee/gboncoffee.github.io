@@ -3,6 +3,10 @@
 Here you can see my blogposts. Some articles, poems and other stuff, written
 both in English and Portuguese. Enjoy!
 
+- [On Text Editors](posts/on_text_editors.html)  
+  My thoughts on text editing and editors for programmers. Written in
+  2023-09-20 23:58:40.
+
 - [Stupid Sorting Algorithms](posts/stupid_sorting.html)  
   A show-off of some stupid sorting algorithms, written in 2023-09-12 10:02:53
 
