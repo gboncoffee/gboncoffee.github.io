@@ -3,6 +3,9 @@
 Here you can see my articles and blogposts, both in English and Portuguese.
 Enjoy!
 
+- [Notes on Transhumanism](posts/transhuman.html)  
+  Some thoughts on Transhumanism. Written in 2023-10-15 01:34:28.
+
 - [On Text Editors](posts/on_text_editors.html)  
   My thoughts on text editing and editors for programmers. Written in
   2023-09-20 23:58:40.
