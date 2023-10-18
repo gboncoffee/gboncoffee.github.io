@@ -4,6 +4,12 @@
 
 Here are some rices I made. I like ricing Unix systems!
 
+## KDE Plasma from Cyberspace
+
+![KDE Plasma from Cyberspace](gallery/rices/plasma-cyberpunk-1.png)
+
+![KDE Plasma from Cyberspace](gallery/rices/plasma-cyberpunk-2.png)
+
 ## Cyberpunk DWM
 
 ![Cyberpunk DWM](gallery/rices/cyberpunk-dwm.png)
