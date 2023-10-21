@@ -3,6 +3,10 @@
 Here you can see my articles and blogposts, both in English and Portuguese.
 Enjoy!
 
+- [A Review On My Own Post On Text Editors](posts/update-on-text-editors.html)  
+  Update on my design goals to a better text editor. Written in 2023-10-20
+  21:24:49.
+
 - [Notes on Transhumanism](posts/transhuman.html)  
   Some thoughts on Transhumanism. Written in 2023-10-15 01:34:28.
 
@@ -11,8 +15,8 @@ Enjoy!
   2023-09-20 23:58:40.
 
 - [Stupid Sorting Algorithms](posts/stupid_sorting.html)  
-  A show-off of some stupid sorting algorithms, written in 2023-09-12 10:02:53
+  A show-off of some stupid sorting algorithms, written in 2023-09-12 10:02:53.
 
 - [Simulações](posts/simulacoes.html)  
   Portuguese text about the [Simulation Argument](https://www.simulation-argument.com/)
-  written before 2023-01-22 17:51:55 (the true timestamp is unknown)
+  written before 2023-01-22 17:51:55 (the true timestamp is unknown).

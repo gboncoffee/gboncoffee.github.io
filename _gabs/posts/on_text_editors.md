@@ -23,7 +23,7 @@ another 8gb stick and Arch Linux). Of course, I was overhelmed with the
 features, and it runned *terribly* slow. It was so painfull that I quitted
 programming for about a month. Luckily, I got motivation again after I
 discovered Linux, and switched my machine to Ubuntu. A few months using it, I
-started using another JetBrain editor,
+started using another JetBrains editor,
 [IntelliJ IDEA](https://www.jetbrains.com/idea/). It's very similar to PyCharm,
 but for Java. At the time, I wasn't really understanding what I was doing, I
 just kept using stuff I knew worked and though it was the way to go.
