@@ -21,6 +21,9 @@ in the viewport.
 ## Cajon del Maipu Road - Santiago, Chile
 ![Cajon del Maipu Road - Santiago, Chile](gallery/cajon-del-maipu-road.jpg)
 
+## Butterfly - Iguassu National Park, Paraná, Brazil
+![Butterfly - Iguassu National Park, Paraná, Brazil](gallery/butterfly.jpg)
+
 ## Arara Brasileira - Foz do Iguassu Bird Park, Paraná, Brazil
 ![Arara Brasileira - Foz do Iguassu Bird Park, Paraná, Brazil](gallery/arara-brasileira.jpg)
 
