@@ -3,6 +3,9 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [Poema Livre Sobre Café e Gatos](literature/poema-livre-sobre-cafe-e-gatos.html)  
+  Portuguese poem written in 2023-10-28 00:00:03
+
 - [Sono](literature/sono.html)  
   Portuguese poem written in 2023-08-31 23:22:36
 
