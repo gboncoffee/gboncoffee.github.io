@@ -5,8 +5,8 @@
 My name is Gabriel G. de Brito and I'm a computer science student at [computing
 department of the Federal University of Paraná](https://web.inf.ufpr.br/dinf/).
 I'm mostly interessed in functional and low-level programming. Also, I have some
-experience with a lot of programming languages. My favorites are Lua, C, Rust
-and Lisp, and I have some experience in Go, Haskell, Python and front-end
+experience with a lot of programming languages. My favorites are Lua, C, Go
+and Lisp, and I have some experience in Rust, Haskell, Python and front-end
 development. Currently, I'm focusing in studying C for systems programming and
 hardware. My ultimate goal is to write an entire operational system from scratch
 for fun.
