@@ -17,7 +17,7 @@ that in the end of this post.
 
 ## The *compile-mode*
 
-It's not that usefull. Yeah, I said it was my favorite feature from GNU Emacs 
+It's not that usefull. Yeah, I said it was my favorite feature from GNU Emacs
 but I just changed my opinion. Follow the history:
 
 I was upset that Emacs was terribly slow in my University computers. So
@@ -65,72 +65,71 @@ support so I don't know why both editors have syntax highlighting.
 
 # Ditching modal
 
-I'm using three other non-modal editors nowadays besides Emacs:  
-- [Micro](https://micro-editor.github.io/), a modern Nano replacement.  
+I'm using three other non-modal editors nowadays besides Emacs:
+- [Micro](https://micro-editor.github.io/), a modern Nano replacement.
 - [A modern Sam version](https://github.com/deadpixi/sam), an editor from Rob
-  Pike for the Bell Lab's Plan 9 Operating System.  
-- [KWrite](https://apps.kde.org/kwrite/), an editor for the KDE Plasma 
+  Pike for the Bell Lab's Plan 9 Operating System.
+- [KWrite](https://apps.kde.org/kwrite/), an editor for the KDE Plasma
   environment.
 
-I don't like KWrite that much because I cannot deactivate the syntax 
-highlighting. It's my system's default editor right now thought because I'm 
-using KDE Plasma and I still didn't find what to use. I won't use KWrite for 
+I don't like KWrite that much because I cannot deactivate the syntax
+highlighting. It's my system's default editor right now thought because I'm
+using KDE Plasma and I still didn't find what to use. I won't use KWrite for
 real coding.
 
-What about Sam? Sam is for nerds. And I'm a nerd. Probably the world would be 
-better place if we all just used Plan 9's design in everything (with a dark 
-mode thought). But unfortunatelly it isn't. Using Sam inside X is really clunk
+What about Sam? Sam is for nerds. And I'm a nerd. Probably the world would be
+better place if we all just used Plan 9's design in everything (with a dark mode
+thought). But unfortunatelly it isn't. Using Sam inside X is really clunk
+because it looks like a virtual machine: I have a window manager and windows
+inside another window. And Sam looks like you should learn the entire command
+language and use it almost entirely from the command window. But probably
+because I'm too lazy to create a bunch of keybinds to it. It has excellent mouse
+support, but I need to use it a lot more inside it, and that hurts.
 
-because it looks like a virtual machine: I have a window manager and windows 
-inside another window. And Sam looks like you should learn the entire command 
-language and use it almost entirely from the command window. But probably 
-because I'm too lazy to create a bunch of keybinds to it. It has excellent 
-mouse support, but I need to use it a lot more inside it, and that hurts.
-
-Micro is good, fast, has decent keybinds (I prefer Emacs' ones thought) and a 
-good mouse support. But lacks piping text through commands, and that's not 
+Micro is good, fast, has decent keybinds (I prefer Emacs' ones thought) and a
+good mouse support. But lacks piping text through commands, and that's not
 acceptable.
 
 Both Micro and Sam lacks trailing whitespace highlighting, which I like a lot.
 
-Sam also lacks support for a vertical column showing me the 80th text column, 
-and that's very frustrating because it's such a simple feature. Also, lacks 
+Sam also lacks support for a vertical column showing me the 80th text column,
+and that's very frustrating because it's such a simple feature. Also, lacks
 editorconfig support, which is also not acceptable.
 
 With Micro I cannot change files with the mouse too, which for a mouse-centric
-editor is not cool. And I need to keep line numbers in the left side of the 
-screen to see if my lines are being wrapped and to format the text. I don't 
+editor is not cool. And I need to keep line numbers in the left side of the
+screen to see if my lines are being wrapped and to format the text. I don't
 like those line numbers, they're a waste of space.
 
 ## The Unix Philosophy Inside X Sessions
 
-I'm using KDE Plasma and if you think I'm not allowed to call myself a 
-minimalist because I'm liking it, so be it. But a good desktop environment, 
-not resouce-heavy, with plenty of great tools and integration is very cool. 
-The graphical interface and the stacking window system are two of the best 
-things computer people ever made. Plasma reminds me a little about MacBooks, 
+I'm using KDE Plasma and if you think I'm not allowed to call myself a
+minimalist because I'm liking it, so be it. But a good desktop environment,
+not resouce-heavy, with plenty of great tools and integration is very cool.
+The graphical interface and the stacking window system are two of the best
+things computer people ever made. Plasma reminds me a little about MacBooks,
 and that probably means someday, when I have the money, I'll buy myself a Mac.
 
-The integration between stuff inside Plasma is very cool. I can open Dolphin 
-and manage files much better than inside the terminal, or with some program 
-like Midnight Commander. Drag-and-drop is wonderfull. Having an applet in my 
+The integration between stuff inside Plasma is very cool. I can open Dolphin
+and manage files much better than inside the terminal, or with some program
+like Midnight Commander. Drag-and-drop is wonderfull. Having an applet in my
 panel that allows me to control *whatever* music player I use is very cool.
 
-So, of course, I want an editor that can be integrated in the desktop. This 
+So, of course, I want an editor that can be integrated in the desktop. This
 does not necessary means a graphical editor thought, as it's entirely possible
 to open the editor inside the terminal from the desktop applications, and have
 very good mouse support in it.
 
 ## The overall idea
 
-I'll certainly create a new editor. And it'll follow this:  
-- Support for some kind of trailing whitespace highlighting and text-width 
-  column;  
-- Emacs-inspired keybinds but without keychords;  
-- Great mouse support inspired by Sam;  
+I'll certainly create a new editor. And it'll follow this:
+- Support for some kind of trailing whitespace highlighting and text-width
+  column;
+- Emacs-inspired keybinds but without keychords;
+- Great mouse support inspired by Sam;
 - Just a sane UI that does not keep in my way and show me everything I need to
-  see;  
-- Support for editorconfig via integration with the editorconfig C program.  
+  see;
+- Support for editorconfig via integration with the editorconfig C program.
 
-I'll probably write it in Go as it has great support for UTF-8 and is a very 
+I'll probably write it in Go as it has great support for UTF-8 and is a very
 simple and efficient language.
