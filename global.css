@@ -6,32 +6,22 @@ body {
     font: normal 14pt sans;
 }
 
-p {
-    text-align: justify;
-    text-indent: 30px;
-}
-
 header {
     background: #eaffff;
-    line-height: 40pt;
+    text-align: center;
 }
 
 #header-title {
     color: #000000;
     font-size: 26pt;
-    vertical-align: middle;
-
 }
 
-@media only screen and (min-device-width: 800px) and (orientation: landscape) {
-    #header-title {
-	margin-left: 5%;
-    }
+img {
+    max-width: 100%;
 }
 
 .header-link {
     font-size: 16pt;
-    vertical-align: middle;
 }
 
 a {

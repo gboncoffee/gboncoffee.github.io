@@ -1,14 +1,10 @@
 #all {
-    margin-left: 10%;
-    margin-right: 30%;
+    margin-right: 10%;
 }
 
 @media only screen and (min-device-width: 800px) and (orientation: landscape) {
     #all {
-	margin-right: 10%;
+        margin-left: 10%;
+        margin-right: 30%;
     }
-}
-
-p {
-    text-indent: 0px;
 }

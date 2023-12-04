@@ -1,9 +1,12 @@
-#all {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 img {
     max-height:90vh;
+    max-width: 100%;
     width: auto;
+}
+
+@media only screen and (min-device-width: 800px) and (orientation: landscape) {
+    #all {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }

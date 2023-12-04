@@ -1,16 +1,16 @@
 #all {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2px;
+    margin-right: 2px;
     display: block;
-}
-
-#all > * {
-    padding: 5%;
 }
 
 @media only screen and (min-device-width: 800px) and (orientation: landscape) {
     #all {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
 	display: grid;
+	grid-gap: 5%;
 	grid-template-columns: 1fr 1fr;
     }
 }
