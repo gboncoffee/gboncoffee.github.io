@@ -4,7 +4,7 @@ Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
 - [Meu Lar](literature/meu_lar.html)  
-  Portuguse poem, probably written sometime in south-hemisphere' Spring of 2019  
+  Portuguese poem, probably written sometime in the south hemisphere' Spring of 2019  
 
 - [Árvores](literature/arvores.html)  
   Portuguese poem written in 2023-12-03 22:20:00
