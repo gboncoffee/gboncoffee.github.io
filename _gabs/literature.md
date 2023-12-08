@@ -3,6 +3,9 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [grupo](literature/grupo.html)  
+  Portuguese poem, written in 2023-12-07 21:28:37
+
 - [Meu Lar](literature/meu_lar.html)  
   Portuguese poem, probably written sometime in the south hemisphere' Spring of 2019  
 
