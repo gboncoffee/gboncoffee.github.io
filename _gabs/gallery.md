@@ -9,6 +9,9 @@ All pictures here were taken by myself and are licensed under CC-BY-NC Creative
 Commons. They're all in their original size, the browser resize them for fitting
 in the viewport.
 
+## Natasha  
+![Natasha the cat](gallery/natasha.jpg)
+
 ## Centro Politécnico at a Saturday - Curitiba, Paraná, Brazil
 ![Centro Politécnico at a Saturday - Curitiba, Paraná, Brazil](gallery/campus.jpg)
 
