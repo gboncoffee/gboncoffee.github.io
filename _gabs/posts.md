@@ -3,6 +3,9 @@
 Here you can see my articles and blogposts, both in English and Portuguese.
 Enjoy!
 
+- [Another Review On My Own Post On Text Editors](posts/update-on-text-editors-again.html)  
+  Yet another one. Written in 2023-12-21 01:49:27  
+
 - [A Review On My Own Post On Text Editors](posts/update-on-text-editors.html)  
   Update on my design goals to a better text editor. Written in 2023-10-20
   21:24:49.
