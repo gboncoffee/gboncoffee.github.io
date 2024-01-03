@@ -3,6 +3,9 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [Listo de vortoj kaj frazoj en Esperanto kiujn mi ŝati](literature/listo-de-vortoj-kaj-frazoj.html)  
+  Listo de belaj aû elegantaj vortoj kaj frazoj en Esperanto. Skribita en 2024-01-03 10:45:34
+
 - [grupo](literature/grupo.html)  
   Portuguese poem, written in 2023-12-07 21:28:37
 
