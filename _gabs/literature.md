@@ -3,6 +3,9 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [Mi volas edziĝi kun artisto](literature/mi-volas-edzigxi.html)  
+  Esperanto poemo. Skribita en 2024-01-21 23:01:07
+
 - [Listo de vortoj kaj frazoj en Esperanto kiujn mi ŝati](literature/listo-de-vortoj-kaj-frazoj.html)  
   Listo de belaj aû elegantaj vortoj kaj frazoj en Esperanto. Skribita en 2024-01-03 10:45:34
 
