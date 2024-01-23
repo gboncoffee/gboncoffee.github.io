@@ -37,3 +37,7 @@ _Interjeição: "olá"._
 ### La suno estas tre varma.
 
 _O Sol é muito quente._
+
+### Ĉiujn miajn posedaĵojn enhavus alumetuj'.
+
+_Todas as minhas posses incluem palitos de fósforo._
