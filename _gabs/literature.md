@@ -3,6 +3,10 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [De Muziko Malpeza (De Música Ligera)](literature/de-muziko-malpeza.html)  
+  Esperanto versio de "De Música Ligera" de Soda Stereo. Skribita en 2024-02-13
+  10:47.
+
 - [Mi volas edziĝi kun artisto](literature/mi-volas-edzigxi.html)  
   Esperanto poemo. Skribita en 2024-01-21 23:01:07
 
