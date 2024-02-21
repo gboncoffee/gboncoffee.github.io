@@ -19,7 +19,7 @@ the Good, or whether it will be used for the Evil.
 
 7- If technology development arises from Evil, or the fight against Evil
 leads to technology development, so be it. The technology should still be
-used, with no regrets nor limitations except it's use, that shall be for Good.
+used, with no regrets nor limitations except it's use, that should be for Good.
 
 8- Tools have an intrinsic, generic use case. They may be used for something
 else, if possible, but they always carry their intrinsic use case.
@@ -49,7 +49,7 @@ the Evil.
 17- If a piece of technology can not be held accountable, it's failure is
 a human error.
 
-18- When a piece of technology may be held accountable, it should became a
+18- When a piece of technology may be held accountable, it should become a
 citizen of Our Civilization.
 
 19- Although you may not like that if you're religious enough.
