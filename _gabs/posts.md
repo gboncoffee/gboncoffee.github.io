@@ -3,6 +3,9 @@
 Here you can see my articles and blogposts, both in English and Portuguese.
 Enjoy!
 
+- [The Zen of Gabriel](posts/zen.html)  
+  The Zen of Gabriel for Technology Development. Written in 2024-02-21 17:45:36
+
 - [Another Review On My Own Post On Text Editors](posts/update-on-text-editors-again.html)  
   Yet another one. Written in 2023-12-21 01:49:27  
 
