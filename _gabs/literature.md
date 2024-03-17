@@ -3,6 +3,15 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [Sanktplonĝisto (Holy Diver)](literature/sanktplongisto.html)  
+  Esperanto versio de "Holy Diver" de Dio. Skribita en 2024-03-17 16:36.
+
+- [Baletistino](literature/baletistino.html)  
+  Esperanto poemo. Skribita en 2024-03-17 12:43.
+
+- [Branca de Neve](literature/branca-de-neve.html)  
+  Portuguese poem, written in 2024-03-16 23:01.
+
 - [De Muziko Malpeza (De Música Ligera)](literature/de-muziko-malpeza.html)  
   Esperanto versio de "De Música Ligera" de Soda Stereo. Skribita en 2024-02-13
   10:47.
@@ -12,6 +21,12 @@ Enjoy!
 
 - [Listo de vortoj kaj frazoj en Esperanto kiujn mi ŝati](literature/listo-de-vortoj-kaj-frazoj.html)  
   Listo de belaj aû elegantaj vortoj kaj frazoj en Esperanto. Skribita en 2024-01-03 10:45:34
+
+- [Passam-se as estações](literature/passam-se.html)  
+  Portuguese poem, written in 2023-12-12 02:39
+
+- [Atrás da serra](literature/atras-da-serra.html)  
+  Portuguese poem, written in 2023-12-09
 
 - [grupo](literature/grupo.html)  
   Portuguese poem, written in 2023-12-07 21:28:37
