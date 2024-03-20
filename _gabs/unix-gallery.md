@@ -4,6 +4,10 @@
 
 Here are some rices I made. I like ricing Unix systems!
 
+## Barigui, simple and cute
+
+![Barigui simple and cute](gallery/rices/barigui.png)
+
 ## KDE Plasma from Cyberspace
 
 ![KDE Plasma from Cyberspace](gallery/rices/plasma-cyberpunk-1.png)
