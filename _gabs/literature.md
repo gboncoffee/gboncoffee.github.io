@@ -3,6 +3,9 @@
 Here you can see my literature writings. Mainly poems, mainly in Portuguese.
 Enjoy!
 
+- [Mistério](literature/misterio.html)  
+  Portuguese poem. Written in 2024-03-23 00:47:42.
+
 - [Sanktplonĝisto (Holy Diver)](literature/sanktplongisto.html)  
   Esperanto versio de "Holy Diver" de Dio. Skribita en 2024-03-17 16:36.
 
