@@ -34,7 +34,7 @@ jobs:
       HUGO_VERSION: 0.124.1
     steps:
       - name: Install Pandoc
-        uses: pandoc/actions/setup@{main}
+        uses: pandoc/actions/setup@v1
         with:
           version: 2.19
       - name: Install Hugo CLI
