@@ -1,0 +1,46 @@
+baseURL = 'https://gboncoffee.github.io/'
+languageCode = 'en-us'
+title = 'Gabriel G. de Brito'
+theme = 'hugo-simple'
+copyright = '© Gabriel G. de Brito (CC-BY-NC)'
+
+paginate = 50
+
+[security.exec]
+allow = ['pandoc', '^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$']
+
+[markup]
+defaultMarkdownHandler = "pandoc"
+
+[markup.goldmark.renderer]
+hardWraps = true
+
+[markup.highlight]
+lineNos = true
+lineNumbersInTable = false
+noClasses = true
+style = "catppuccin-latte"
+
+[params]
+  title = "Gabriel G. de Brito"
+  description = "My kawaii website"
+  favicon = "profile.png"
+  dateFormat = "2006-01-02"
+  hideMadeWithLine = false
+  hideRSSLink = false
+  [params.author]
+    name = "Gabriel G. de Brito"
+    email = "gabrielgbrito@icloud.com"
+
+[[menu.main]]
+  name = "Me"
+  pageRef = "/"
+  weight = 10
+[[menu.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 20
+[[menu.main]]
+  name = "Literature"
+  pageRef = "/literature"
+  weight = 30
