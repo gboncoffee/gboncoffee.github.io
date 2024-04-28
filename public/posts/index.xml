@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gabriel G. de Brito</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://gboncoffee.github.io/posts/</link>
     <description>Recent content on Gabriel G. de Brito</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,12 +10,77 @@
     <webMaster>gabrielgbrito@icloud.com (Gabriel G. de Brito)</webMaster>
     <copyright>© Gabriel G. de Brito (CC-BY-NC)</copyright>
     <lastBuildDate>Wed, 24 Apr 2024 18:37:24 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gboncoffee.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Completely Disagree With My Own Opinion</title>
+      <link>https://gboncoffee.github.io/posts/i-completely-disagree-with-my-own-opinion/</link>
+      <pubDate>Sat, 27 Apr 2024 20:59:59 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
+      <guid>https://gboncoffee.github.io/posts/i-completely-disagree-with-my-own-opinion/</guid>
+      <description>That’s exactly it. I completely disagree with my own opinion!
+Context I wrote 3 blogposts about text editors:
+On text editors, on which I wrote about my text editor hopping journey and features I like (at the moment). A Review On My Own Post On Text Editors, on which I wrote about the Unix philosophy, graphical desktops, modes of editing and a bunch of other stuff. Another Update On Text Editors, on which I wrote about getting into Plan 9 From Bell Labs And I completely disagree with my opinion on those posts, so I’ll address my new philosophy here.</description>
+      <content:encoded><![CDATA[<p>That’s exactly it. I completely disagree with my own opinion!</p>
+<h1 id="context">Context</h1>
+<p>I wrote 3 blogposts about text editors:</p>
+<ul>
+<li><a href="https://gboncoffee.github.io/posts/on-text-editors/">On text editors</a>, on which I
+wrote about my text editor hopping journey and features I like (at the
+moment).</li>
+<li><a href="https://gboncoffee.github.io/posts/update-on-text-editors/">A Review On My Own Post On Text
+Editors</a>, on which I wrote about the Unix philosophy, graphical
+desktops, modes of editing and a bunch of other stuff.</li>
+<li><a href="https://gboncoffee.github.io/posts/update-on-text-editors-again/">Another Update On Text
+Editors</a>, on which I wrote about getting into <a
+href="https://plan9.io/plan9/">Plan 9 From Bell Labs</a></li>
+</ul>
+<p>And I completely disagree with my opinion on those posts, so I’ll
+address my new philosophy here.</p>
+<h2 id="from-arch-to-alpine-back-to-arch-and-them-fedora">From Arch to
+Alpine, back to Arch and them… Fedora?</h2>
+<p>As I said in the previous post of this series, I really switched my
+main machine to Alpine, due to minimalism philosophy. And it was
+terrible. I stayed with it for sometime, until all the problems on
+living computing as it was the 90’s finally made me go back to an
+operating system with modern goodies.</p>
+<p>So I went back to Arch as it was the system I knew. But man, it
+requires effort.</p>
+<p>I already understood, while using Plan 9 software, that “high
+customizability” isn’t actually a good thing (I’ll not evolve this,
+maybe I’ll write a proper argument and not a mere “my experience”
+sometime), but I was still a minimalist. This time, though, I wanted
+something that just works and has the software I need. So I installed
+Fedora. And I loved it.</p>
+<p>I loved it because it just worked. GNOME is great, it just works,
+it’s efficient, and the interface does not create mental overhead on
+it’s use. Yeah, it wastes some resources. Ok, at least the keyring
+works, the network works, the audio works, the bluetooth works.
+Everything I want just works and is easy to use.</p>
+<h2 id="ok-then-and-the-editor">Ok then, and the editor?</h2>
+<p>I got myself thinking about <a
+href="https://en.wikipedia.org/wiki/Language_Server_Protocol">LSP</a>. I
+used to think it was distracting, and just compiling after writing
+solved all the issues that could be solved by LSP. But what I noticed is
+that when I actually must not get distracted, I’m not coding: I’m using
+pen and paper to figure out what I have to code. And so LSP can actually
+be very useful for my workflow.</p>
+<p>So I tried to use Emacs again. But I really did not like the way
+mouse works, even with the menu bar enabled.</p>
+<p>Well, there’s that very popular editor with good LSP and mouse
+support…</p>
+<p>Yeah I went back to Visual Studio Code.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>There’s just nothing more to comment on. It’s very obvious why this
+is just better than everything I was doing for the last years.</p>
+<p>Oh, actually, there’s one more thing to comment: I only have language
+plugins in VS Code (except for GitHub Copilot). Default dark+ theme, no
+other plugins.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>The Zen of Gabriel for Technology Development</title>
-      <link>http://localhost:1313/posts/zen/</link>
+      <link>https://gboncoffee.github.io/posts/zen/</link>
       <pubDate>Wed, 21 Feb 2024 17:45:36 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/zen/</guid>
+      <guid>https://gboncoffee.github.io/posts/zen/</guid>
       <description>1- No human being should have to perform a work if it can be done by a machine.
 2- Although there is really no difference between humans and technology, as technology is a fundamental part of the human condition.
 3- Technology should be developed to overcome biological limitations of humans.
@@ -97,18 +162,18 @@ the User must do.</p>
     </item>
     <item>
       <title>Another Update On Text Editors</title>
-      <link>http://localhost:1313/posts/update-on-text-editors-again/</link>
+      <link>https://gboncoffee.github.io/posts/update-on-text-editors-again/</link>
       <pubDate>Thu, 21 Dec 2023 01:49:27 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/update-on-text-editors-again/</guid>
+      <guid>https://gboncoffee.github.io/posts/update-on-text-editors-again/</guid>
       <description>(or How I Got Into The Nerdiest Thing Ever + Rant On Modern Unix) Some weeks ago I wrote a blogpost about my journey on text editor hopping, and them another blogpost reviewing my own post. Well, here we go again.
 In the last post I wrote about Plasma and the Unix philosophy in the desktop but that’s mostly bullshit. And that’s why the Linux desktop is a mess.
 Instead of the original Unix idea of multiple programs writing text to others, the Linux desktop is based on other APIs like the X server itself, dbus and etc.</description>
       <content:encoded><![CDATA[<h1
 id="or-how-i-got-into-the-nerdiest-thing-ever-rant-on-modern-unix">(or
 How I Got Into The Nerdiest Thing Ever + Rant On Modern Unix)</h1>
-<p>Some weeks ago I wrote <a href="http://localhost:1313/posts/on-text-editors/">a
+<p>Some weeks ago I wrote <a href="https://gboncoffee.github.io/posts/on-text-editors/">a
 blogpost</a> about my journey on text editor hopping, and them <a
-href="http://localhost:1313/posts/update-on-text-editors/">another blogpost</a> reviewing my own
+href="https://gboncoffee.github.io/posts/update-on-text-editors/">another blogpost</a> reviewing my own
 post. Well, here we go again.</p>
 <p>In the last post I wrote about Plasma and the Unix philosophy in the
 desktop but that’s mostly bullshit. And that’s why the Linux desktop is
@@ -175,12 +240,12 @@ though.</p>
     </item>
     <item>
       <title>A Review On My Own Post On Text Editors</title>
-      <link>http://localhost:1313/posts/update-on-text-editors/</link>
+      <link>https://gboncoffee.github.io/posts/update-on-text-editors/</link>
       <pubDate>Fri, 20 Oct 2023 21:24:49 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/update-on-text-editors/</guid>
+      <guid>https://gboncoffee.github.io/posts/update-on-text-editors/</guid>
       <description>Some time ago I wrote a blogpost about my journey in text editor hopping On the very bottom of the post, I talked about my overall current opinions on editors and how I may write one. Here I want to update that.
 As a resume, I became more minimalist because I tried a lot of editors and addressed what really matters in an editor, what is really usefull. And I talked with more experienced people too.</description>
-      <content:encoded><![CDATA[<p>Some time ago I wrote a <a href="http://localhost:1313/posts/on-text-editors/">blogpost
+      <content:encoded><![CDATA[<p>Some time ago I wrote a <a href="https://gboncoffee.github.io/posts/on-text-editors/">blogpost
 about my journey in text editor hopping</a> On the very bottom of the
 post, I talked about my overall current opinions on editors and how I
 may write one. Here I want to update that.</p>
@@ -299,9 +364,9 @@ a very simple and efficient language.</p>
     </item>
     <item>
       <title>Notes on Transhumanism</title>
-      <link>http://localhost:1313/posts/notes-on-transhumanism/</link>
+      <link>https://gboncoffee.github.io/posts/notes-on-transhumanism/</link>
       <pubDate>Sun, 15 Oct 2023 01:34:28 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/notes-on-transhumanism/</guid>
+      <guid>https://gboncoffee.github.io/posts/notes-on-transhumanism/</guid>
       <description>In the sense that language and fire were there before the evolving of the Homo sapiens, the species was enhanced by technology since it’s beggining. There’s a sense that technology itself is a part of humans.
 Humans, though, are self-described by their biological nature - carbon-based material instances from the Homo sapiens species. This is the sense that the technology is not a part of humans but rather just a tool used to enhance their own lives.</description>
       <content:encoded><![CDATA[<p>In the sense that language and fire were there before the evolving of
@@ -420,9 +485,9 @@ evolving of the <em>Homo sapiens</em>.</p>
     </item>
     <item>
       <title>On Text Editors</title>
-      <link>http://localhost:1313/posts/on-text-editors/</link>
+      <link>https://gboncoffee.github.io/posts/on-text-editors/</link>
       <pubDate>Wed, 20 Sep 2023 23:58:40 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/on-text-editors/</guid>
+      <guid>https://gboncoffee.github.io/posts/on-text-editors/</guid>
       <description>Here, I’ll talk a little about my journey with a lot of text editors and what I’m currently liking. Maybe I’ll eventually try creating my own with the ideas resumed here.
 On Text Editors In my brief journey on computer programming - about three years right now - I hopped text editor a lot. A lot.
 My first text editor was IDLE. It’s an extremelly simple text editor for Python written by Guido Van Rossum himself.</description>
@@ -571,9 +636,9 @@ way to go</a>.</p>
     </item>
     <item>
       <title>Stupid Sorting</title>
-      <link>http://localhost:1313/posts/stupid-sorting/</link>
+      <link>https://gboncoffee.github.io/posts/stupid-sorting/</link>
       <pubDate>Tue, 12 Sep 2023 10:02:53 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/stupid-sorting/</guid>
+      <guid>https://gboncoffee.github.io/posts/stupid-sorting/</guid>
       <description>The first topic in “Algoritmos e Estruturas de Dados II” (“Algorithms and Data Structures II”) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It’s not really that usefull but it’s a great example to learn. Then we learn stuff like the Insertion Sort, which’s actually usefull and more complex to understand.
 But, as stupid as Selection Sort is, it’s kinda straightforward. What about some really, really stupid and useless sorting algorithms?</description>
       <content:encoded><![CDATA[<p>The first topic in “Algoritmos e Estruturas de Dados II” (“Algorithms
@@ -688,9 +753,9 @@ decides what to do. Quantum mechanics are really cool, aren’t they?</p>
     </item>
     <item>
       <title>Simulações</title>
-      <link>http://localhost:1313/posts/simulacoes/</link>
+      <link>https://gboncoffee.github.io/posts/simulacoes/</link>
       <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>http://localhost:1313/posts/simulacoes/</guid>
+      <guid>https://gboncoffee.github.io/posts/simulacoes/</guid>
       <description>Aparentemente, é mais provável que vivamos numa simulação computadorizada do que num Universo real. Se é que isso são conceitos passíveis de aceitação. Como diferenciar uma simulação de um Universo real? Assume-se que há uma realidade, visto que coisas existem, ou, no mínimo, eu existo, então eu sou real. Não há, conhecida em nosso Universo, qualquer simulação computadorizada que simule o Universo tal qual ele é, incluindo civilizações inteligentes. Sendo assim, a chance de estarmos numa simulação provavelmente é maior que a de não estarmos.</description>
       <content:encoded><![CDATA[<p>Aparentemente, é mais provável que vivamos numa simulação
 computadorizada do que num Universo real. Se é que isso são conceitos
