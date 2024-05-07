@@ -19,7 +19,7 @@ hardWraps = true
 lineNos = true
 lineNumbersInTable = false
 noClasses = true
-style = "catppuccin-latte"
+style = "catppuccin-mocha"
 
 [params]
   title = "Gabriel G. de Brito"
@@ -37,10 +37,14 @@ style = "catppuccin-latte"
   pageRef = "/"
   weight = 10
 [[menu.main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 20
+[[menu.main]]
   name = "Posts"
   pageRef = "/posts"
-  weight = 20
+  weight = 30
 [[menu.main]]
   name = "Literature"
   pageRef = "/literature"
-  weight = 30
+  weight = 40

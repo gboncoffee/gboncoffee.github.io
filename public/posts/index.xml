@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gabriel G. de Brito</title>
-    <link>https://gboncoffee.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content on Gabriel G. de Brito</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,12 +10,12 @@
     <webMaster>gabrielgbrito@icloud.com (Gabriel G. de Brito)</webMaster>
     <copyright>© Gabriel G. de Brito (CC-BY-NC)</copyright>
     <lastBuildDate>Wed, 24 Apr 2024 18:37:24 -0300</lastBuildDate>
-    <atom:link href="https://gboncoffee.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Completely Disagree With My Own Opinion</title>
-      <link>https://gboncoffee.github.io/posts/i-completely-disagree-with-my-own-opinion/</link>
+      <link>http://localhost:1313/posts/i-completely-disagree-with-my-own-opinion/</link>
       <pubDate>Sat, 27 Apr 2024 20:59:59 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/i-completely-disagree-with-my-own-opinion/</guid>
+      <guid>http://localhost:1313/posts/i-completely-disagree-with-my-own-opinion/</guid>
       <description>That’s exactly it. I completely disagree with my own opinion!
 Context I wrote 3 blogposts about text editors:
 On text editors, on which I wrote about my text editor hopping journey and features I like (at the moment). A Review On My Own Post On Text Editors, on which I wrote about the Unix philosophy, graphical desktops, modes of editing and a bunch of other stuff. Another Update On Text Editors, on which I wrote about getting into Plan 9 From Bell Labs And I completely disagree with my opinion on those posts, so I’ll address my new philosophy here.</description>
@@ -23,764 +23,295 @@ On text editors, on which I wrote about my text editor hopping journey and featu
 <h1 id="context">Context</h1>
 <p>I wrote 3 blogposts about text editors:</p>
 <ul>
-<li><a href="https://gboncoffee.github.io/posts/on-text-editors/">On text editors</a>, on which I
-wrote about my text editor hopping journey and features I like (at the
-moment).</li>
-<li><a href="https://gboncoffee.github.io/posts/update-on-text-editors/">A Review On My Own Post On Text
-Editors</a>, on which I wrote about the Unix philosophy, graphical
-desktops, modes of editing and a bunch of other stuff.</li>
-<li><a href="https://gboncoffee.github.io/posts/update-on-text-editors-again/">Another Update On Text
-Editors</a>, on which I wrote about getting into <a
-href="https://plan9.io/plan9/">Plan 9 From Bell Labs</a></li>
+<li><a href="http://localhost:1313/posts/on-text-editors/">On text editors</a>, on which I wrote about my text editor hopping journey and features I like (at the moment).</li>
+<li><a href="http://localhost:1313/posts/update-on-text-editors/">A Review On My Own Post On Text Editors</a>, on which I wrote about the Unix philosophy, graphical desktops, modes of editing and a bunch of other stuff.</li>
+<li><a href="http://localhost:1313/posts/update-on-text-editors-again/">Another Update On Text Editors</a>, on which I wrote about getting into <a href="https://plan9.io/plan9/">Plan 9 From Bell Labs</a></li>
 </ul>
-<p>And I completely disagree with my opinion on those posts, so I’ll
-address my new philosophy here.</p>
-<h2 id="from-arch-to-alpine-back-to-arch-and-them-fedora">From Arch to
-Alpine, back to Arch and them… Fedora?</h2>
-<p>As I said in the previous post of this series, I really switched my
-main machine to Alpine, due to minimalism philosophy. And it was
-terrible. I stayed with it for sometime, until all the problems on
-living computing as it was the 90’s finally made me go back to an
-operating system with modern goodies.</p>
-<p>So I went back to Arch as it was the system I knew. But man, it
-requires effort.</p>
-<p>I already understood, while using Plan 9 software, that “high
-customizability” isn’t actually a good thing (I’ll not evolve this,
-maybe I’ll write a proper argument and not a mere “my experience”
-sometime), but I was still a minimalist. This time, though, I wanted
-something that just works and has the software I need. So I installed
-Fedora. And I loved it.</p>
-<p>I loved it because it just worked. GNOME is great, it just works,
-it’s efficient, and the interface does not create mental overhead on
-it’s use. Yeah, it wastes some resources. Ok, at least the keyring
-works, the network works, the audio works, the bluetooth works.
-Everything I want just works and is easy to use.</p>
+<p>And I completely disagree with my opinion on those posts, so I’ll address my new philosophy here.</p>
+<h2 id="from-arch-to-alpine-back-to-arch-and-them-fedora">From Arch to Alpine, back to Arch and them… Fedora?</h2>
+<p>As I said in the previous post of this series, I really switched my main machine to Alpine, due to minimalism philosophy. And it was terrible. I stayed with it for sometime, until all the problems on living computing as it was the 90’s finally made me go back to an operating system with modern goodies.</p>
+<p>So I went back to Arch as it was the system I knew. But man, it requires effort.</p>
+<p>I already understood, while using Plan 9 software, that “high customizability” isn’t actually a good thing (I’ll not evolve this, maybe I’ll write a proper argument and not a mere “my experience” sometime), but I was still a minimalist. This time, though, I wanted something that just works and has the software I need. So I installed Fedora. And I loved it.</p>
+<p>I loved it because it just worked. GNOME is great, it just works, it’s efficient, and the interface does not create mental overhead on it’s use. Yeah, it wastes some resources. Ok, at least the keyring works, the network works, the audio works, the bluetooth works. Everything I want just works and is easy to use.</p>
 <h2 id="ok-then-and-the-editor">Ok then, and the editor?</h2>
-<p>I got myself thinking about <a
-href="https://en.wikipedia.org/wiki/Language_Server_Protocol">LSP</a>. I
-used to think it was distracting, and just compiling after writing
-solved all the issues that could be solved by LSP. But what I noticed is
-that when I actually must not get distracted, I’m not coding: I’m using
-pen and paper to figure out what I have to code. And so LSP can actually
-be very useful for my workflow.</p>
-<p>So I tried to use Emacs again. But I really did not like the way
-mouse works, even with the menu bar enabled.</p>
-<p>Well, there’s that very popular editor with good LSP and mouse
-support…</p>
+<p>I got myself thinking about <a href="https://en.wikipedia.org/wiki/Language_Server_Protocol">LSP</a>. I used to think it was distracting, and just compiling after writing solved all the issues that could be solved by LSP. But what I noticed is that when I actually must not get distracted, I’m not coding: I’m using pen and paper to figure out what I have to code. And so LSP can actually be very useful for my workflow.</p>
+<p>So I tried to use Emacs again. But I really did not like the way mouse works, even with the menu bar enabled.</p>
+<p>Well, there’s that very popular editor with good LSP and mouse support…</p>
 <p>Yeah I went back to Visual Studio Code.</p>
 <h2 id="conclusions">Conclusions</h2>
-<p>There’s just nothing more to comment on. It’s very obvious why this
-is just better than everything I was doing for the last years.</p>
-<p>Oh, actually, there’s one more thing to comment: I only have language
-plugins in VS Code (except for GitHub Copilot). Default dark+ theme, no
-other plugins.</p>
+<p>There’s just nothing more to comment on. It’s very obvious why this is just better than everything I was doing for the last years.</p>
+<p>Oh, actually, there’s one more thing to comment: I only have language plugins in VS Code (except for GitHub Copilot). Default dark+ theme, no other plugins.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>The Zen of Gabriel for Technology Development</title>
-      <link>https://gboncoffee.github.io/posts/zen/</link>
+      <link>http://localhost:1313/posts/zen/</link>
       <pubDate>Wed, 21 Feb 2024 17:45:36 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/zen/</guid>
+      <guid>http://localhost:1313/posts/zen/</guid>
       <description>1- No human being should have to perform a work if it can be done by a machine.
 2- Although there is really no difference between humans and technology, as technology is a fundamental part of the human condition.
 3- Technology should be developed to overcome biological limitations of humans.
 4- Thus, the pure humanism is contradictory, and the post-human stage of development is a desired goal.
 5- The developed technology should be used for Good, not for Evil.</description>
-      <content:encoded><![CDATA[<p>1- No human being should have to perform a work if it can be done by
-a machine.</p>
-<p>2- Although there is really no difference between humans and
-technology, as technology is a fundamental part of the human
-condition.</p>
-<p>3- Technology should be developed to overcome biological limitations
-of humans.</p>
-<p>4- Thus, the pure humanism is contradictory, and the post-human stage
-of development is a desired goal.</p>
-<p>5- The developed technology should be used for Good, not for
-Evil.</p>
-<p>6- Although is really not possible to control whether it will be used
-for the Good, or whether it will be used for the Evil.</p>
-<p>7- If technology development arises from Evil, or the fight against
-Evil leads to technology development, so be it. The technology should
-still be used, with no regrets nor limitations except it’s use, that
-should be for Good.</p>
-<p>8- Tools have an intrinsic, generic use case. They may be used for
-something else, if possible, but they always carry their intrinsic use
-case.</p>
-<p>9- Thus, the interface of a piece of technology should empower the
-User to perfom it’s intrinsic, generic use case. No more, no less.</p>
-<p>10- Although it may adapt for the specific use case and individuality
-of it’s User.</p>
-<p>11- In the case it has to adapt, the more adaptative with the less
-configuration, the better.</p>
-<p>12- A solution may only use it’s required resources, and reduce it’s
-requirements is a desired goal.</p>
+      <content:encoded><![CDATA[<p>1- No human being should have to perform a work if it can be done by a machine.</p>
+<p>2- Although there is really no difference between humans and technology, as technology is a fundamental part of the human condition.</p>
+<p>3- Technology should be developed to overcome biological limitations of humans.</p>
+<p>4- Thus, the pure humanism is contradictory, and the post-human stage of development is a desired goal.</p>
+<p>5- The developed technology should be used for Good, not for Evil.</p>
+<p>6- Although is really not possible to control whether it will be used for the Good, or whether it will be used for the Evil.</p>
+<p>7- If technology development arises from Evil, or the fight against Evil leads to technology development, so be it. The technology should still be used, with no regrets nor limitations except it’s use, that should be for Good.</p>
+<p>8- Tools have an intrinsic, generic use case. They may be used for something else, if possible, but they always carry their intrinsic use case.</p>
+<p>9- Thus, the interface of a piece of technology should empower the User to perfom it’s intrinsic, generic use case. No more, no less.</p>
+<p>10- Although it may adapt for the specific use case and individuality of it’s User.</p>
+<p>11- In the case it has to adapt, the more adaptative with the less configuration, the better.</p>
+<p>12- A solution may only use it’s required resources, and reduce it’s requirements is a desired goal.</p>
 <p>13- Although unused resources are also wasted.</p>
-<p>14- In the case resources are idling, they may be used to a purpouse
-that does not waste them. As stocks, for example.</p>
+<p>14- In the case resources are idling, they may be used to a purpouse that does not waste them. As stocks, for example.</p>
 <p>15- Technology should be developed in a sustainable fashion.</p>
-<p>16- Thus, the thirteenth guideline should be wisely followed to not
-lead to the Evil.</p>
-<p>17- If a piece of technology can not be held accountable, it’s
-failure is a human error.</p>
-<p>18- When a piece of technology may be held accountable, it should
-become a citizen of Our Civilization.</p>
+<p>16- Thus, the thirteenth guideline should be wisely followed to not lead to the Evil.</p>
+<p>17- If a piece of technology can not be held accountable, it’s failure is a human error.</p>
+<p>18- When a piece of technology may be held accountable, it should become a citizen of Our Civilization.</p>
 <p>19- Although you may not like that if you’re religious enough.</p>
-<h2 id="appendix-a-computer-and-program-design">Appendix A: Computer and
-Program Design</h2>
+<h2 id="appendix-a-computer-and-program-design">Appendix A: Computer and Program Design</h2>
 <p>A.1- Computing is Art. Treat it accordingly.</p>
 <p>A.2- Linked-lists are great for the Programmer.</p>
 <p>A.3- Although they’re not great for the Machine.</p>
-<p>A.4- The same applies for abstractions and functional
-programming.</p>
+<p>A.4- The same applies for abstractions and functional programming.</p>
 <p>A.5- Convention is great. It leads to Cohesion and Coherence.</p>
-<p>A.6- Although a bad Convention is often worse than no Convention at
-all.</p>
-<p>A.7- Systems should not hide themselves. Hiding a Lion System in a
-Feline abstraction may lead the Programmer to think it’s actually a
-Cat.</p>
+<p>A.6- Although a bad Convention is often worse than no Convention at all.</p>
+<p>A.7- Systems should not hide themselves. Hiding a Lion System in a Feline abstraction may lead the Programmer to think it’s actually a Cat.</p>
 <p>A.8- Or worse, it may lead the User to think it’s just Magic.</p>
-<p>A.9- Programmers often implement more and more generic features than
-they should, just because they can. This should be avoided.</p>
+<p>A.9- Programmers often implement more and more generic features than they should, just because they can. This should be avoided.</p>
 <p>A.10- One way to address this issue is giving less power to them.</p>
-<p>A.11- Although this should be done wisely to not lead to featureless
-Systems.</p>
-<p>A.12- Simplicity and Minimalism should be used with little
-moderation.</p>
-<p>A.13- Although you may not know how much is little moderation unless
-you program in Go.</p>
-<p>A.14- The Instruction Set Architeture should be simple enough so the
-Student can program in it’s Assembly.</p>
+<p>A.11- Although this should be done wisely to not lead to featureless Systems.</p>
+<p>A.12- Simplicity and Minimalism should be used with little moderation.</p>
+<p>A.13- Although you may not know how much is little moderation unless you program in Go.</p>
+<p>A.14- The Instruction Set Architeture should be simple enough so the Student can program in it’s Assembly.</p>
 <p>A.15- Syntax does matter, but Semantics are much more important.</p>
 <p>A.16- Different Things should be visibly different.</p>
-<p>A.17- Important Things should be quickly accessible, and important
-Information should be visible. Similarly, non-important Things and
-Information should be hidden, but accessible when needed.</p>
-<p>A.18- A Computer should minimize the amount of computing the brain of
-the User must do.</p>
+<p>A.17- Important Things should be quickly accessible, and important Information should be visible. Similarly, non-important Things and Information should be hidden, but accessible when needed.</p>
+<p>A.18- A Computer should minimize the amount of computing the brain of the User must do.</p>
 <p>A.19- Don’t forget the Joy of Computing.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Another Update On Text Editors</title>
-      <link>https://gboncoffee.github.io/posts/update-on-text-editors-again/</link>
+      <link>http://localhost:1313/posts/update-on-text-editors-again/</link>
       <pubDate>Thu, 21 Dec 2023 01:49:27 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/update-on-text-editors-again/</guid>
+      <guid>http://localhost:1313/posts/update-on-text-editors-again/</guid>
       <description>(or How I Got Into The Nerdiest Thing Ever + Rant On Modern Unix) Some weeks ago I wrote a blogpost about my journey on text editor hopping, and them another blogpost reviewing my own post. Well, here we go again.
 In the last post I wrote about Plasma and the Unix philosophy in the desktop but that’s mostly bullshit. And that’s why the Linux desktop is a mess.
 Instead of the original Unix idea of multiple programs writing text to others, the Linux desktop is based on other APIs like the X server itself, dbus and etc.</description>
-      <content:encoded><![CDATA[<h1
-id="or-how-i-got-into-the-nerdiest-thing-ever-rant-on-modern-unix">(or
-How I Got Into The Nerdiest Thing Ever + Rant On Modern Unix)</h1>
-<p>Some weeks ago I wrote <a href="https://gboncoffee.github.io/posts/on-text-editors/">a
-blogpost</a> about my journey on text editor hopping, and them <a
-href="https://gboncoffee.github.io/posts/update-on-text-editors/">another blogpost</a> reviewing my own
-post. Well, here we go again.</p>
-<p>In the last post I wrote about Plasma and the Unix philosophy in the
-desktop but that’s mostly bullshit. And that’s why the Linux desktop is
-a mess.</p>
-<p>Instead of the original Unix idea of multiple programs writing text
-to others, the Linux desktop is based on other APIs like the X server
-itself, dbus and etc.␣And often they don’t talk the same language. QT vs
-GTK is an example of this, alongside with desktop portals, notification
-daemons, etc.</p>
-<p>Well, I wasn’t happy with Plasma’s design philosophy because of
-bloat. I tried GNOME but it’s worse. End up on XFCE.</p>
-<p>XFCE is better as it’s simple and minimal. But I really wanted to go
-back to using window managers and stuff like that.</p>
-<p>What I found out is that, in the end, what I really care about is
-having a sane and cohesive shell (using “shell” as “interface”). Plasma
-is a kinda cohesive graphical shell, but it’s not that efficient.
-Menu-bar-driven, two-button mouse systems, i.e., the modern graphical
-paradigm popularized by the Microsoft Windows operating system, is not
-efficient.</p>
-<p>One could argue that the Unix terminal is more efficient, but I found
-it very incohesive. First, the shell language is a mess. Second, the
-command argument syntaxes are very diverse. Third, the ANSI terminal
-itself. It’s an ancient hack that stick with us and should’ve been
-dropped when graphical interfaces became popular. We’d never implemented
-simple graphics API though so the result is that it’s 2023 and we’re
-still using curses. Also, modern Unix got a lot of stuff wrong, mainly
-due to the Free Software Foundation and the GNU project push towards the
-bloat. Much GNU documentation is acessible via the <code>info</code>
-pages that nobody really knows how to read, some commands have a
-<code>--help</code>, some have the manual (which is much better than any
-other alternative, <em>specially</em> <code>info</code> pages). And the
-manual opens inside the pager with a broken view in my terminal because
-it doesn’t support bold.</p>
-<p>And them we got Emacs. Emacs is actually a very cohesive shell, but
-it’s painfully slow and it’s not particularly efficient. It’s probably
-the least painfull way to use the GNU system “the way it was intented”
-nowadays, which is kinda funny because Emacs is it’s own containeirized
-Lisp operating system.</p>
-<p>Wandering through the web, I read some Rob Pike’s papers and found
-out the nerdiest thing in computing: <a
-href="https://plan9.io/plan9/">Plan 9 From Bell Labs</a>. It’s almost
-perfect. The graphical shell is extremelly efficient, the mouse usage is
-geniously simple and easy, yet fast. The entire system is very simple
-and straighforward. So much that I had the Plan 9 From User Space port
-installed in my Debian system and in a couple hours I had learned
-everything I had to learn to be as efficient as I’m after years of
-learning Unix with my new shell and toys.</p>
-<p>Acme is specially a rather efficient shell. And, different from the
-hack that’s the graphical Emacs, it was meant to be a shell. Everything
-is so cool that I’ll be changing to a very minimalistic Unix system - <a
-href="https://www.alpinelinux.org/">Alpine</a>, so I can have everything
-in busybox and statically linked with musl - and using basically the
-Plan 9 tools and other minimalistic software to do my computing. I liked
-Plan 9 so much that I’m writing my own <code>rio</code> clone for
-X11.</p>
-<p>And I know exactly what I liked in it. Basically, the system allows,
-via the mouse, easy and free exchanging of text between different
-programs, running in parallel in the graphical environment, with a
-cohesive interface. It’s possible to create such shell for Unix, but it
-would be a rather difficult task. Much difficultier than for Plan 9 as
-there would be no support from the system itself. I may try it
-though.</p>
+      <content:encoded><![CDATA[<h1 id="or-how-i-got-into-the-nerdiest-thing-ever-rant-on-modern-unix">(or How I Got Into The Nerdiest Thing Ever + Rant On Modern Unix)</h1>
+<p>Some weeks ago I wrote <a href="http://localhost:1313/posts/on-text-editors/">a blogpost</a> about my journey on text editor hopping, and them <a href="http://localhost:1313/posts/update-on-text-editors/">another blogpost</a> reviewing my own post. Well, here we go again.</p>
+<p>In the last post I wrote about Plasma and the Unix philosophy in the desktop but that’s mostly bullshit. And that’s why the Linux desktop is a mess.</p>
+<p>Instead of the original Unix idea of multiple programs writing text to others, the Linux desktop is based on other APIs like the X server itself, dbus and etc.␣And often they don’t talk the same language. QT vs GTK is an example of this, alongside with desktop portals, notification daemons, etc.</p>
+<p>Well, I wasn’t happy with Plasma’s design philosophy because of bloat. I tried GNOME but it’s worse. End up on XFCE.</p>
+<p>XFCE is better as it’s simple and minimal. But I really wanted to go back to using window managers and stuff like that.</p>
+<p>What I found out is that, in the end, what I really care about is having a sane and cohesive shell (using “shell” as “interface”). Plasma is a kinda cohesive graphical shell, but it’s not that efficient. Menu-bar-driven, two-button mouse systems, i.e., the modern graphical paradigm popularized by the Microsoft Windows operating system, is not efficient.</p>
+<p>One could argue that the Unix terminal is more efficient, but I found it very incohesive. First, the shell language is a mess. Second, the command argument syntaxes are very diverse. Third, the ANSI terminal itself. It’s an ancient hack that stick with us and should’ve been dropped when graphical interfaces became popular. We’d never implemented simple graphics API though so the result is that it’s 2023 and we’re still using curses. Also, modern Unix got a lot of stuff wrong, mainly due to the Free Software Foundation and the GNU project push towards the bloat. Much GNU documentation is acessible via the <code>info</code> pages that nobody really knows how to read, some commands have a <code>--help</code>, some have the manual (which is much better than any other alternative, <em>specially</em> <code>info</code> pages). And the manual opens inside the pager with a broken view in my terminal because it doesn’t support bold.</p>
+<p>And them we got Emacs. Emacs is actually a very cohesive shell, but it’s painfully slow and it’s not particularly efficient. It’s probably the least painfull way to use the GNU system “the way it was intented” nowadays, which is kinda funny because Emacs is it’s own containeirized Lisp operating system.</p>
+<p>Wandering through the web, I read some Rob Pike’s papers and found out the nerdiest thing in computing: <a href="https://plan9.io/plan9/">Plan 9 From Bell Labs</a>. It’s almost perfect. The graphical shell is extremelly efficient, the mouse usage is geniously simple and easy, yet fast. The entire system is very simple and straighforward. So much that I had the Plan 9 From User Space port installed in my Debian system and in a couple hours I had learned everything I had to learn to be as efficient as I’m after years of learning Unix with my new shell and toys.</p>
+<p>Acme is specially a rather efficient shell. And, different from the hack that’s the graphical Emacs, it was meant to be a shell. Everything is so cool that I’ll be changing to a very minimalistic Unix system - <a href="https://www.alpinelinux.org/">Alpine</a>, so I can have everything in busybox and statically linked with musl - and using basically the Plan 9 tools and other minimalistic software to do my computing. I liked Plan 9 so much that I’m writing my own <code>rio</code> clone for X11.</p>
+<p>And I know exactly what I liked in it. Basically, the system allows, via the mouse, easy and free exchanging of text between different programs, running in parallel in the graphical environment, with a cohesive interface. It’s possible to create such shell for Unix, but it would be a rather difficult task. Much difficultier than for Plan 9 as there would be no support from the system itself. I may try it though.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>A Review On My Own Post On Text Editors</title>
-      <link>https://gboncoffee.github.io/posts/update-on-text-editors/</link>
+      <link>http://localhost:1313/posts/update-on-text-editors/</link>
       <pubDate>Fri, 20 Oct 2023 21:24:49 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/update-on-text-editors/</guid>
+      <guid>http://localhost:1313/posts/update-on-text-editors/</guid>
       <description>Some time ago I wrote a blogpost about my journey in text editor hopping On the very bottom of the post, I talked about my overall current opinions on editors and how I may write one. Here I want to update that.
 As a resume, I became more minimalist because I tried a lot of editors and addressed what really matters in an editor, what is really usefull. And I talked with more experienced people too.</description>
-      <content:encoded><![CDATA[<p>Some time ago I wrote a <a href="https://gboncoffee.github.io/posts/on-text-editors/">blogpost
-about my journey in text editor hopping</a> On the very bottom of the
-post, I talked about my overall current opinions on editors and how I
-may write one. Here I want to update that.</p>
-<p>As a resume, I became more minimalist because I tried a lot of
-editors and addressed what really matters in an editor, what is really
-usefull. And I talked with more experienced people too.</p>
-<p>Also, I found out that the Unix philosophy is really great, and that
-there’s a really neat way of applying it for a graphical environment.
-I’ll talk about that in the end of this post.</p>
+      <content:encoded><![CDATA[<p>Some time ago I wrote a <a href="http://localhost:1313/posts/on-text-editors/">blogpost about my journey in text editor hopping</a> On the very bottom of the post, I talked about my overall current opinions on editors and how I may write one. Here I want to update that.</p>
+<p>As a resume, I became more minimalist because I tried a lot of editors and addressed what really matters in an editor, what is really usefull. And I talked with more experienced people too.</p>
+<p>Also, I found out that the Unix philosophy is really great, and that there’s a really neat way of applying it for a graphical environment. I’ll talk about that in the end of this post.</p>
 <h2 id="the-compile-mode">The <em>compile-mode</em></h2>
-<p>It’s not that usefull. Yeah, I said it was my favorite feature from
-GNU Emacs but I just changed my opinion. Follow the history:</p>
-<p>I was upset that Emacs was terribly slow in my University computers.
-So I was using Vim. For the sake of keeping with the defaults, I wasn’t
-using the plugin I wrote that mimics <em>compile-mode</em> for it, <a
-href="https://github.com/gboncoffee/run.vim">run.vim</a>. I tried Vim’s
-<code>:make</code> but it’s simply terrible. One of my teachers uses
-Vim, and I asked him what he uses for compiling. He said that he just
-opens another terminal window and compiles from there, jumping errors
-manually. When I told him I would like something that jumps errors for
-me and stuff like that, he just told me that he never needed that much
-efficiency. He’s not programming on the market, he’s just a scientist
-whatsoever.</p>
-<p>When thinking about that, I found out that a lot of times I just
-can’t use <em>compile-mode</em> or some clone because I need to test
-programs interactively in the terminal, or when programming for X I need
-to test inside of Xephyr. Furthermore, ditchin made me open the eyes for
-a lot of other editors.</p>
+<p>It’s not that usefull. Yeah, I said it was my favorite feature from GNU Emacs but I just changed my opinion. Follow the history:</p>
+<p>I was upset that Emacs was terribly slow in my University computers. So I was using Vim. For the sake of keeping with the defaults, I wasn’t using the plugin I wrote that mimics <em>compile-mode</em> for it, <a href="https://github.com/gboncoffee/run.vim">run.vim</a>. I tried Vim’s <code>:make</code> but it’s simply terrible. One of my teachers uses Vim, and I asked him what he uses for compiling. He said that he just opens another terminal window and compiles from there, jumping errors manually. When I told him I would like something that jumps errors for me and stuff like that, he just told me that he never needed that much efficiency. He’s not programming on the market, he’s just a scientist whatsoever.</p>
+<p>When thinking about that, I found out that a lot of times I just can’t use <em>compile-mode</em> or some clone because I need to test programs interactively in the terminal, or when programming for X I need to test inside of Xephyr. Furthermore, ditchin made me open the eyes for a lot of other editors.</p>
 <h2 id="trying-stuff-out">Trying stuff out</h2>
-<p>On the modal side, I’m using both Kakoune and Vim. Vim is a big
-editor with tons of features and lacks good mouse support. Kakoune is a
-small editor with not that much features and lacks good mouse support.
-Of course, both are modal and I’m not really into modal editing
-anymore.</p>
-<p>Besides that, window managing with Kakoune is a mess, because as it
-creates multiple terminal or tmux windows, the command prompt always
-changes location and I need to remember what window is the main one to
-don’t close them all. I really like Kakoune’s multiple cursor support
-though.</p>
-<p>Kakoune does try to follow more the Unix philosophy them Vim, though.
-But there are things that I don’t like in the way it does it. For
-example, while editing Go code, I found out that if I pipe my file into
-<code>gofmt</code> with Kakoune’s pipe command but some syntax error
-make <code>gofmt</code> fail, Kakoune will substitute my entire file for
-nothing (the stdout of a failed <code>gofmt</code>) and I must type
-<code>u</code> to undo that. That’s not that big of a deal but pisses me
-off.</p>
-<p>Also, I think that modal editing creates an unecessary overhead and
-just using control and meta keybinds is better. The lack of good mouse
-support in both editors is not good too.</p>
-<p>So yeah, they’re very great editors if you code in a 1980’s text
-terminal without mouse. But in the 1980’s text terminal you also
-wouldn’t have color support so I don’t know why both editors have syntax
-highlighting.</p>
+<p>On the modal side, I’m using both Kakoune and Vim. Vim is a big editor with tons of features and lacks good mouse support. Kakoune is a small editor with not that much features and lacks good mouse support. Of course, both are modal and I’m not really into modal editing anymore.</p>
+<p>Besides that, window managing with Kakoune is a mess, because as it creates multiple terminal or tmux windows, the command prompt always changes location and I need to remember what window is the main one to don’t close them all. I really like Kakoune’s multiple cursor support though.</p>
+<p>Kakoune does try to follow more the Unix philosophy them Vim, though. But there are things that I don’t like in the way it does it. For example, while editing Go code, I found out that if I pipe my file into <code>gofmt</code> with Kakoune’s pipe command but some syntax error make <code>gofmt</code> fail, Kakoune will substitute my entire file for nothing (the stdout of a failed <code>gofmt</code>) and I must type <code>u</code> to undo that. That’s not that big of a deal but pisses me off.</p>
+<p>Also, I think that modal editing creates an unecessary overhead and just using control and meta keybinds is better. The lack of good mouse support in both editors is not good too.</p>
+<p>So yeah, they’re very great editors if you code in a 1980’s text terminal without mouse. But in the 1980’s text terminal you also wouldn’t have color support so I don’t know why both editors have syntax highlighting.</p>
 <h1 id="ditching-modal">Ditching modal</h1>
-<p>I’m using three other non-modal editors nowadays besides Emacs: - <a
-href="https://micro-editor.github.io/">Micro</a>, a modern Nano
-replacement. - <a href="https://github.com/deadpixi/sam">A modern Sam
-version</a>, an editor from Rob Pike for the Bell Lab’s Plan 9 Operating
-System. - <a href="https://apps.kde.org/kwrite/">KWrite</a>, an editor
-for the KDE Plasma environment.</p>
-<p>I don’t like KWrite that much because I cannot deactivate the syntax
-highlighting. It’s my system’s default editor right now thought because
-I’m using KDE Plasma and I still didn’t find what to use. I won’t use
-KWrite for real coding.</p>
-<p>What about Sam? Sam is for nerds. And I’m a nerd. Probably the world
-would be better place if we all just used Plan 9’s design in everything
-(with a dark mode thought). But unfortunatelly it isn’t. Using Sam
-inside X is really clunk because it looks like a virtual machine: I have
-a window manager and windows inside another window. And Sam looks like
-you should learn the entire command language and use it almost entirely
-from the command window. But probably because I’m too lazy to create a
-bunch of keybinds to it. It has excellent mouse support, but I need to
-use it a lot more inside it, and that hurts.</p>
-<p>Micro is good, fast, has decent keybinds (I prefer Emacs’ ones
-thought) and a good mouse support. But lacks piping text through
-commands, and that’s not acceptable.</p>
-<p>Both Micro and Sam lacks trailing whitespace highlighting, which I
-like a lot.</p>
-<p>Sam also lacks support for a vertical column showing me the 80th text
-column, and that’s very frustrating because it’s such a simple feature.
-Also, lacks editorconfig support, which is also not acceptable.</p>
-<p>With Micro I cannot change files with the mouse too, which for a
-mouse-centric editor is not cool. And I need to keep line numbers in the
-left side of the screen to see if my lines are being wrapped and to
-format the text. I don’t like those line numbers, they’re a waste of
-space.</p>
-<h2 id="the-unix-philosophy-inside-x-sessions">The Unix Philosophy
-Inside X Sessions</h2>
-<p>I’m using KDE Plasma and if you think I’m not allowed to call myself
-a minimalist because I’m liking it, so be it. But a good desktop
-environment, not resouce-heavy, with plenty of great tools and
-integration is very cool. The graphical interface and the stacking
-window system are two of the best things computer people ever made.
-Plasma reminds me a little about MacBooks, and that probably means
-someday, when I have the money, I’ll buy myself a Mac.</p>
-<p>The integration between stuff inside Plasma is very cool. I can open
-Dolphin and manage files much better than inside the terminal, or with
-some program like Midnight Commander. Drag-and-drop is wonderfull.
-Having an applet in my panel that allows me to control <em>whatever</em>
-music player I use is very cool.</p>
-<p>So, of course, I want an editor that can be integrated in the
-desktop. This does not necessary means a graphical editor thought, as
-it’s entirely possible to open the editor inside the terminal from the
-desktop applications, and have very good mouse support in it.</p>
+<p>I’m using three other non-modal editors nowadays besides Emacs: - <a href="https://micro-editor.github.io/">Micro</a>, a modern Nano replacement. - <a href="https://github.com/deadpixi/sam">A modern Sam version</a>, an editor from Rob Pike for the Bell Lab’s Plan 9 Operating System. - <a href="https://apps.kde.org/kwrite/">KWrite</a>, an editor for the KDE Plasma environment.</p>
+<p>I don’t like KWrite that much because I cannot deactivate the syntax highlighting. It’s my system’s default editor right now thought because I’m using KDE Plasma and I still didn’t find what to use. I won’t use KWrite for real coding.</p>
+<p>What about Sam? Sam is for nerds. And I’m a nerd. Probably the world would be better place if we all just used Plan 9’s design in everything (with a dark mode thought). But unfortunatelly it isn’t. Using Sam inside X is really clunk because it looks like a virtual machine: I have a window manager and windows inside another window. And Sam looks like you should learn the entire command language and use it almost entirely from the command window. But probably because I’m too lazy to create a bunch of keybinds to it. It has excellent mouse support, but I need to use it a lot more inside it, and that hurts.</p>
+<p>Micro is good, fast, has decent keybinds (I prefer Emacs’ ones thought) and a good mouse support. But lacks piping text through commands, and that’s not acceptable.</p>
+<p>Both Micro and Sam lacks trailing whitespace highlighting, which I like a lot.</p>
+<p>Sam also lacks support for a vertical column showing me the 80th text column, and that’s very frustrating because it’s such a simple feature. Also, lacks editorconfig support, which is also not acceptable.</p>
+<p>With Micro I cannot change files with the mouse too, which for a mouse-centric editor is not cool. And I need to keep line numbers in the left side of the screen to see if my lines are being wrapped and to format the text. I don’t like those line numbers, they’re a waste of space.</p>
+<h2 id="the-unix-philosophy-inside-x-sessions">The Unix Philosophy Inside X Sessions</h2>
+<p>I’m using KDE Plasma and if you think I’m not allowed to call myself a minimalist because I’m liking it, so be it. But a good desktop environment, not resouce-heavy, with plenty of great tools and integration is very cool. The graphical interface and the stacking window system are two of the best things computer people ever made. Plasma reminds me a little about MacBooks, and that probably means someday, when I have the money, I’ll buy myself a Mac.</p>
+<p>The integration between stuff inside Plasma is very cool. I can open Dolphin and manage files much better than inside the terminal, or with some program like Midnight Commander. Drag-and-drop is wonderfull. Having an applet in my panel that allows me to control <em>whatever</em> music player I use is very cool.</p>
+<p>So, of course, I want an editor that can be integrated in the desktop. This does not necessary means a graphical editor thought, as it’s entirely possible to open the editor inside the terminal from the desktop applications, and have very good mouse support in it.</p>
 <h2 id="the-overall-idea">The overall idea</h2>
-<p>I’ll certainly create a new editor. And it’ll follow this: - Support
-for some kind of trailing whitespace highlighting and text-width column;
-- Emacs-inspired keybinds but without keychords; - Great mouse support
-inspired by Sam; - Just a sane UI that does not keep in my way and show
-me everything I need to see; - Support for editorconfig via integration
-with the editorconfig C program.</p>
-<p>I’ll probably write it in Go as it has great support for UTF-8 and is
-a very simple and efficient language.</p>
+<p>I’ll certainly create a new editor. And it’ll follow this: - Support for some kind of trailing whitespace highlighting and text-width column; - Emacs-inspired keybinds but without keychords; - Great mouse support inspired by Sam; - Just a sane UI that does not keep in my way and show me everything I need to see; - Support for editorconfig via integration with the editorconfig C program.</p>
+<p>I’ll probably write it in Go as it has great support for UTF-8 and is a very simple and efficient language.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Notes on Transhumanism</title>
-      <link>https://gboncoffee.github.io/posts/notes-on-transhumanism/</link>
+      <link>http://localhost:1313/posts/notes-on-transhumanism/</link>
       <pubDate>Sun, 15 Oct 2023 01:34:28 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/notes-on-transhumanism/</guid>
+      <guid>http://localhost:1313/posts/notes-on-transhumanism/</guid>
       <description>In the sense that language and fire were there before the evolving of the Homo sapiens, the species was enhanced by technology since it’s beggining. There’s a sense that technology itself is a part of humans.
 Humans, though, are self-described by their biological nature - carbon-based material instances from the Homo sapiens species. This is the sense that the technology is not a part of humans but rather just a tool used to enhance their own lives.</description>
-      <content:encoded><![CDATA[<p>In the sense that language and fire were there before the evolving of
-the <em>Homo sapiens</em>, the species was enhanced by technology since
-it’s beggining. There’s a sense that technology itself is a part of
-humans.</p>
-<p>Humans, though, are self-described by their biological nature -
-carbon-based material instances from the <em>Homo sapiens</em> species.
-This is the sense that the technology is not a part of humans but rather
-just a tool used to enhance their own lives.</p>
-<p>However, as described in the first paragraph, the “<em>Homo
-sapiens</em>-based humanity” itself only evolved after technology, with
-it. There were never a sense of humankind without technology. And thus
-we need to clarify the difference between the <em>Homo sapiens</em>
-biological society and the bigger civilization we are constructing while
-being humans.</p>
-<p>Where and when this civilization started is not relevant for us, as
-where and when exactly the first human was born. Both are rather long
-transitioning processes between the unconscious,
-clearly-not-our-civilization life-based society and a stage were we can
-undoubtedly claim be part of our civilization. Also, we may discuss if
-this bigger civilization started before or after <em>Homo sapiens</em>,
-but that’s not relevant too.</p>
-<p>From now on, I’ll call the civilization we live, that may have
-started before the modern human species and may expand to other
-carbon-or-not-based species or any other intelligent form that achieve
-the citizen status of our civilization in the future, as just “our
-civilization”.</p>
-<p>So, if we achieve a status were our biological nature is irrelevant -
-thus overcoming our humanity - i.e., transferring the dominant
-intelligent creature form of the civilization from <em>Homo sapiens</em>
-to another non-biological form, or even keeping our human bodies but
-enhancing them to a level were their biological nature is irrelevant, we
-achieved a “post-human”, or “trans-human” stage.</p>
-<p>It’s important to notice that “enhancement” is generally defined only
-for the civilization as a whole. This happens because there’s no clear
-one that defines what is “enhancement” - multiple persons may have to
-make this choice in multiple different situations. - In some cases, the
-choice is individually made: if one chooses to take a medicine, one
-considers it a technological enhancement. Other cases may be compulsory,
-either by government - like vacination - or in an indirect manner - like
-internet connection: you’re not mandated to have one, but most people
-simply would be disabled to make financial transactions or apply for a
-job without one, even though they may consider the internet a bad
-technology.</p>
-<p>When we consider civilization as a whole, though, we can define as
-“enhancement” anything that either increases our rank in the Kardashev
-scale - noticing that wasted energy, like the energy that
-microprocessors liberate as heat, is not considered.</p>
-<p>It’s also important to notice that it is not usefull to thing about
-technological enhancements individually, as the concept of an individual
-may be temporary. As our civilization is based on biological instances,
-clearly separated from others, we currently have the concept of
-“individual”. In the future, though, this concept may be overcomed and
-the civilization may be just a single big instance. If you think this
-does not make sense, notice how technology - specially computing - has
-evolved in order to keep information synced between different human
-brains across the globe.</p>
-<p>Both the problem of “who chooses what is enhancement” and the
-individual concept show that there are problems in our civilization that
-aren’t solved by creating a new machine or something alike. A lot of
-problems like hungry would be solvable with our technical level today,
-but they aren’t because of politics (not just stuff that happens in the
-state, but politics in general). If one does not view politics as a
-technology - view with which I disagree - this would mean that
-“technological enhancement” is not the only thing we need to use to
-solve our problems.</p>
-<p>Furthermore, it’s important to notice that using technological
-enhancement to increase our rank in the Kardashev scale fast is not our
-main goal. This should be repeated a lot of times to be clear. Incresing
-our rank in the Kardashev scale fast using technological enhancement is
-not our main goal. This happens because, as said before, we have the
-concept of “individual” and our civilization is not centrally
-controlled. This means that a lot of times some groups or individuals
-may have conflict with others as they seek their own interests. It’s
-clear for us that we should not sacrifice some individuals so the
-civilization is enhanced. If we kept with increasing our rank fast as
-our main goal without caring for the individual, very dangerous ideas
-may arise, like eugenics. The United Nations’ Universal Declaration of
-Human Rights is a great ethic parameter to keep in mind.</p>
-<p>Besides that, those dangerous ideas probably would only produce harm
-to our civilization in the long term, so they won’t actually increase
-our rank. Probably, keeping with the goal of providing dignity for all
-individuals via the welfare state and social democracy is the currently
-most efficient way of increasing our rank in the long term.</p>
-<p>As a resume: currently, the best way to seek for the post-human stage
-is to help empowering individuals in overcoming their personal
-disabilities - which can mean from helping solving hungry to creating
-gadgets for blind and/or deaf people, passing through just generally
-creating technology and solving people’s problems. Of course, this does
-not mean that jobs that aren’t directly involved in the creation of
-technology aren’t usefull for our goal. The creation of technology
-depends directly and indirectly from virtually all jobs that exists in
-our society nowadays.</p>
-<p>It’s also important to notice that this does not mean that pure
-science, human science, philosophy, entertainment and other work areas
-that are tipically thrown in the “not usefull” group by a limited and
-stupid common sense are actually usefull. Pure and human sciences and
-philosophy are technology developments by themselves and they help our
-civilization. Entertainment is also important as art and sports are also
-technology and we need to have fun to be sane.</p>
-<p>It’s clear for us that evolving our civilization is not a general
-goal, in the sense that lots of people nowadays just does not care in
-sacrificing other people to reach their personal goals.</p>
-<p>Clearly, the mental technology - i.e., technology that is just idea
-and/or information, like language or software and concepts like
-ideologies, gender or behaviour - are the most difficult to develop.
-That means that probably the greatest achivement of our civilization so
-far is our rich language systems.</p>
-<p>Clearly, pure biological beings have lots of disadvantages over
-technologically-enhanced ones. Some political ideologies view the idea
-of “overcoming the boundaries of the human species” as a bad thing. It’s
-actually exactly what our civilization had been trying to do since the
-evolving of the <em>Homo sapiens</em>.</p>
+      <content:encoded><![CDATA[<p>In the sense that language and fire were there before the evolving of the <em>Homo sapiens</em>, the species was enhanced by technology since it’s beggining. There’s a sense that technology itself is a part of humans.</p>
+<p>Humans, though, are self-described by their biological nature - carbon-based material instances from the <em>Homo sapiens</em> species. This is the sense that the technology is not a part of humans but rather just a tool used to enhance their own lives.</p>
+<p>However, as described in the first paragraph, the “<em>Homo sapiens</em>-based humanity” itself only evolved after technology, with it. There were never a sense of humankind without technology. And thus we need to clarify the difference between the <em>Homo sapiens</em> biological society and the bigger civilization we are constructing while being humans.</p>
+<p>Where and when this civilization started is not relevant for us, as where and when exactly the first human was born. Both are rather long transitioning processes between the unconscious, clearly-not-our-civilization life-based society and a stage were we can undoubtedly claim be part of our civilization. Also, we may discuss if this bigger civilization started before or after <em>Homo sapiens</em>, but that’s not relevant too.</p>
+<p>From now on, I’ll call the civilization we live, that may have started before the modern human species and may expand to other carbon-or-not-based species or any other intelligent form that achieve the citizen status of our civilization in the future, as just “our civilization”.</p>
+<p>So, if we achieve a status were our biological nature is irrelevant - thus overcoming our humanity - i.e., transferring the dominant intelligent creature form of the civilization from <em>Homo sapiens</em> to another non-biological form, or even keeping our human bodies but enhancing them to a level were their biological nature is irrelevant, we achieved a “post-human”, or “trans-human” stage.</p>
+<p>It’s important to notice that “enhancement” is generally defined only for the civilization as a whole. This happens because there’s no clear one that defines what is “enhancement” - multiple persons may have to make this choice in multiple different situations. - In some cases, the choice is individually made: if one chooses to take a medicine, one considers it a technological enhancement. Other cases may be compulsory, either by government - like vacination - or in an indirect manner - like internet connection: you’re not mandated to have one, but most people simply would be disabled to make financial transactions or apply for a job without one, even though they may consider the internet a bad technology.</p>
+<p>When we consider civilization as a whole, though, we can define as “enhancement” anything that either increases our rank in the Kardashev scale - noticing that wasted energy, like the energy that microprocessors liberate as heat, is not considered.</p>
+<p>It’s also important to notice that it is not usefull to thing about technological enhancements individually, as the concept of an individual may be temporary. As our civilization is based on biological instances, clearly separated from others, we currently have the concept of “individual”. In the future, though, this concept may be overcomed and the civilization may be just a single big instance. If you think this does not make sense, notice how technology - specially computing - has evolved in order to keep information synced between different human brains across the globe.</p>
+<p>Both the problem of “who chooses what is enhancement” and the individual concept show that there are problems in our civilization that aren’t solved by creating a new machine or something alike. A lot of problems like hungry would be solvable with our technical level today, but they aren’t because of politics (not just stuff that happens in the state, but politics in general). If one does not view politics as a technology - view with which I disagree - this would mean that “technological enhancement” is not the only thing we need to use to solve our problems.</p>
+<p>Furthermore, it’s important to notice that using technological enhancement to increase our rank in the Kardashev scale fast is not our main goal. This should be repeated a lot of times to be clear. Incresing our rank in the Kardashev scale fast using technological enhancement is not our main goal. This happens because, as said before, we have the concept of “individual” and our civilization is not centrally controlled. This means that a lot of times some groups or individuals may have conflict with others as they seek their own interests. It’s clear for us that we should not sacrifice some individuals so the civilization is enhanced. If we kept with increasing our rank fast as our main goal without caring for the individual, very dangerous ideas may arise, like eugenics. The United Nations’ Universal Declaration of Human Rights is a great ethic parameter to keep in mind.</p>
+<p>Besides that, those dangerous ideas probably would only produce harm to our civilization in the long term, so they won’t actually increase our rank. Probably, keeping with the goal of providing dignity for all individuals via the welfare state and social democracy is the currently most efficient way of increasing our rank in the long term.</p>
+<p>As a resume: currently, the best way to seek for the post-human stage is to help empowering individuals in overcoming their personal disabilities - which can mean from helping solving hungry to creating gadgets for blind and/or deaf people, passing through just generally creating technology and solving people’s problems. Of course, this does not mean that jobs that aren’t directly involved in the creation of technology aren’t usefull for our goal. The creation of technology depends directly and indirectly from virtually all jobs that exists in our society nowadays.</p>
+<p>It’s also important to notice that this does not mean that pure science, human science, philosophy, entertainment and other work areas that are tipically thrown in the “not usefull” group by a limited and stupid common sense are actually usefull. Pure and human sciences and philosophy are technology developments by themselves and they help our civilization. Entertainment is also important as art and sports are also technology and we need to have fun to be sane.</p>
+<p>It’s clear for us that evolving our civilization is not a general goal, in the sense that lots of people nowadays just does not care in sacrificing other people to reach their personal goals.</p>
+<p>Clearly, the mental technology - i.e., technology that is just idea and/or information, like language or software and concepts like ideologies, gender or behaviour - are the most difficult to develop. That means that probably the greatest achivement of our civilization so far is our rich language systems.</p>
+<p>Clearly, pure biological beings have lots of disadvantages over technologically-enhanced ones. Some political ideologies view the idea of “overcoming the boundaries of the human species” as a bad thing. It’s actually exactly what our civilization had been trying to do since the evolving of the <em>Homo sapiens</em>.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>On Text Editors</title>
-      <link>https://gboncoffee.github.io/posts/on-text-editors/</link>
+      <link>http://localhost:1313/posts/on-text-editors/</link>
       <pubDate>Wed, 20 Sep 2023 23:58:40 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/on-text-editors/</guid>
+      <guid>http://localhost:1313/posts/on-text-editors/</guid>
       <description>Here, I’ll talk a little about my journey with a lot of text editors and what I’m currently liking. Maybe I’ll eventually try creating my own with the ideas resumed here.
 On Text Editors In my brief journey on computer programming - about three years right now - I hopped text editor a lot. A lot.
 My first text editor was IDLE. It’s an extremelly simple text editor for Python written by Guido Van Rossum himself.</description>
-      <content:encoded><![CDATA[<p>Here, I’ll talk a little about my journey with a lot of text editors
-and what I’m currently liking. Maybe I’ll eventually try creating my own
-with the ideas resumed here.</p>
+      <content:encoded><![CDATA[<p>Here, I’ll talk a little about my journey with a lot of text editors and what I’m currently liking. Maybe I’ll eventually try creating my own with the ideas resumed here.</p>
 <h1 id="on-text-editors">On Text Editors</h1>
-<p>In my brief journey on computer programming - about three years right
-now - I hopped text editor a lot. <strong><em>A lot</em></strong>.</p>
-<p>My first text editor was <a
-href="https://docs.python.org/3/library/idle.html">IDLE</a>. It’s an
-extremelly simple text editor for Python written by Guido Van Rossum
-himself. It features syntax highlighting, integrated repl and executing
-environment and probably more features that I never used because I was a
-begginer. In retrospect, I like it’s simplicity.</p>
-<p>I hopped to <a href="https://www.jetbrains.com/pycharm/">JetBrain’s
-PyCharm</a> a few months into learning programming. Back then, I was
-running a Windows laptop with 4gb of RAM and an Intel i3 (I still use
-this very same hardware, but with another 8gb stick and Arch Linux). Of
-course, I was overhelmed with the features, and it runned
-<em>terribly</em> slow. It was so painfull that I quitted programming
-for about a month. Luckily, I got motivation again after I discovered
-Linux, and switched my machine to Ubuntu. A few months using it, I
-started using another JetBrains editor, <a
-href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>. It’s very
-similar to PyCharm, but for Java. At the time, I wasn’t really
-understanding what I was doing, I just kept using stuff I knew worked
-and though it was the way to go.</p>
-<p>Eventually, I hopped to the nowadays everyone’s favorite, <a
-href="https://code.visualstudio.com/">Microsoft’s Visual Studio
-Code</a>. Still, it was slow (<a
-href="https://www.phoronix.com/news/HTML5-Golang-Desktop-Apps">Electron</a>)
-but kinda manageable. At this point I was understanding something about
-what I was doing, but not everything. I could compile a Java program
-from the terminal, I knew how to manage files in the terminal, etc etc
-etc. And my hand was hurting a lot because of the intense use of the
-mouse and the swap between it and the keyboard.</p>
-<p>So I learned about the most loved one, <a
-href="https://www.vim.org/">Vim</a>. I switched to it in a gradual
-fashion. Of course, I haven’t documented the extremelly extensive
-history of adding and removing plugins, switching to <a
-href="https://neovim.io/">Neovim</a>, switching back to plain Vim, etc
-etc etc. When I was in a more minimalist phase, I removed plugins, and
-vice-versa. I learned a lot about everything related to computers and
-computer programming during that period.</p>
-<p>I was using a very customized Neovim with <a
-href="https://en.wikipedia.org/wiki/Language_Server_Protocol">LSP</a>
-and <a
-href="https://tree-sitter.github.io/tree-sitter/">TreeSitter-based</a>
-syntax highlighting and all those fancy stuff that slowed it down, when
-I learned about <a href="https://helix-editor.com/">Helix</a>. I
-switched to it because it had almost everything I had in Neovim with
-almost no configuration. It hadn’t a plugin that I wrote to Neovim, tho:
-<a href="https://github.com/gboncoffee/run.lua">run.lua</a>. I like
-compile-driven development, so not having to switch to another <a
-href="https://github.com/tmux/tmux">tmux</a> pane, pressing the up key,
-enter and them figuring out where the previous compilation ended was
-very cool. Well, Helix didn’t had that and I couldn’t add it as it does
-not have any extension system (maybe this changed as you’re reading).
-Anyways, I moved back to Neovim after some time. Without LSP!</p>
-<p>I always liked the idea of <a
-href="https://en.wikipedia.org/wiki/Emacs">Emacs</a>. But I didn’t want
-to drop modal editing. Anyways, I switched to Emacs with <a
-href="https://github.com/emacs-evil/evil">evil</a>, i.e., Vim emulation.
-I dropped about a month latter because the input lag was painfull. And I
-wanted minimalism.</p>
-<p>So, I switched to <a href="http://kakoune.org/">Kakoune</a>. I
-configured and liked it, specially the editing model. It’s very
-minimalist, and I liked. It had a <code>make</code> wrapper similar to
-Emacs’ <code>compile-mode</code> that I always liked. Kakoune’s, tho,
-was simpler and not that usefull.</p>
-<p>When I got into the university, colleagues convinced me to switch
-back to Vim. I created a very simple configuration, and was kinda happy
-with it. But Vim always felt like a bunch of improvisations to me. Some
-day, in the little middle-year vacation, I tried Emacs with it’s default
-keybinds. I got used to not having modal editing very quickly. Emacs is
-almost a perfect environment. But it’s exactly that: a Lisp environment.
-Not a text editor. I’m writing from it right now.</p>
-<p>So, if I’m writing this, of course it means I’m not very happy with
-Emacs. Mainly, I think it’s overcomplicated and - as I said - more like
-a Lisp environment that should have been a text editor than a text
-editor.</p>
-<p>Anyways, after this historical introduction, I’ll talk about what I
-learned I like and what I learned I don’t like.</p>
+<p>In my brief journey on computer programming - about three years right now - I hopped text editor a lot. <strong><em>A lot</em></strong>.</p>
+<p>My first text editor was <a href="https://docs.python.org/3/library/idle.html">IDLE</a>. It’s an extremelly simple text editor for Python written by Guido Van Rossum himself. It features syntax highlighting, integrated repl and executing environment and probably more features that I never used because I was a begginer. In retrospect, I like it’s simplicity.</p>
+<p>I hopped to <a href="https://www.jetbrains.com/pycharm/">JetBrain’s PyCharm</a> a few months into learning programming. Back then, I was running a Windows laptop with 4gb of RAM and an Intel i3 (I still use this very same hardware, but with another 8gb stick and Arch Linux). Of course, I was overhelmed with the features, and it runned <em>terribly</em> slow. It was so painfull that I quitted programming for about a month. Luckily, I got motivation again after I discovered Linux, and switched my machine to Ubuntu. A few months using it, I started using another JetBrains editor, <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>. It’s very similar to PyCharm, but for Java. At the time, I wasn’t really understanding what I was doing, I just kept using stuff I knew worked and though it was the way to go.</p>
+<p>Eventually, I hopped to the nowadays everyone’s favorite, <a href="https://code.visualstudio.com/">Microsoft’s Visual Studio Code</a>. Still, it was slow (<a href="https://www.phoronix.com/news/HTML5-Golang-Desktop-Apps">Electron</a>) but kinda manageable. At this point I was understanding something about what I was doing, but not everything. I could compile a Java program from the terminal, I knew how to manage files in the terminal, etc etc etc. And my hand was hurting a lot because of the intense use of the mouse and the swap between it and the keyboard.</p>
+<p>So I learned about the most loved one, <a href="https://www.vim.org/">Vim</a>. I switched to it in a gradual fashion. Of course, I haven’t documented the extremelly extensive history of adding and removing plugins, switching to <a href="https://neovim.io/">Neovim</a>, switching back to plain Vim, etc etc etc. When I was in a more minimalist phase, I removed plugins, and vice-versa. I learned a lot about everything related to computers and computer programming during that period.</p>
+<p>I was using a very customized Neovim with <a href="https://en.wikipedia.org/wiki/Language_Server_Protocol">LSP</a> and <a href="https://tree-sitter.github.io/tree-sitter/">TreeSitter-based</a> syntax highlighting and all those fancy stuff that slowed it down, when I learned about <a href="https://helix-editor.com/">Helix</a>. I switched to it because it had almost everything I had in Neovim with almost no configuration. It hadn’t a plugin that I wrote to Neovim, tho: <a href="https://github.com/gboncoffee/run.lua">run.lua</a>. I like compile-driven development, so not having to switch to another <a href="https://github.com/tmux/tmux">tmux</a> pane, pressing the up key, enter and them figuring out where the previous compilation ended was very cool. Well, Helix didn’t had that and I couldn’t add it as it does not have any extension system (maybe this changed as you’re reading). Anyways, I moved back to Neovim after some time. Without LSP!</p>
+<p>I always liked the idea of <a href="https://en.wikipedia.org/wiki/Emacs">Emacs</a>. But I didn’t want to drop modal editing. Anyways, I switched to Emacs with <a href="https://github.com/emacs-evil/evil">evil</a>, i.e., Vim emulation. I dropped about a month latter because the input lag was painfull. And I wanted minimalism.</p>
+<p>So, I switched to <a href="http://kakoune.org/">Kakoune</a>. I configured and liked it, specially the editing model. It’s very minimalist, and I liked. It had a <code>make</code> wrapper similar to Emacs’ <code>compile-mode</code> that I always liked. Kakoune’s, tho, was simpler and not that usefull.</p>
+<p>When I got into the university, colleagues convinced me to switch back to Vim. I created a very simple configuration, and was kinda happy with it. But Vim always felt like a bunch of improvisations to me. Some day, in the little middle-year vacation, I tried Emacs with it’s default keybinds. I got used to not having modal editing very quickly. Emacs is almost a perfect environment. But it’s exactly that: a Lisp environment. Not a text editor. I’m writing from it right now.</p>
+<p>So, if I’m writing this, of course it means I’m not very happy with Emacs. Mainly, I think it’s overcomplicated and - as I said - more like a Lisp environment that should have been a text editor than a text editor.</p>
+<p>Anyways, after this historical introduction, I’ll talk about what I learned I like and what I learned I don’t like.</p>
 <h2 id="design">Design</h2>
-<p>I readed <a href="https://arxiv.org/abs/2008.06030">On The Design of
-Text Editors</a> from Nicolas Rougier. I don’t agree with him in
-everything, but I liked the overall. I don’t like margins, and I think
-allowing the use of the mouse a little more would be really great. Also,
-I don’t like it’s extensive use of typesetting.</p>
-<h2 id="syntax-highlighting-and-typesetting">Syntax Highlighting and
-Typesetting</h2>
-<p>I’m very into <a
-href="http://www.linusakesson.net/programming/syntaxhighlighting/">no/minimal
-syntax highlighting</a> and I kinda liked some ideas of <a
-href="https://buttondown.email/hillelwayne/archive/46a17205-e38c-44f9-b048-793c180c6e84">semantic
-highlighting</a>. If I ever create a text editor, I’ll probably just add
-code syntax for strings and comments. Maybe no syntax at all. For Emacs
-and Vim, I created a color theme that removes syntax except for strings
-and comments, it’s called Cyber Cafe, for <a
-href="https://github.com/gboncoffee/cybercafe-emacs-theme">Emacs</a> and
-for <a
-href="https://github.com/gboncoffee/cybercafe-vim-theme">Vim</a>.</p>
-<p>For markup languages, I really liked the idea of changing the
-typesetting according. Of course, this is only proper achieved with
-font-size changes and variable-pitch fonts when using a graphical text
-editor. And graphical text editors are just better.</p>
+<p>I readed <a href="https://arxiv.org/abs/2008.06030">On The Design of Text Editors</a> from Nicolas Rougier. I don’t agree with him in everything, but I liked the overall. I don’t like margins, and I think allowing the use of the mouse a little more would be really great. Also, I don’t like it’s extensive use of typesetting.</p>
+<h2 id="syntax-highlighting-and-typesetting">Syntax Highlighting and Typesetting</h2>
+<p>I’m very into <a href="http://www.linusakesson.net/programming/syntaxhighlighting/">no/minimal syntax highlighting</a> and I kinda liked some ideas of <a href="https://buttondown.email/hillelwayne/archive/46a17205-e38c-44f9-b048-793c180c6e84">semantic highlighting</a>. If I ever create a text editor, I’ll probably just add code syntax for strings and comments. Maybe no syntax at all. For Emacs and Vim, I created a color theme that removes syntax except for strings and comments, it’s called Cyber Cafe, for <a href="https://github.com/gboncoffee/cybercafe-emacs-theme">Emacs</a> and for <a href="https://github.com/gboncoffee/cybercafe-vim-theme">Vim</a>.</p>
+<p>For markup languages, I really liked the idea of changing the typesetting according. Of course, this is only proper achieved with font-size changes and variable-pitch fonts when using a graphical text editor. And graphical text editors are just better.</p>
 <h2 id="keybinds">Keybinds</h2>
-<p>I just want a great set that allows me to achieve everything via the
-keyboard when I want, navigate fast and made edits fast without making
-my hands and fingers tired. Doesn’t matter if it’s modal or not.
-Actually, probably Emacs keybinds are the better for coding.</p>
+<p>I just want a great set that allows me to achieve everything via the keyboard when I want, navigate fast and made edits fast without making my hands and fingers tired. Doesn’t matter if it’s modal or not. Actually, probably Emacs keybinds are the better for coding.</p>
 <h2 id="the-mouse">The Mouse</h2>
-<p>I liked the way <a href="https://plan9.io/plan9/">Plan 9 and Acme</a>
-graphical interfaces work. I was into tilling window managers before,
-but nowadays I like using a stacking one. What I’m into is using the
-mouse for navigation sometimes, so having a proper mouse support that
-uses all three buttons is great.</p>
-<h2 id="other-utilities-and-integrations">Other Utilities And
-Integrations</h2>
-<p>My text editor should also have a great file manager and a fast git
-UI. I do not need a mail client, nor tetris, nor web browser, nor web
-server, nor dunnet, nor an ELISA clone. It should have a great way to
-interact with all these utilities, tho. In a beautiful Unix fashion.</p>
-<p>My favorite feature of Emacs is the extremelly simple
-<code>compile-mode</code>. It allows you to run a command fast, and
-parses compiler output for jumping between errors and etc. This is
-really great, I really like it. My editor should have first-class
-support for compilers. There’s simply no reason to not have. And no, LSP
-is not the way to go (I have no article to link here as this is just too
-unpopular. I think I’ll have to write something about that).</p>
-<p>Not only compilers, but repls too! Integration with repls is very
-great, and I like repl-driven development for languages like Haskell,
-Lisp, OCaml and Lua.</p>
-<p>But, this does not mean an integrated terminal. The way to go is
-opening your editor from within a terminal, and not the opposite. That
-terminal session should be used to manage various other background jobs
-like web servers and stuff.</p>
+<p>I liked the way <a href="https://plan9.io/plan9/">Plan 9 and Acme</a> graphical interfaces work. I was into tilling window managers before, but nowadays I like using a stacking one. What I’m into is using the mouse for navigation sometimes, so having a proper mouse support that uses all three buttons is great.</p>
+<h2 id="other-utilities-and-integrations">Other Utilities And Integrations</h2>
+<p>My text editor should also have a great file manager and a fast git UI. I do not need a mail client, nor tetris, nor web browser, nor web server, nor dunnet, nor an ELISA clone. It should have a great way to interact with all these utilities, tho. In a beautiful Unix fashion.</p>
+<p>My favorite feature of Emacs is the extremelly simple <code>compile-mode</code>. It allows you to run a command fast, and parses compiler output for jumping between errors and etc. This is really great, I really like it. My editor should have first-class support for compilers. There’s simply no reason to not have. And no, LSP is not the way to go (I have no article to link here as this is just too unpopular. I think I’ll have to write something about that).</p>
+<p>Not only compilers, but repls too! Integration with repls is very great, and I like repl-driven development for languages like Haskell, Lisp, OCaml and Lua.</p>
+<p>But, this does not mean an integrated terminal. The way to go is opening your editor from within a terminal, and not the opposite. That terminal session should be used to manage various other background jobs like web servers and stuff.</p>
 <h2 id="performance">Performance</h2>
-<p>Of course the editor should be graphical, but performance should be a
-priority. I should be able to use it as my commit editor without feeling
-pain, and opening it just for quick edits. <a
-href="https://en.wikipedia.org/wiki/Qt_(software)">I guess we know the
-way to go</a>.</p>
+<p>Of course the editor should be graphical, but performance should be a priority. I should be able to use it as my commit editor without feeling pain, and opening it just for quick edits. <a href="https://en.wikipedia.org/wiki/Qt_(software)">I guess we know the way to go</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Stupid Sorting</title>
-      <link>https://gboncoffee.github.io/posts/stupid-sorting/</link>
+      <link>http://localhost:1313/posts/stupid-sorting/</link>
       <pubDate>Tue, 12 Sep 2023 10:02:53 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/stupid-sorting/</guid>
+      <guid>http://localhost:1313/posts/stupid-sorting/</guid>
       <description>The first topic in “Algoritmos e Estruturas de Dados II” (“Algorithms and Data Structures II”) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It’s not really that usefull but it’s a great example to learn. Then we learn stuff like the Insertion Sort, which’s actually usefull and more complex to understand.
 But, as stupid as Selection Sort is, it’s kinda straightforward. What about some really, really stupid and useless sorting algorithms?</description>
-      <content:encoded><![CDATA[<p>The first topic in “Algoritmos e Estruturas de Dados II” (“Algorithms
-and Data Structures II”) classes are sorting algorithms. The first one
-we learn is the stupid Selection Sort. It’s not really that usefull but
-it’s a great example to learn. Then we learn stuff like the Insertion
-Sort, which’s actually usefull and more complex to understand.</p>
-<p>But, as stupid as Selection Sort is, it’s kinda straightforward. What
-about some really, really stupid and useless sorting algorithms?</p>
-<p>For this algorithms I used some <code>#includes</code> and a simple
-function that checks if an array is sorted. The entire source is
-available <a
-href="https://gist.github.com/gboncoffee/2ecfacb0bc7f03626e4c1d2e4d00253f">here
-at GitHub</a>.</p>
+      <content:encoded><![CDATA[<p>The first topic in “Algoritmos e Estruturas de Dados II” (“Algorithms and Data Structures II”) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It’s not really that usefull but it’s a great example to learn. Then we learn stuff like the Insertion Sort, which’s actually usefull and more complex to understand.</p>
+<p>But, as stupid as Selection Sort is, it’s kinda straightforward. What about some really, really stupid and useless sorting algorithms?</p>
+<p>For this algorithms I used some <code>#includes</code> and a simple function that checks if an array is sorted. The entire source is available <a href="https://gist.github.com/gboncoffee/2ecfacb0bc7f03626e4c1d2e4d00253f">here at GitHub</a>.</p>
 <h2 id="kill-sort">Kill Sort</h2>
-<p>Sorts the array by removing unsorted itens. Returns the final
-size.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> kill_sort<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>v<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> pad <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span> <span class="op">{</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>v<span class="op">[</span>i<span class="op">]</span> <span class="op">&lt;</span> v<span class="op">[</span>i <span class="op">-</span> <span class="dv">1</span> <span class="op">-</span> pad<span class="op">])</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>            pad<span class="op">++;</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>            v<span class="op">[</span>i <span class="op">-</span> pad<span class="op">]</span> <span class="op">=</span> v<span class="op">[</span>i<span class="op">];</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> n <span class="op">-</span> pad<span class="op">;</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>The cool thing about this one is that it keeps the pointer valid. Of
-course, it’s usefull if we want a sorted array but don’t need all the
-elements. It’s linear too, which is very cheap, but it writes a lot, and
-that’s not great if writes are expensive.</p>
+<p>Sorts the array by removing unsorted itens. Returns the final size.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="dt">int</span> kill_sort(<span class="dt">int</span> *v, <span class="dt">int</span> n)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>{</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>    <span class="dt">int</span> pad = <span class="dv">0</span>;</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>    <span class="cf">for</span> (<span class="dt">int</span> i = <span class="dv">1</span>; i &lt; n; i++) {</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>        <span class="cf">if</span> (v[i] &lt; v[i - <span class="dv">1</span> - pad])</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>            pad++;</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>        <span class="cf">else</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>            v[i - pad] = v[i];</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>    }</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>    <span class="cf">return</span> n - pad;</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>}</span></code></pre></div>
+<p>The cool thing about this one is that it keeps the pointer valid. Of course, it’s usefull if we want a sorted array but don’t need all the elements. It’s linear too, which is very cheap, but it writes a lot, and that’s not great if writes are expensive.</p>
 <h2 id="thanos-sort">Thanos Sort</h2>
-<p>Sorts the array by removing a random half of it until it’s sorted.
-Returns the final array pointer and sets n to it’s size.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span><span class="op">*</span> thanos_sort<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>v<span class="op">,</span> <span class="dt">int</span> <span class="op">*</span>n<span class="op">)</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    srand<span class="op">(</span>time<span class="op">(</span>NULL<span class="op">));</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="op">(*</span>n <span class="op">&gt;</span> <span class="dv">1</span> <span class="op">&amp;&amp;</span> <span class="op">!</span>sorted<span class="op">(</span>v<span class="op">,</span> <span class="op">*</span>n<span class="op">))</span> <span class="op">{</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="op">(</span>random<span class="op">()</span> <span class="op">%</span> <span class="dv">2</span><span class="op">)</span> <span class="op">{</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            v <span class="op">+=</span> <span class="op">*</span>n <span class="op">/</span> <span class="dv">2</span><span class="op">;</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="op">*</span>n <span class="op">=</span> <span class="op">*</span>n <span class="op">/</span> <span class="dv">2</span><span class="op">;</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> v<span class="op">;</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>Very similar to Kill Sort. Unfortunatelly, this one leads to much
-more data loss and does not have predictable behaviour. But it does not
-make a single write in the array and runs in logarithmic time.
-Extremelly cheap. Also, it may not keep the pointer valid, and that’s
-why it returns a new one. This should be used with caution to not cause
-memory leaks.</p>
+<p>Sorts the array by removing a random half of it until it’s sorted. Returns the final array pointer and sets n to it’s size.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="dt">int</span>* thanos_sort(<span class="dt">int</span> *v, <span class="dt">int</span> *n)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>{</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>    srand(time(NULL));</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>    <span class="cf">while</span> (*n &gt; <span class="dv">1</span> &amp;&amp; !sorted(v, *n)) {</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>        <span class="cf">if</span> (random() % <span class="dv">2</span>) {</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>            v += *n / <span class="dv">2</span>;</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>        }</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>        *n = *n / <span class="dv">2</span>;</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>    }</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>    <span class="cf">return</span> v;</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>}</span></code></pre></div>
+<p>Very similar to Kill Sort. Unfortunatelly, this one leads to much more data loss and does not have predictable behaviour. But it does not make a single write in the array and runs in logarithmic time. Extremelly cheap. Also, it may not keep the pointer valid, and that’s why it returns a new one. This should be used with caution to not cause memory leaks.</p>
 <h2 id="random-sort">Random Sort</h2>
-<p>Sorts the array by randomizing a sequence and them checking if it’s
-sorted.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> random_sort<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>v<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> x<span class="op">,</span> y<span class="op">,</span> tmp<span class="op">;</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    srand<span class="op">(</span>time<span class="op">(</span>NULL<span class="op">));</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="op">(!</span>sorted<span class="op">(</span>v<span class="op">,</span> n<span class="op">))</span> <span class="op">{</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">(</span><span class="dt">int</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> n<span class="op">;</span> i<span class="op">++)</span> <span class="op">{</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> random<span class="op">()</span> <span class="op">%</span> n<span class="op">;</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> random<span class="op">()</span> <span class="op">%</span> n<span class="op">;</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>            tmp <span class="op">=</span> v<span class="op">[</span>x<span class="op">];</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>            v<span class="op">[</span>x<span class="op">]</span> <span class="op">=</span> v<span class="op">[</span>y<span class="op">];</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>            v<span class="op">[</span>y<span class="op">]</span> <span class="op">=</span> tmp<span class="op">;</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>This one is fun. It has a little chance of sorting the array in a
-single iteration. I tested with an array with 10 elements and it
-usuallys takes between 300 thousand and 700 thousand iterations to
-finish. As it have a chance of running a single iteration, it have a
-chance of never sorting at all too.</p>
+<p>Sorts the array by randomizing a sequence and them checking if it’s sorted.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="dt">void</span> random_sort(<span class="dt">int</span> *v, <span class="dt">int</span> n)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>{</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>    <span class="dt">int</span> x, y, tmp;</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>    srand(time(NULL));</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>    <span class="cf">while</span> (!sorted(v, n)) {</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>        <span class="cf">for</span> (<span class="dt">int</span> i = <span class="dv">0</span>; i &lt; n; i++) {</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>            x = random() % n;</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a>            y = random() % n;</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>            tmp = v[x];</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>            v[x] = v[y];</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a>            v[y] = tmp;</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a>        }</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a>    }</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true"></a>}</span></code></pre></div>
+<p>This one is fun. It has a little chance of sorting the array in a single iteration. I tested with an array with 10 elements and it usuallys takes between 300 thousand and 700 thousand iterations to finish. As it have a chance of running a single iteration, it have a chance of never sorting at all too.</p>
 <h2 id="intelligent-design-sort">Intelligent Design Sort</h2>
 <p>Sorts the array by the following principle:<br />
 - There’s n! chance of the array being sorted;<br />
 - So it must have been sorted by an intelligent designer.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> intelligent_design_sort<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>v<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="op">(</span><span class="dt">void</span><span class="op">)</span> v<span class="op">;</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">(</span><span class="dt">void</span><span class="op">)</span> n<span class="op">;</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>This is the cheapest algorithm here. Runs in constant time and uses
-only a single stack frame of memory <em>at all, without compiler
-optimization</em>. I’ve only ever saw very few functions cheapest than
-this in computer science, and they’re usually not usefull at all.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="dt">void</span> intelligent_design_sort(<span class="dt">int</span> *v, <span class="dt">int</span> n)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a>{</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a>    (<span class="dt">void</span>) v;</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a>    (<span class="dt">void</span>) n;</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>}</span></code></pre></div>
+<p>This is the cheapest algorithm here. Runs in constant time and uses only a single stack frame of memory <em>at all, without compiler optimization</em>. I’ve only ever saw very few functions cheapest than this in computer science, and they’re usually not usefull at all.</p>
 <h2 id="miracle-sort">Miracle Sort</h2>
-<p>Sorts the array by waiting and hoping cosmic rays are going to flip
-the memory so the array get’s sorted.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dt">void</span> miracle_sort<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>v<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="op">(!</span>sorted<span class="op">(</span>v<span class="op">,</span> n<span class="op">))</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        sleep<span class="op">(</span><span class="dv">5</span><span class="op">);</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>Yeah it just sits there and patiently waits for a miracle. You can
-adjust the sleep time to change the behaviour of the algorithm: more
-time will lead to a slightly slower sort, but less CPU usage. Less time
-will lead to a slightly faster sort, but more CPU usage.</p>
+<p>Sorts the array by waiting and hoping cosmic rays are going to flip the memory so the array get’s sorted.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a><span class="dt">void</span> miracle_sort(<span class="dt">int</span> *v, <span class="dt">int</span> n)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true"></a>{</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true"></a>    <span class="cf">while</span> (!sorted(v, n))</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true"></a>        sleep(<span class="dv">5</span>);</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true"></a>}</span></code></pre></div>
+<p>Yeah it just sits there and patiently waits for a miracle. You can adjust the sleep time to change the behaviour of the algorithm: more time will lead to a slightly slower sort, but less CPU usage. Less time will lead to a slightly faster sort, but more CPU usage.</p>
 <h2 id="schrodinger-sort">Schrodinger Sort</h2>
 <p>It’s not sorted nor unsorted until you check it.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> schrodinger_sort<span class="op">(</span><span class="dt">int</span> <span class="op">*</span>v<span class="op">,</span> <span class="dt">int</span> n<span class="op">)</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sorted<span class="op">(</span>v<span class="op">,</span> n<span class="op">);</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>It sorts the array by telling you if it’s sorted or not, so you
-decides what to do. Quantum mechanics are really cool, aren’t they?</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="dt">int</span> schrodinger_sort(<span class="dt">int</span> *v, <span class="dt">int</span> n)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a>{</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a>    <span class="cf">return</span> sorted(v, n);</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true"></a>}</span></code></pre></div>
+<p>It sorts the array by telling you if it’s sorted or not, so you decides what to do. Quantum mechanics are really cool, aren’t they?</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Simulações</title>
-      <link>https://gboncoffee.github.io/posts/simulacoes/</link>
+      <link>http://localhost:1313/posts/simulacoes/</link>
       <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate><author>gabrielgbrito@icloud.com (Gabriel G. de Brito)</author>
-      <guid>https://gboncoffee.github.io/posts/simulacoes/</guid>
+      <guid>http://localhost:1313/posts/simulacoes/</guid>
       <description>Aparentemente, é mais provável que vivamos numa simulação computadorizada do que num Universo real. Se é que isso são conceitos passíveis de aceitação. Como diferenciar uma simulação de um Universo real? Assume-se que há uma realidade, visto que coisas existem, ou, no mínimo, eu existo, então eu sou real. Não há, conhecida em nosso Universo, qualquer simulação computadorizada que simule o Universo tal qual ele é, incluindo civilizações inteligentes. Sendo assim, a chance de estarmos numa simulação provavelmente é maior que a de não estarmos.</description>
-      <content:encoded><![CDATA[<p>Aparentemente, é mais provável que vivamos numa simulação
-computadorizada do que num Universo real. Se é que isso são conceitos
-passíveis de aceitação. Como diferenciar uma simulação de um Universo
-real? Assume-se que há uma realidade, visto que coisas existem, ou, no
-mínimo, eu existo, então eu sou real. Não há, conhecida em nosso
-Universo, qualquer simulação computadorizada que simule o Universo tal
-qual ele é, incluindo civilizações inteligentes. Sendo assim, a chance
-de estarmos numa simulação provavelmente é maior que a de não
-estarmos.</p>
-<p>Porém, o fato é que, sendo o nosso Universo uma mera realidade
-simulada ou não, aparentemente não há o que diferencia uma realidade de
-uma simulação. Para nós, bits em uma máquina, não há diferença entre
-estarmos vivos e estarmos sendo simulados, tendo em vista que nosso
-mundo é, de um jeito ou de outro. É, simulado ou não.</p>
-<p>Nosso mundo, sendo, não há sentido em preocupar-se com questões como
-essa (se é que <em>há</em> sentido, em algo). É fato que me preocupo
-mesmo assim. Simulação ou não, eu ainda terei prova de análise
-linguística e gramática na segunda-feira próxima, e acredito que, como
-não há diferença entre vivermos em uma simulação ou não, ei de me
-preocupar mais com os fatos mais simples: decididamente, o papel de
-parede que eu usarei no meu computador faz mais diferença à minha vida
-(se é que é uma “vida”, porém a todos os efeitos práticos, como não faz
-diferença mesmo, é uma vida, simulada ou não) que o fato de vivermos ou
-não em uma simulação.</p>
+      <content:encoded><![CDATA[<p>Aparentemente, é mais provável que vivamos numa simulação computadorizada do que num Universo real. Se é que isso são conceitos passíveis de aceitação. Como diferenciar uma simulação de um Universo real? Assume-se que há uma realidade, visto que coisas existem, ou, no mínimo, eu existo, então eu sou real. Não há, conhecida em nosso Universo, qualquer simulação computadorizada que simule o Universo tal qual ele é, incluindo civilizações inteligentes. Sendo assim, a chance de estarmos numa simulação provavelmente é maior que a de não estarmos.</p>
+<p>Porém, o fato é que, sendo o nosso Universo uma mera realidade simulada ou não, aparentemente não há o que diferencia uma realidade de uma simulação. Para nós, bits em uma máquina, não há diferença entre estarmos vivos e estarmos sendo simulados, tendo em vista que nosso mundo é, de um jeito ou de outro. É, simulado ou não.</p>
+<p>Nosso mundo, sendo, não há sentido em preocupar-se com questões como essa (se é que <em>há</em> sentido, em algo). É fato que me preocupo mesmo assim. Simulação ou não, eu ainda terei prova de análise linguística e gramática na segunda-feira próxima, e acredito que, como não há diferença entre vivermos em uma simulação ou não, ei de me preocupar mais com os fatos mais simples: decididamente, o papel de parede que eu usarei no meu computador faz mais diferença à minha vida (se é que é uma “vida”, porém a todos os efeitos práticos, como não faz diferença mesmo, é uma vida, simulada ou não) que o fato de vivermos ou não em uma simulação.</p>
 ]]></content:encoded>
     </item>
   </channel>
