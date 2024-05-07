@@ -19,7 +19,7 @@ coffee.
 
 ---
 
-![I also like anime.](profile.png)
+![Me](profile.jpg)
 
 ## Fun facts
 
@@ -27,6 +27,6 @@ coffee.
   in Spanish I'll probably understand.
 - I've used **lots** of desktop environments, window managers and text editors.
   Always searching for the most productive and minimalistic, bloatless one.
-  Ironically, nowadays I just use GNOME with no extensions and Visual Studio
+  Ironically, nowadays I just use Cinnamon unconfigured and Visual Studio
   Code.
 - A monad is just a monoid in the category of the endofunctors.

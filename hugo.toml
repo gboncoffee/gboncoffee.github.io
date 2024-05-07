@@ -9,12 +9,6 @@ paginate = 50
 [security.exec]
 allow = ['pandoc', '^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$']
 
-[markup]
-defaultMarkdownHandler = "pandoc"
-
-[markup.goldmark.renderer]
-hardWraps = true
-
 [markup.highlight]
 lineNos = true
 lineNumbersInTable = false
