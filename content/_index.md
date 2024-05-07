@@ -19,7 +19,7 @@ coffee.
 
 ---
 
-![Me](profile.jpg)
+![Me](profile.png)
 
 ## Fun facts
 
