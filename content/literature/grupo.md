@@ -1,5 +1,6 @@
 +++
 title = 'grupo'
+summary = "novamente"
 date = 2023-12-07T21:28:37-03:00
 draft = false
 +++
@@ -18,4 +19,4 @@ tratam quando eu o visito
 não é à toa que dizem que o grupo se mantém mesmo mudando de casa, mas o apego
 que eu tenho é com ela
 
-![grupo](/grupo.jpg)
+{{< image frame="true" wide="false" src="/grupo.jpg" alt="Grupo" >}}

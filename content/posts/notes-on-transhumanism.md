@@ -1,5 +1,6 @@
 +++
 title = 'Notes on Transhumanism'
+summary = "Thoughts on humans and technology"
 date = 2023-10-15T01:34:28-03:00
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'Poema dedicado à que vi no Inter II à manhã de quarta-feira do dia 13 de Março de 2024'
+summary = "(Ou poema romântico com nome muito longo)."
 date = 2024-03-26 00:26:00-03:00
 draft = false
 +++

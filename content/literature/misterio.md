@@ -1,5 +1,6 @@
 +++
 title = 'Mistério'
+summary = "Paródia do original de Mr. Catra."
 date = 2024-03-23T00:47:42-03:00
 draft = false
 +++

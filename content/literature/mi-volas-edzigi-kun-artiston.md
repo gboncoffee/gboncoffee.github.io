@@ -1,5 +1,6 @@
 +++
 title = 'Mi Volas Edziĝi Kun Artiston'
+summary = "Sed multaj aferoj estas arto."
 date = 2024-01-21T23:01:07-03:00
 draft = false
 +++

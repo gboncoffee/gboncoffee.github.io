@@ -1,5 +1,6 @@
 +++
 title = 'Skin in the Game'
+summary = 'Sobre a expressão em inglês "Skin in the game".'
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

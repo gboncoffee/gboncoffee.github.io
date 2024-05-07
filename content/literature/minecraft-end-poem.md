@@ -1,5 +1,6 @@
 +++
 title = 'Minecraft End Poem'
+summary = "By Julian Gough."
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

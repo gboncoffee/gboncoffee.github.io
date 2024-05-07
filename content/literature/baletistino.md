@@ -1,5 +1,6 @@
 +++
 title = 'Baletistino'
+summary = "Eleganta kaj graca en la aero."
 date = 2024-03-17T12:43:00-03:00
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'Sobre a Estética Clássica Camoniana'
+summary = "Por que gosto de Camões."
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

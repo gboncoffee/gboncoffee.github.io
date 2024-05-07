@@ -1,5 +1,6 @@
 +++
 title = 'Chocolate Com Limão'
+summary = "É uma explosão de sabor que te toca."
 date = 2023-05-14T03:42:06-03:00
 draft = false
 +++

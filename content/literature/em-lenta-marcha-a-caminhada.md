@@ -1,5 +1,6 @@
 +++
 title = 'Em Lenta Marcha a Caminhada'
+summary = "Acelero a cada dia que passa"
 date = 2023-03-09T00:08:00-03:00
 draft = false
 +++

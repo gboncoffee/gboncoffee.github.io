@@ -1,5 +1,6 @@
 +++
 title = 'Distraiste-me'
+summary = "Na aula de cálculo."
 date = 2023-04-18T23:51:48-03:00
 draft = false
 +++

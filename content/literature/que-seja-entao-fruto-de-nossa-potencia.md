@@ -1,5 +1,6 @@
 +++
 title = 'Que Seja Então Fruto de Nossa Potência'
+summary = "Monoparágrafo."
 date = 2023-04-03T20:55:41-03:00
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'Infinito'
+summary = "Poema sobre o infinito."
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

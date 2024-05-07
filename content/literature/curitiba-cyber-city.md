@@ -1,5 +1,6 @@
 +++
 title = 'Curitiba Cyber City'
+summary = "Curitiba as the night begins."
 date = 2023-05-13T20:31:46-03:00
 draft = false
 +++

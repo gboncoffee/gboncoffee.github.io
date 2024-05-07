@@ -1,5 +1,6 @@
 +++
 title = 'Teoria do Caos'
+summary = "Sobre uma parte deveras interessante da matemática."
 date = 2023-02-23T22:51:17-03:00
 draft = false
 +++

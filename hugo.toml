@@ -1,27 +1,27 @@
-baseURL = 'https://gboncoffee.github.io/'
-languageCode = 'en-us'
-title = 'Gabriel G. de Brito'
-theme = 'hugo-simple'
-copyright = '© Gabriel G. de Brito (CC-BY-NC)'
-
+baseURL = "http://gboncoffee.github.io/"
+languageCode = "en-us"
+title = "Gabriel G. de Brito"
+theme = "hugo-theme-notrack"
+mainSections = ["projects", "posts", "literature"]
 paginate = 50
-
-[markup.highlight]
-lineNos = true
-lineNumbersInTable = false
-noClasses = true
-style = "catppuccin-mocha"
+summaryLength = 1
 
 [params]
-  title = "Gabriel G. de Brito"
-  description = "My kawaii website"
+  author = "Gabriel G. de Brito"
   favicon = "profile.png"
-  dateFormat = "2006-01-02"
-  hideMadeWithLine = false
-  hideRSSLink = false
-  [params.author]
-    name = "Gabriel G. de Brito"
+  showBlogLatest = false
+  mainSections = ["projects", "posts", "literature"]
+  showTaxonomyLinks = false
+  footer = "© Gabriel G. de Brito (CC-BY-NC)"
+
+  [params.social]
+    github = "gboncoffee"
+    linkedin = "gboncoffee"
     email = "gabrielgbrito@icloud.com"
+    twitter = "gboncoffee"
+    instagram = "gboncoffee"
+    youtubechannel = "gboncoffee"
+    steam = "gboncoffee"
 
 [[menu.main]]
   name = "Me"

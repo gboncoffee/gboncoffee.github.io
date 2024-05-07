@@ -1,5 +1,6 @@
 +++
 title = 'A Review On My Own Post On Text Editors'
+summary = "Talking about them again."
 date = 2023-10-20T21:24:49-03:00
 draft = false
 +++

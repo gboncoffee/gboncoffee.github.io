@@ -1,5 +1,6 @@
 +++
 title = 'Explodir-me-ei Para Longe'
+summary = "Faz-se em uma Lua."
 date = 2023-06-04T00:15:22-03:00
 draft = false
 +++

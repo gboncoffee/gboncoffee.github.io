@@ -1,5 +1,6 @@
 +++
 title = 'Expresso-me em tal Lingua'
+summary = "Na língua lusitana tento me expressar."
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'Meu Amigo do Chile'
+summary = '"Of course I speak English!"'
 date = 2023-02-15T23:09:37-03:00
 draft = false
 +++

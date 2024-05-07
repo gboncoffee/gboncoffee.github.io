@@ -50,7 +50,7 @@ Audio visualizer made with Raylib in C.
 
 - [Source code](https://github.com/gboncoffee/rave)
 
-![Obligatory screenshot](/rave.png)
+{{< image frame="true" wide="false" src="/rave.png" alt="Obligatory screenshot" >}}
 
 ### b3.h {#b3h}
 
@@ -68,7 +68,7 @@ fighting the Enemy.
 
 - [Source code](https://github.com/gboncoffee/striker)
 
-![Obligatory screenshot](/striker.png)
+{{< image frame="true" wide="false" src="/striker.png" alt="Obligatory screenshot" >}}
 
 ### Lunar Command {#lunarcommand}
 
@@ -76,7 +76,7 @@ Point-and-click Missile Command clone made with [LÖVE](https://love2d.org/).
 
 - [Source code](https://github.com/gboncoffee/lunar-command?tab=readme-ov-file)
 
-![Obligatory screenshot](/lunar.png)
+{{< image frame="true" wide="false" src="/lunar.png" alt="Obligatory screenshot" >}}
 
 ### Iguassu {#iguassu}
 
@@ -95,7 +95,7 @@ See the repo for more information.
 
 - [Source code](https://github.com/gboncoffee/iguassu)
 
-![Obligatory screenshot](/iguassu.png)
+{{< image frame="true" wide="false" src="/iguassu.png" alt="Obligatory screenshot" >}}
 
 ### Barigui {#barigui}
 
@@ -107,7 +107,7 @@ reversed. Windows may be hide and are controlled via a tiny bar at their side.
 
 - [Source code](https://github.com/gboncoffee/barigui)
 
-![Obligatory screenshot](/barigui.png)
+{{< image frame="true" wide="false" src="/barigui.png" alt="Obligatory screenshot" >}}
 
 ### wwtobu {#wwtobu}
 

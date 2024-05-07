@@ -1,5 +1,6 @@
 +++
 title = 'Sanktplonĝisto (Holy Diver)'
+summary = "Originala de Dio."
 date = 2024-03-17T16:36:00-03:00
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'The Zen of Gabriel for Technology Development'
+summary = "Guidelines on technology development."
 date = 2024-02-21T17:45:36-03:00
 draft = false
 +++

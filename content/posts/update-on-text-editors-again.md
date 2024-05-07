@@ -1,5 +1,6 @@
 +++
 title = 'Another Update On Text Editors'
+summary = "Yet another one."
 date = 2023-12-21T01:49:27-03:00
 draft = false
 +++

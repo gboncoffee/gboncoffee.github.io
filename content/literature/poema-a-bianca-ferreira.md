@@ -1,5 +1,6 @@
 +++
 title = 'Poema à Bianca Ferreira'
+summary = "Musa da terra brasileira."
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

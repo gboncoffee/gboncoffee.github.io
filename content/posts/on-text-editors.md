@@ -1,5 +1,6 @@
 +++
 title = 'On Text Editors'
+summary = "My text editor hopping journey."
 date = 2023-09-20T23:58:40-03:00
 draft = false
 +++

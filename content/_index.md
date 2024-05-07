@@ -4,6 +4,8 @@ date = 2024-04-24T18:19:36-03:00
 draft = false
 +++
 
+{{< image frame="true" float="right" width="12em" src="/profile.png" alt="Me" >}}
+
 ## Hello
 
 My name is Gabriel and I'm a computer science student at
@@ -17,9 +19,9 @@ networks, category theory, user interface and programming languages design.
 When I'm not studying computing, I like to write poems, take photos and drink
 coffee.
 
----
+{{< contact-box >}}
 
-![Me](profile.png)
+---
 
 ## Fun facts
 
@@ -30,3 +32,5 @@ coffee.
   Ironically, nowadays I just use Cinnamon unconfigured and Visual Studio
   Code.
 - A monad is just a monoid in the category of the endofunctors.
+- This website was made with [hugo](https://gohugo.io) and the
+  [notrack theme](https://github.com/gevhaz/hugo-theme-notrack)

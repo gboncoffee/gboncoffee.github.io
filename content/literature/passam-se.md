@@ -1,5 +1,6 @@
 +++
 title = 'Passam-se as Estações'
+summary = "Junto da chuva e do clima."
 date = 2023-12-12T02:39:00-03:00
 draft = false
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'Kanto'
+summary = "Kanto pri la kiu estas kuŝante sur la benko."
 date = 2024-04-04T01:15:00-03:00
 draft = false
 +++

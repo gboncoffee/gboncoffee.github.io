@@ -1,5 +1,6 @@
 +++
 title = 'A Declaration of Independence of Cyberspace'
+summary = "By John Perry Barlow."
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

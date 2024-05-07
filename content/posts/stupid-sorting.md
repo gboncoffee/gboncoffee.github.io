@@ -1,5 +1,6 @@
 +++
 title = 'Stupid Sorting'
+summary = "Collection of stupid sorting algorithms."
 date = 2023-09-12T10:02:53-03:00
 draft = false
 +++

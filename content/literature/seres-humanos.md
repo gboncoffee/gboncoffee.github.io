@@ -1,5 +1,6 @@
 +++
 title = 'Seres Humanos'
+summary = "Rant sobre seres humanos."
 date = 2023-02-15T22:40:59-03:00
 draft = false
 +++

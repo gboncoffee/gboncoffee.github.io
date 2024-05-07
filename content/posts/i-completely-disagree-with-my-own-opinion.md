@@ -1,5 +1,6 @@
 +++
 title = 'I Completely Disagree With My Own Opinion'
+summary = "Yes. That's exactly it."
 date = 2024-04-27T20:59:59-03:00
 draft = false
 +++

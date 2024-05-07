@@ -1,5 +1,6 @@
 +++
 title = 'Soneto Sobre Café e Gatos'
+summary = "(Não é um soneto sobre café nem sobre gatos, nem sobre café e gatos)"
 date = 2023-01-22T17:51:55-03:00
 draft = false
 +++

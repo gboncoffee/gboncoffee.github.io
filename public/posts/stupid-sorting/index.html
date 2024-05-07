@@ -1,122 +1,64 @@
-<!doctype html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="/profile.png" />
-
-<title>Stupid Sorting&nbsp;|&nbsp;Gabriel G. de Brito</title>
-<meta
-  name="title"
-  content="Stupid Sorting"
-/>
-<meta
-  name="description"
-  content="The first topic in &ldquo;Algoritmos e Estruturas de Dados II&rdquo; (&ldquo;Algorithms and Data Structures II&rdquo;) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It&rsquo;s not really that usefull but it&rsquo;s a great example to learn. Then we learn stuff like the Insertion Sort, which&rsquo;s actually usefull and more complex to understand.
-But, as stupid as Selection Sort is, it&rsquo;s kinda straightforward. What about some really, really stupid and useless sorting algorithms?"
-/>
-<meta
-  name="keywords"
-  content=""
-/>
-
-  <meta name="author" content="Gabriel G. de Brito" />
-
-
-
-
-<meta property="og:url" content="http://localhost:1313/posts/stupid-sorting/">
-  <meta property="og:site_name" content="Gabriel G. de Brito">
-  <meta property="og:title" content="Stupid Sorting">
-  <meta property="og:description" content="The first topic in “Algoritmos e Estruturas de Dados II” (“Algorithms and Data Structures II”) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It’s not really that usefull but it’s a great example to learn. Then we learn stuff like the Insertion Sort, which’s actually usefull and more complex to understand.
-But, as stupid as Selection Sort is, it’s kinda straightforward. What about some really, really stupid and useless sorting algorithms?">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-09-12T10:02:53-03:00">
-    <meta property="article:modified_time" content="2023-09-12T10:02:53-03:00">
-
-
-
-
-<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Stupid Sorting">
-<meta name="twitter:description" content="The first topic in &ldquo;Algoritmos e Estruturas de Dados II&rdquo; (&ldquo;Algorithms and Data Structures II&rdquo;) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It&rsquo;s not really that usefull but it&rsquo;s a great example to learn. Then we learn stuff like the Insertion Sort, which&rsquo;s actually usefull and more complex to understand.
-But, as stupid as Selection Sort is, it&rsquo;s kinda straightforward. What about some really, really stupid and useless sorting algorithms?">
-
-
-
-
-
-  <meta itemprop="name" content="Stupid Sorting">
-  <meta itemprop="description" content="The first topic in &ldquo;Algoritmos e Estruturas de Dados II&rdquo; (&ldquo;Algorithms and Data Structures II&rdquo;) classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It&rsquo;s not really that usefull but it&rsquo;s a great example to learn. Then we learn stuff like the Insertion Sort, which&rsquo;s actually usefull and more complex to understand.
-But, as stupid as Selection Sort is, it&rsquo;s kinda straightforward. What about some really, really stupid and useless sorting algorithms?">
-  <meta itemprop="datePublished" content="2023-09-12T10:02:53-03:00">
-  <meta itemprop="dateModified" content="2023-09-12T10:02:53-03:00">
-  <meta itemprop="wordCount" content="699">
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Gabriel G. de Brito - Stupid Sorting </title>
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
     
-    <link href="/simple.min.css" rel="stylesheet" />
-
     
-    <link href="/style.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" type="text/css" href="/css/styles.min.d1b3428734153d8c3b5e2f3598da20a6372f630ae87c763594b98c554c580343.css">
     
-
     
-</head>
-
-  <body>
-    <header>
-      <nav>
-  <a
-    href="/"
+    <link rel="icon" href="/profile.png">
     
-    >Me</a
-  >
-
-  <a
-    href="/projects/"
-    
-    >Projects</a
-  >
-
-  <a
-    href="/posts/"
-    
-    >Posts</a
-  >
-
-  <a
-    href="/literature/"
-    
-    >Literature</a
-  >
-
-
-  <a href="/index.xml">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 448 512">
-      
-      <path
-        d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
-      />
-    </svg>
-    RSS
-  </a>
-
-</nav>
-
-<h1>Stupid Sorting</h1>
-
-
-    </header>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel G. de Brito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<header class="page-header">
+    <div class="myname"> 
+        <h2><a href="http://localhost:1313/">Gabriel G. de Brito</a></h2> 
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="">
+                <a href="/">
+                    <span>Me</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/projects/">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/posts/">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/literature/">
+                    <span>Literature</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="content">
     <main>
-      
-  
-  
-  <content>
-    <p>The first topic in &ldquo;Algoritmos e Estruturas de Dados II&rdquo; (&ldquo;Algorithms and Data
+        <article>
+            
+            <h1 class="page-title blog">Stupid Sorting</h1>
+            
+                <p class="blog-post-info">Posted: <time>2023-09-12</time>
+                
+
+
+</p>
+
+                <div class="blog-post-content">
+                <p>The first topic in &ldquo;Algoritmos e Estruturas de Dados II&rdquo; (&ldquo;Algorithms and Data
 Structures II&rdquo;) classes are sorting algorithms. The first one we learn is the
 stupid Selection Sort. It&rsquo;s not really that usefull but it&rsquo;s a great example to
 learn. Then we learn stuff like the Insertion Sort, which&rsquo;s actually usefull and
@@ -128,78 +70,60 @@ an array is sorted. The entire source is available
 <a href="https://gist.github.com/gboncoffee/2ecfacb0bc7f03626e4c1d2e4d00253f">here at GitHub</a>.</p>
 <h2 id="kill-sort">Kill Sort</h2>
 <p>Sorts the array by removing unsorted itens. Returns the final size.</p>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 1</span><span><span style="color:#f38ba8">int</span> <span style="color:#89b4fa">kill_sort</span>(<span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>v, <span style="color:#f38ba8">int</span> n)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 2</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 3</span><span>	<span style="color:#f38ba8">int</span> pad <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#fab387">0</span>;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 4</span><span>	<span style="color:#cba6f7">for</span> (<span style="color:#f38ba8">int</span> i <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#fab387">1</span>; i <span style="color:#89dceb;font-weight:bold">&lt;</span> n; i<span style="color:#89dceb;font-weight:bold">++</span>) {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 5</span><span>		<span style="color:#cba6f7">if</span> (v[i] <span style="color:#89dceb;font-weight:bold">&lt;</span> v[i <span style="color:#89dceb;font-weight:bold">-</span> <span style="color:#fab387">1</span> <span style="color:#89dceb;font-weight:bold">-</span> pad])
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 6</span><span>			pad<span style="color:#89dceb;font-weight:bold">++</span>;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 7</span><span>		<span style="color:#cba6f7">else</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 8</span><span>			v[i <span style="color:#89dceb;font-weight:bold">-</span> pad] <span style="color:#89dceb;font-weight:bold">=</span> v[i];
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 9</span><span>	}
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">10</span><span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">11</span><span>	<span style="color:#cba6f7">return</span> n <span style="color:#89dceb;font-weight:bold">-</span> pad;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">12</span><span>}</span></span></code></pre></div>
-<p>The cool thing about this one is that it keeps the pointer valid. Of course,
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">kill_sort</span>(<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>v, <span style="color:#66d9ef">int</span> n)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> pad <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (v[i] <span style="color:#f92672">&lt;</span> v[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">-</span> pad])
+</span></span><span style="display:flex;"><span>			pad<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>			v[i <span style="color:#f92672">-</span> pad] <span style="color:#f92672">=</span> v[i];
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> n <span style="color:#f92672">-</span> pad;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The cool thing about this one is that it keeps the pointer valid. Of course,
 it&rsquo;s usefull if we want a sorted array but don&rsquo;t need all the elements. It&rsquo;s
 linear too, which is very cheap, but it writes a lot, and that&rsquo;s not great if
 writes are expensive.</p>
 <h2 id="thanos-sort">Thanos Sort</h2>
 <p>Sorts the array by removing a random half of it until it&rsquo;s sorted. Returns the
 final array pointer and sets n to it&rsquo;s size.</p>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 1</span><span><span style="color:#f38ba8">int</span><span style="color:#89dceb;font-weight:bold">*</span> <span style="color:#89b4fa">thanos_sort</span>(<span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>v, <span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>n)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 2</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 3</span><span>	<span style="color:#89b4fa">srand</span>(<span style="color:#89b4fa">time</span>(<span style="color:#89dceb">NULL</span>));
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 4</span><span>	<span style="color:#cba6f7">while</span> (<span style="color:#89dceb;font-weight:bold">*</span>n <span style="color:#89dceb;font-weight:bold">&gt;</span> <span style="color:#fab387">1</span> <span style="color:#89dceb;font-weight:bold">&amp;&amp;</span> <span style="color:#89dceb;font-weight:bold">!</span><span style="color:#89b4fa">sorted</span>(v, <span style="color:#89dceb;font-weight:bold">*</span>n)) {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 5</span><span>		<span style="color:#cba6f7">if</span> (<span style="color:#89b4fa">random</span>() <span style="color:#89dceb;font-weight:bold">%</span> <span style="color:#fab387">2</span>) {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 6</span><span>			v <span style="color:#89dceb;font-weight:bold">+=</span> <span style="color:#89dceb;font-weight:bold">*</span>n <span style="color:#89dceb;font-weight:bold">/</span> <span style="color:#fab387">2</span>;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 7</span><span>		}
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 8</span><span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 9</span><span>		<span style="color:#89dceb;font-weight:bold">*</span>n <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#89dceb;font-weight:bold">*</span>n <span style="color:#89dceb;font-weight:bold">/</span> <span style="color:#fab387">2</span>;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">10</span><span>	}
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">11</span><span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">12</span><span>	<span style="color:#cba6f7">return</span> v;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">13</span><span>}</span></span></code></pre></div>
-<p>Very similar to Kill Sort. Unfortunatelly, this one leads to much more data loss
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span><span style="color:#f92672">*</span> <span style="color:#a6e22e">thanos_sort</span>(<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>v, <span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>n)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">srand</span>(<span style="color:#a6e22e">time</span>(NULL));
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> (<span style="color:#f92672">*</span>n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#a6e22e">sorted</span>(v, <span style="color:#f92672">*</span>n)) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">random</span>() <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span>) {
+</span></span><span style="display:flex;"><span>			v <span style="color:#f92672">+=</span> <span style="color:#f92672">*</span>n <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#f92672">*</span>n <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>n <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> v;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Very similar to Kill Sort. Unfortunatelly, this one leads to much more data loss
 and does not have predictable behaviour. But it does not make a single write in
 the array and runs in logarithmic time. Extremelly cheap. Also, it may not keep
 the pointer valid, and that&rsquo;s why it returns a new one. This should be used with
 caution to not cause memory leaks.</p>
 <h2 id="random-sort">Random Sort</h2>
 <p>Sorts the array by randomizing a sequence and them checking if it&rsquo;s sorted.</p>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 1</span><span><span style="color:#f38ba8">void</span> <span style="color:#89b4fa">random_sort</span>(<span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>v, <span style="color:#f38ba8">int</span> n)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 2</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 3</span><span>	<span style="color:#f38ba8">int</span> x, y, tmp;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 4</span><span>	<span style="color:#89b4fa">srand</span>(<span style="color:#89b4fa">time</span>(<span style="color:#89dceb">NULL</span>));
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 5</span><span>	<span style="color:#cba6f7">while</span> (<span style="color:#89dceb;font-weight:bold">!</span><span style="color:#89b4fa">sorted</span>(v, n)) {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 6</span><span>		<span style="color:#cba6f7">for</span> (<span style="color:#f38ba8">int</span> i <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#fab387">0</span>; i <span style="color:#89dceb;font-weight:bold">&lt;</span> n; i<span style="color:#89dceb;font-weight:bold">++</span>) {
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 7</span><span>			x <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#89b4fa">random</span>() <span style="color:#89dceb;font-weight:bold">%</span> n;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 8</span><span>			y <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#89b4fa">random</span>() <span style="color:#89dceb;font-weight:bold">%</span> n;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c"> 9</span><span>			tmp <span style="color:#89dceb;font-weight:bold">=</span> v[x];
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">10</span><span>			v[x] <span style="color:#89dceb;font-weight:bold">=</span> v[y];
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">11</span><span>			v[y] <span style="color:#89dceb;font-weight:bold">=</span> tmp;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">12</span><span>		}
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">13</span><span>	}
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">14</span><span>}</span></span></code></pre></div>
-<p>This one is fun. It has a little chance of sorting the array in a single
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">random_sort</span>(<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>v, <span style="color:#66d9ef">int</span> n)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> x, y, tmp;
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">srand</span>(<span style="color:#a6e22e">time</span>(NULL));
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">sorted</span>(v, n)) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>			x <span style="color:#f92672">=</span> <span style="color:#a6e22e">random</span>() <span style="color:#f92672">%</span> n;
+</span></span><span style="display:flex;"><span>			y <span style="color:#f92672">=</span> <span style="color:#a6e22e">random</span>() <span style="color:#f92672">%</span> n;
+</span></span><span style="display:flex;"><span>			tmp <span style="color:#f92672">=</span> v[x];
+</span></span><span style="display:flex;"><span>			v[x] <span style="color:#f92672">=</span> v[y];
+</span></span><span style="display:flex;"><span>			v[y] <span style="color:#f92672">=</span> tmp;
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This one is fun. It has a little chance of sorting the array in a single
 iteration. I tested with an array with 10 elements and it usuallys takes between
 300 thousand and 700 thousand iterations to finish. As it have a chance of
 running a single iteration, it have a chance of never sorting at all too.</p>
@@ -209,74 +133,44 @@ running a single iteration, it have a chance of never sorting at all too.</p>
 <li>There&rsquo;s n! chance of the array being sorted;</li>
 <li>So it must have been sorted by an intelligent designer.</li>
 </ul>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">1</span><span><span style="color:#f38ba8">void</span> <span style="color:#89b4fa">intelligent_design_sort</span>(<span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>v, <span style="color:#f38ba8">int</span> n)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">2</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span>	(<span style="color:#f38ba8">void</span>) v;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">4</span><span>	(<span style="color:#f38ba8">void</span>) n;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">5</span><span>}</span></span></code></pre></div>
-<p>This is the cheapest algorithm here. Runs in constant time and uses only a
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">intelligent_design_sort</span>(<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>v, <span style="color:#66d9ef">int</span> n)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	(<span style="color:#66d9ef">void</span>) v;
+</span></span><span style="display:flex;"><span>	(<span style="color:#66d9ef">void</span>) n;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This is the cheapest algorithm here. Runs in constant time and uses only a
 single stack frame of memory <em>at all, without compiler optimization</em>. I&rsquo;ve only
 ever saw very few functions cheapest than this in computer science, and they&rsquo;re
 usually not usefull at all.</p>
 <h2 id="miracle-sort">Miracle Sort</h2>
 <p>Sorts the array by waiting and hoping cosmic rays are going to flip the memory
 so the array get&rsquo;s sorted.</p>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">1</span><span><span style="color:#f38ba8">void</span> <span style="color:#89b4fa">miracle_sort</span>(<span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>v, <span style="color:#f38ba8">int</span> n)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">2</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span>	<span style="color:#cba6f7">while</span> (<span style="color:#89dceb;font-weight:bold">!</span><span style="color:#89b4fa">sorted</span>(v, n))
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">4</span><span>		<span style="color:#89b4fa">sleep</span>(<span style="color:#fab387">5</span>);
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">5</span><span>}</span></span></code></pre></div>
-<p>Yeah it just sits there and patiently waits for a miracle. You can adjust the
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">miracle_sort</span>(<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>v, <span style="color:#66d9ef">int</span> n)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">sorted</span>(v, n))
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">sleep</span>(<span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Yeah it just sits there and patiently waits for a miracle. You can adjust the
 sleep time to change the behaviour of the algorithm: more time will lead to a
 slightly slower sort, but less CPU usage. Less time will lead to a slightly
 faster sort, but more CPU usage.</p>
 <h2 id="schrodinger-sort">Schrodinger Sort</h2>
 <p>It&rsquo;s not sorted nor unsorted until you check it.</p>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">1</span><span><span style="color:#f38ba8">int</span> <span style="color:#89b4fa">schrodinger_sort</span>(<span style="color:#f38ba8">int</span> <span style="color:#89dceb;font-weight:bold">*</span>v, <span style="color:#f38ba8">int</span> n)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">2</span><span>{
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span>	<span style="color:#cba6f7">return</span> <span style="color:#89b4fa">sorted</span>(v, n);
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">4</span><span>}</span></span></code></pre></div>
-<p>It sorts the array by telling you if it&rsquo;s sorted or not, so you decides what to
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">schrodinger_sort</span>(<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>v, <span style="color:#66d9ef">int</span> n)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sorted</span>(v, n);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It sorts the array by telling you if it&rsquo;s sorted or not, so you decides what to
 do. Quantum mechanics are really cool, aren&rsquo;t they?</p>
 
-  </content>
-  <p>
-    
-  </p>
-
+                </div>
+                
+            
+        </article>
     </main>
-    <footer>
-      
-  <span>© Gabriel G. de Brito (CC-BY-NC)</span>
 
-
-  <span>
-    |
-    Made with
-    <a href="https://github.com/maolonglong/hugo-simple/">Hugo ʕ•ᴥ•ʔ Simple</a>
-  </span>
-
-
-    </footer>
-
-    
+        </div><footer>
+    <span>© Gabriel G. de Brito (CC-BY-NC)</span>
+</footer>
 </body>
 </html>

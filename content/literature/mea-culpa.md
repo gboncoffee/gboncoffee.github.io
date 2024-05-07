@@ -1,5 +1,6 @@
 +++
 title = 'Mea Culpa'
+summary = "Ainda que a culpa seja minha."
 date = 2023-05-12T23:09:49-03:00
 draft = false
 +++
