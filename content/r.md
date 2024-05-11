@@ -1,4 +1,4 @@
 +++
 type = 'redirect'
-target = 'https://youtu.be/dQw4w9WgXcQ?si=qEW1qCavj8DpEpFq'
+target = 'https://youtu.be/xvFZjo5PgG0?si=uBhs_sxFa0wXWFbP'
 +++
