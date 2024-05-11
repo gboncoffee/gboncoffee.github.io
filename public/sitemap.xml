@@ -167,6 +167,8 @@
     <loc>http://localhost:1313/literature/meu-lar/</loc>
     <lastmod>2019-09-23T17:00:00-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/r/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
