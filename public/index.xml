@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Gabriel G. de Brito</title>
-        <link>http://gboncoffee.dev.br/</link>
+        <link>http://localhost:1313/</link>
         <description>Latest blog posts from Gabriel G. de Brito</description>
 
         
@@ -20,512 +20,521 @@
         
 
         
-        <atom:link href="http://gboncoffee.dev.br/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         
 
         
             
         <item>
+          <title>Poema Genérico em Redondilha Maior</title>
+          <link>http://localhost:1313/literature/poema-generico-em-redondilha-maior/</link>
+          <pubDate>Thu, 01 Aug 2024 23:43:51 -0300</pubDate>
+          
+          <guid>http://localhost:1313/literature/poema-generico-em-redondilha-maior/</guid>
+          <description>Poema em redondilha maior sobre uma blusa de capuz cor de rosa.</description>
+        </item>
+            
+        <item>
           <title>Malgranda Monero</title>
-          <link>http://gboncoffee.dev.br/literature/malgranda-monero/</link>
+          <link>http://localhost:1313/literature/malgranda-monero/</link>
           <pubDate>Tue, 30 Jul 2024 21:14:05 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/malgranda-monero/</guid>
+          <guid>http://localhost:1313/literature/malgranda-monero/</guid>
           <description>Mi havas unun malgrandan moneron en mia biletujo.</description>
         </item>
             
         <item>
           <title>For Hell and the Love of God</title>
-          <link>http://gboncoffee.dev.br/literature/for-hell-and-the-love-of-god/</link>
+          <link>http://localhost:1313/literature/for-hell-and-the-love-of-god/</link>
           <pubDate>Wed, 24 Jul 2024 20:59:03 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/for-hell-and-the-love-of-god/</guid>
+          <guid>http://localhost:1313/literature/for-hell-and-the-love-of-god/</guid>
           <description>I can dance throughout my simulation.</description>
         </item>
             
         <item>
           <title>Troja Heleno</title>
-          <link>http://gboncoffee.dev.br/literature/troja-heleno/</link>
+          <link>http://localhost:1313/literature/troja-heleno/</link>
           <pubDate>Mon, 01 Jul 2024 18:47:34 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/troja-heleno/</guid>
+          <guid>http://localhost:1313/literature/troja-heleno/</guid>
           <description>Esperanto poemo.</description>
         </item>
             
         <item>
           <title>I&#39;m Not Trying to Seduce You</title>
-          <link>http://gboncoffee.dev.br/literature/im-not-trying-to-seduce-you/</link>
+          <link>http://localhost:1313/literature/im-not-trying-to-seduce-you/</link>
           <pubDate>Thu, 27 Jun 2024 22:38:28 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/im-not-trying-to-seduce-you/</guid>
+          <guid>http://localhost:1313/literature/im-not-trying-to-seduce-you/</guid>
           <description>I write.</description>
         </item>
             
         <item>
           <title>Deixe Uma Vela Na Janela</title>
-          <link>http://gboncoffee.dev.br/literature/deixe-uma-vela-na-janela/</link>
+          <link>http://localhost:1313/literature/deixe-uma-vela-na-janela/</link>
           <pubDate>Sun, 09 Jun 2024 23:05:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/deixe-uma-vela-na-janela/</guid>
+          <guid>http://localhost:1313/literature/deixe-uma-vela-na-janela/</guid>
           <description>Deixe uma vela na janela</description>
         </item>
             
         <item>
           <title>I Completely Disagree With My Own Opinion</title>
-          <link>http://gboncoffee.dev.br/posts/i-completely-disagree-with-my-own-opinion/</link>
+          <link>http://localhost:1313/posts/i-completely-disagree-with-my-own-opinion/</link>
           <pubDate>Sat, 27 Apr 2024 20:59:59 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/i-completely-disagree-with-my-own-opinion/</guid>
+          <guid>http://localhost:1313/posts/i-completely-disagree-with-my-own-opinion/</guid>
           <description>Yes. That’s exactly it.</description>
         </item>
             
         <item>
           <title>Sonho De Goiabada</title>
-          <link>http://gboncoffee.dev.br/literature/sonho-de-goiabada/</link>
+          <link>http://localhost:1313/literature/sonho-de-goiabada/</link>
           <pubDate>Tue, 16 Apr 2024 13:22:21 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/sonho-de-goiabada/</guid>
+          <guid>http://localhost:1313/literature/sonho-de-goiabada/</guid>
           <description>Goiabada.</description>
         </item>
             
         <item>
           <title>Kanto</title>
-          <link>http://gboncoffee.dev.br/literature/kanto/</link>
+          <link>http://localhost:1313/literature/kanto/</link>
           <pubDate>Thu, 04 Apr 2024 01:15:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/kanto/</guid>
+          <guid>http://localhost:1313/literature/kanto/</guid>
           <description>Kanto pri la kiu estas kuŝante sur la benko.</description>
         </item>
             
         <item>
           <title>Segundo Soneto Sobre Café e Gatos</title>
-          <link>http://gboncoffee.dev.br/literature/segundo-poema-sobre-cafe-e-gatos/</link>
+          <link>http://localhost:1313/literature/segundo-poema-sobre-cafe-e-gatos/</link>
           <pubDate>Tue, 02 Apr 2024 08:41:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/segundo-poema-sobre-cafe-e-gatos/</guid>
+          <guid>http://localhost:1313/literature/segundo-poema-sobre-cafe-e-gatos/</guid>
           <description>(Não é um soneto sobre café nem sobre gatos, nem sobre café e gatos)</description>
         </item>
             
         <item>
           <title>Poema dedicado à que vi no Inter II à manhã de quarta-feira do dia 13 de Março de 2024</title>
-          <link>http://gboncoffee.dev.br/literature/poema-romantico-com-nome-muito-longo/</link>
+          <link>http://localhost:1313/literature/poema-romantico-com-nome-muito-longo/</link>
           <pubDate>Tue, 26 Mar 2024 00:26:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/poema-romantico-com-nome-muito-longo/</guid>
+          <guid>http://localhost:1313/literature/poema-romantico-com-nome-muito-longo/</guid>
           <description>(Ou poema romântico com nome muito longo).</description>
         </item>
             
         <item>
           <title>Mistério</title>
-          <link>http://gboncoffee.dev.br/literature/misterio/</link>
+          <link>http://localhost:1313/literature/misterio/</link>
           <pubDate>Sat, 23 Mar 2024 00:47:42 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/misterio/</guid>
+          <guid>http://localhost:1313/literature/misterio/</guid>
           <description>Paródia do original de Mr. Catra.</description>
         </item>
             
         <item>
           <title>Sanktplonĝisto (Holy Diver)</title>
-          <link>http://gboncoffee.dev.br/literature/sanktplongist/</link>
+          <link>http://localhost:1313/literature/sanktplongist/</link>
           <pubDate>Sun, 17 Mar 2024 16:36:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/sanktplongist/</guid>
+          <guid>http://localhost:1313/literature/sanktplongist/</guid>
           <description>Originala de Dio.</description>
         </item>
             
         <item>
           <title>Baletistino</title>
-          <link>http://gboncoffee.dev.br/literature/baletistino/</link>
+          <link>http://localhost:1313/literature/baletistino/</link>
           <pubDate>Sun, 17 Mar 2024 12:43:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/baletistino/</guid>
+          <guid>http://localhost:1313/literature/baletistino/</guid>
           <description>Eleganta kaj graca en la aero.</description>
         </item>
             
         <item>
           <title>Branca de Neve</title>
-          <link>http://gboncoffee.dev.br/literature/branca-de-neve/</link>
+          <link>http://localhost:1313/literature/branca-de-neve/</link>
           <pubDate>Sat, 16 Mar 2024 23:01:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/branca-de-neve/</guid>
+          <guid>http://localhost:1313/literature/branca-de-neve/</guid>
           <description>Que estou a amar.</description>
         </item>
             
         <item>
           <title>The Zen of Gabriel for Technology Development</title>
-          <link>http://gboncoffee.dev.br/posts/zen/</link>
+          <link>http://localhost:1313/posts/zen/</link>
           <pubDate>Wed, 21 Feb 2024 17:45:36 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/zen/</guid>
+          <guid>http://localhost:1313/posts/zen/</guid>
           <description>Guidelines on technology development.</description>
         </item>
             
         <item>
           <title>De Muziko Malpeza</title>
-          <link>http://gboncoffee.dev.br/literature/de-muziko-malpeza/</link>
+          <link>http://localhost:1313/literature/de-muziko-malpeza/</link>
           <pubDate>Tue, 13 Feb 2024 10:47:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/de-muziko-malpeza/</guid>
+          <guid>http://localhost:1313/literature/de-muziko-malpeza/</guid>
           <description>Originala de Soda Stereo.</description>
         </item>
             
         <item>
           <title>Mi Volas Edziĝi Kun Artiston</title>
-          <link>http://gboncoffee.dev.br/literature/mi-volas-edzigi-kun-artiston/</link>
+          <link>http://localhost:1313/literature/mi-volas-edzigi-kun-artiston/</link>
           <pubDate>Sun, 21 Jan 2024 23:01:07 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/mi-volas-edzigi-kun-artiston/</guid>
+          <guid>http://localhost:1313/literature/mi-volas-edzigi-kun-artiston/</guid>
           <description>Sed multaj aferoj estas arto.</description>
         </item>
             
         <item>
           <title>Another Update On Text Editors</title>
-          <link>http://gboncoffee.dev.br/posts/update-on-text-editors-again/</link>
+          <link>http://localhost:1313/posts/update-on-text-editors-again/</link>
           <pubDate>Thu, 21 Dec 2023 01:49:27 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/update-on-text-editors-again/</guid>
+          <guid>http://localhost:1313/posts/update-on-text-editors-again/</guid>
           <description>Yet another one.</description>
         </item>
             
         <item>
           <title>Passam-se as Estações</title>
-          <link>http://gboncoffee.dev.br/literature/passam-se/</link>
+          <link>http://localhost:1313/literature/passam-se/</link>
           <pubDate>Tue, 12 Dec 2023 02:39:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/passam-se/</guid>
+          <guid>http://localhost:1313/literature/passam-se/</guid>
           <description>Junto da chuva e do clima.</description>
         </item>
             
         <item>
           <title>Atrás da Serra</title>
-          <link>http://gboncoffee.dev.br/literature/atras-da-serra/</link>
+          <link>http://localhost:1313/literature/atras-da-serra/</link>
           <pubDate>Sat, 09 Dec 2023 00:00:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/atras-da-serra/</guid>
+          <guid>http://localhost:1313/literature/atras-da-serra/</guid>
           <description>Depois do rio.</description>
         </item>
             
         <item>
           <title>grupo</title>
-          <link>http://gboncoffee.dev.br/literature/grupo/</link>
+          <link>http://localhost:1313/literature/grupo/</link>
           <pubDate>Thu, 07 Dec 2023 21:28:37 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/grupo/</guid>
+          <guid>http://localhost:1313/literature/grupo/</guid>
           <description>novamente</description>
         </item>
             
         <item>
           <title>Árvores</title>
-          <link>http://gboncoffee.dev.br/literature/arvores/</link>
+          <link>http://localhost:1313/literature/arvores/</link>
           <pubDate>Sun, 03 Dec 2023 22:20:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/arvores/</guid>
+          <guid>http://localhost:1313/literature/arvores/</guid>
           <description>Sobre como é voltar.</description>
         </item>
             
         <item>
           <title>Poema Livre Sobre Café e Gatos</title>
-          <link>http://gboncoffee.dev.br/literature/poema-livre-sobre-cafe-e-gatos/</link>
+          <link>http://localhost:1313/literature/poema-livre-sobre-cafe-e-gatos/</link>
           <pubDate>Sat, 28 Oct 2023 00:00:03 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/poema-livre-sobre-cafe-e-gatos/</guid>
+          <guid>http://localhost:1313/literature/poema-livre-sobre-cafe-e-gatos/</guid>
           <description>(Não é um soneto, não é sobre café e nem sobre gatos, e nem um soneto sobre café e gatos)</description>
         </item>
             
         <item>
           <title>A Review On My Own Post On Text Editors</title>
-          <link>http://gboncoffee.dev.br/posts/update-on-text-editors/</link>
+          <link>http://localhost:1313/posts/update-on-text-editors/</link>
           <pubDate>Fri, 20 Oct 2023 21:24:49 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/update-on-text-editors/</guid>
+          <guid>http://localhost:1313/posts/update-on-text-editors/</guid>
           <description>Talking about them again.</description>
         </item>
             
         <item>
           <title>Notes on Transhumanism</title>
-          <link>http://gboncoffee.dev.br/posts/notes-on-transhumanism/</link>
+          <link>http://localhost:1313/posts/notes-on-transhumanism/</link>
           <pubDate>Sun, 15 Oct 2023 01:34:28 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/notes-on-transhumanism/</guid>
+          <guid>http://localhost:1313/posts/notes-on-transhumanism/</guid>
           <description>Thoughts on humans and technology</description>
         </item>
             
         <item>
           <title>On Text Editors</title>
-          <link>http://gboncoffee.dev.br/posts/on-text-editors/</link>
+          <link>http://localhost:1313/posts/on-text-editors/</link>
           <pubDate>Wed, 20 Sep 2023 23:58:40 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/on-text-editors/</guid>
+          <guid>http://localhost:1313/posts/on-text-editors/</guid>
           <description>My text editor hopping journey.</description>
         </item>
             
         <item>
           <title>Stupid Sorting</title>
-          <link>http://gboncoffee.dev.br/posts/stupid-sorting/</link>
+          <link>http://localhost:1313/posts/stupid-sorting/</link>
           <pubDate>Tue, 12 Sep 2023 10:02:53 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/stupid-sorting/</guid>
+          <guid>http://localhost:1313/posts/stupid-sorting/</guid>
           <description>Collection of stupid sorting algorithms.</description>
         </item>
             
         <item>
           <title>Sono</title>
-          <link>http://gboncoffee.dev.br/literature/sono/</link>
+          <link>http://localhost:1313/literature/sono/</link>
           <pubDate>Thu, 31 Aug 2023 23:22:36 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/sono/</guid>
+          <guid>http://localhost:1313/literature/sono/</guid>
           <description>Sobre a noite.</description>
         </item>
             
         <item>
           <title>Mai</title>
-          <link>http://gboncoffee.dev.br/literature/mai/</link>
+          <link>http://localhost:1313/literature/mai/</link>
           <pubDate>Sat, 26 Aug 2023 22:58:40 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/mai/</guid>
+          <guid>http://localhost:1313/literature/mai/</guid>
           <description>Sobre quando.</description>
         </item>
             
         <item>
           <title>O Que Eu Queria Era</title>
-          <link>http://gboncoffee.dev.br/literature/o-que-eu-queria-era/</link>
+          <link>http://localhost:1313/literature/o-que-eu-queria-era/</link>
           <pubDate>Sun, 13 Aug 2023 01:07:34 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/o-que-eu-queria-era/</guid>
+          <guid>http://localhost:1313/literature/o-que-eu-queria-era/</guid>
           <description>Passar todo o resto de minha miserável condição…</description>
         </item>
             
         <item>
           <title>Explodir-me-ei Para Longe</title>
-          <link>http://gboncoffee.dev.br/literature/explodir-me-ei-para-longe/</link>
+          <link>http://localhost:1313/literature/explodir-me-ei-para-longe/</link>
           <pubDate>Sun, 04 Jun 2023 00:15:22 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/explodir-me-ei-para-longe/</guid>
+          <guid>http://localhost:1313/literature/explodir-me-ei-para-longe/</guid>
           <description>Faz-se em uma Lua.</description>
         </item>
             
         <item>
           <title>Chocolate Com Limão</title>
-          <link>http://gboncoffee.dev.br/literature/chocolate-com-limao/</link>
+          <link>http://localhost:1313/literature/chocolate-com-limao/</link>
           <pubDate>Sun, 14 May 2023 03:42:06 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/chocolate-com-limao/</guid>
+          <guid>http://localhost:1313/literature/chocolate-com-limao/</guid>
           <description>É uma explosão de sabor que te toca.</description>
         </item>
             
         <item>
           <title>Curitiba Cyber City</title>
-          <link>http://gboncoffee.dev.br/literature/curitiba-cyber-city/</link>
+          <link>http://localhost:1313/literature/curitiba-cyber-city/</link>
           <pubDate>Sat, 13 May 2023 20:31:46 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/curitiba-cyber-city/</guid>
+          <guid>http://localhost:1313/literature/curitiba-cyber-city/</guid>
           <description>Curitiba as the night begins.</description>
         </item>
             
         <item>
           <title>Mea Culpa</title>
-          <link>http://gboncoffee.dev.br/literature/mea-culpa/</link>
+          <link>http://localhost:1313/literature/mea-culpa/</link>
           <pubDate>Fri, 12 May 2023 23:09:49 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/mea-culpa/</guid>
+          <guid>http://localhost:1313/literature/mea-culpa/</guid>
           <description>Ainda que a culpa seja minha.</description>
         </item>
             
         <item>
           <title>Haja Amor</title>
-          <link>http://gboncoffee.dev.br/literature/haja-amor/</link>
+          <link>http://localhost:1313/literature/haja-amor/</link>
           <pubDate>Sat, 06 May 2023 01:26:52 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/haja-amor/</guid>
+          <guid>http://localhost:1313/literature/haja-amor/</guid>
           <description>Haja amor. Haja amor.</description>
         </item>
             
         <item>
           <title>Distraiste-me</title>
-          <link>http://gboncoffee.dev.br/literature/distraiste-me/</link>
+          <link>http://localhost:1313/literature/distraiste-me/</link>
           <pubDate>Tue, 18 Apr 2023 23:51:48 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/distraiste-me/</guid>
+          <guid>http://localhost:1313/literature/distraiste-me/</guid>
           <description>Na aula de cálculo.</description>
         </item>
             
         <item>
           <title>Quando Achei</title>
-          <link>http://gboncoffee.dev.br/literature/quando-achei/</link>
+          <link>http://localhost:1313/literature/quando-achei/</link>
           <pubDate>Wed, 12 Apr 2023 08:17:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/quando-achei/</guid>
+          <guid>http://localhost:1313/literature/quando-achei/</guid>
           <description>Que não tinha como estar mais bonita.</description>
         </item>
             
         <item>
           <title>Que Seja Então Fruto de Nossa Potência</title>
-          <link>http://gboncoffee.dev.br/literature/que-seja-entao-fruto-de-nossa-potencia/</link>
+          <link>http://localhost:1313/literature/que-seja-entao-fruto-de-nossa-potencia/</link>
           <pubDate>Mon, 03 Apr 2023 20:55:41 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/que-seja-entao-fruto-de-nossa-potencia/</guid>
+          <guid>http://localhost:1313/literature/que-seja-entao-fruto-de-nossa-potencia/</guid>
           <description>Monoparágrafo.</description>
         </item>
             
         <item>
           <title>És Real</title>
-          <link>http://gboncoffee.dev.br/literature/es-real/</link>
+          <link>http://localhost:1313/literature/es-real/</link>
           <pubDate>Fri, 31 Mar 2023 00:20:12 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/es-real/</guid>
+          <guid>http://localhost:1313/literature/es-real/</guid>
           <description>Devo perguntar-me se és.</description>
         </item>
             
         <item>
           <title>Em Lenta Marcha a Caminhada</title>
-          <link>http://gboncoffee.dev.br/literature/em-lenta-marcha-a-caminhada/</link>
+          <link>http://localhost:1313/literature/em-lenta-marcha-a-caminhada/</link>
           <pubDate>Thu, 09 Mar 2023 00:08:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/em-lenta-marcha-a-caminhada/</guid>
+          <guid>http://localhost:1313/literature/em-lenta-marcha-a-caminhada/</guid>
           <description>Acelero a cada dia que passa</description>
         </item>
             
         <item>
           <title>Teoria do Caos</title>
-          <link>http://gboncoffee.dev.br/literature/teoria-do-caos/</link>
+          <link>http://localhost:1313/literature/teoria-do-caos/</link>
           <pubDate>Thu, 23 Feb 2023 22:51:17 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/teoria-do-caos/</guid>
+          <guid>http://localhost:1313/literature/teoria-do-caos/</guid>
           <description>Sobre uma parte deveras interessante da matemática.</description>
         </item>
             
         <item>
           <title>Meu Amigo do Chile</title>
-          <link>http://gboncoffee.dev.br/literature/meu-amigo-do-chile/</link>
+          <link>http://localhost:1313/literature/meu-amigo-do-chile/</link>
           <pubDate>Wed, 15 Feb 2023 23:09:37 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/meu-amigo-do-chile/</guid>
+          <guid>http://localhost:1313/literature/meu-amigo-do-chile/</guid>
           <description>“Of course I speak English!”</description>
         </item>
             
         <item>
           <title>Seres Humanos</title>
-          <link>http://gboncoffee.dev.br/literature/seres-humanos/</link>
+          <link>http://localhost:1313/literature/seres-humanos/</link>
           <pubDate>Wed, 15 Feb 2023 22:40:59 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/seres-humanos/</guid>
+          <guid>http://localhost:1313/literature/seres-humanos/</guid>
           <description>Rant sobre seres humanos.</description>
         </item>
             
         <item>
           <title>A Declaration of Independence of Cyberspace</title>
-          <link>http://gboncoffee.dev.br/literature/a-declaration-of-independence-of-cyberspace/</link>
+          <link>http://localhost:1313/literature/a-declaration-of-independence-of-cyberspace/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/a-declaration-of-independence-of-cyberspace/</guid>
+          <guid>http://localhost:1313/literature/a-declaration-of-independence-of-cyberspace/</guid>
           <description>By John Perry Barlow.</description>
         </item>
             
         <item>
           <title>Curto Artigo Sobre a Leitura</title>
-          <link>http://gboncoffee.dev.br/literature/curto-artigo-sobre-a-leitura/</link>
+          <link>http://localhost:1313/literature/curto-artigo-sobre-a-leitura/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/curto-artigo-sobre-a-leitura/</guid>
+          <guid>http://localhost:1313/literature/curto-artigo-sobre-a-leitura/</guid>
           <description>Sobre o ato de ler.</description>
         </item>
             
         <item>
           <title>Expresso-me em tal Lingua</title>
-          <link>http://gboncoffee.dev.br/literature/expresso-me-em-tal-lingua/</link>
+          <link>http://localhost:1313/literature/expresso-me-em-tal-lingua/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/expresso-me-em-tal-lingua/</guid>
+          <guid>http://localhost:1313/literature/expresso-me-em-tal-lingua/</guid>
           <description>Na língua lusitana tento me expressar.</description>
         </item>
             
         <item>
           <title>Humanos e Funções</title>
-          <link>http://gboncoffee.dev.br/literature/humanos-e-funcoes/</link>
+          <link>http://localhost:1313/literature/humanos-e-funcoes/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/humanos-e-funcoes/</guid>
+          <guid>http://localhost:1313/literature/humanos-e-funcoes/</guid>
           <description>Escrito após ler “O Marinheiro”, de Fernando Pessoa.</description>
         </item>
             
         <item>
           <title>Infinito</title>
-          <link>http://gboncoffee.dev.br/literature/infinito/</link>
+          <link>http://localhost:1313/literature/infinito/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/infinito/</guid>
+          <guid>http://localhost:1313/literature/infinito/</guid>
           <description>Poema sobre o infinito.</description>
         </item>
             
         <item>
           <title>Me Mudarei Para Arcádia</title>
-          <link>http://gboncoffee.dev.br/literature/me-mudarei-para-arcadia/</link>
+          <link>http://localhost:1313/literature/me-mudarei-para-arcadia/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/me-mudarei-para-arcadia/</guid>
+          <guid>http://localhost:1313/literature/me-mudarei-para-arcadia/</guid>
           <description>Virarei assim apátrida.</description>
         </item>
             
         <item>
           <title>Minecraft End Poem</title>
-          <link>http://gboncoffee.dev.br/literature/minecraft-end-poem/</link>
+          <link>http://localhost:1313/literature/minecraft-end-poem/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/minecraft-end-poem/</guid>
+          <guid>http://localhost:1313/literature/minecraft-end-poem/</guid>
           <description>By Julian Gough.</description>
         </item>
             
         <item>
           <title>Poema à Bianca Ferreira</title>
-          <link>http://gboncoffee.dev.br/literature/poema-a-bianca-ferreira/</link>
+          <link>http://localhost:1313/literature/poema-a-bianca-ferreira/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/poema-a-bianca-ferreira/</guid>
+          <guid>http://localhost:1313/literature/poema-a-bianca-ferreira/</guid>
           <description>Musa da terra brasileira.</description>
         </item>
             
         <item>
           <title>Simulações</title>
-          <link>http://gboncoffee.dev.br/posts/simulacoes/</link>
+          <link>http://localhost:1313/posts/simulacoes/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/posts/simulacoes/</guid>
+          <guid>http://localhost:1313/posts/simulacoes/</guid>
           <description>Sobre a teoria da simulação (matrix).</description>
         </item>
             
         <item>
           <title>Skin in the Game</title>
-          <link>http://gboncoffee.dev.br/literature/skin-in-the-game/</link>
+          <link>http://localhost:1313/literature/skin-in-the-game/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/skin-in-the-game/</guid>
+          <guid>http://localhost:1313/literature/skin-in-the-game/</guid>
           <description>Sobre a expressão em inglês “Skin in the game”.</description>
         </item>
             
         <item>
           <title>Sobre a Estética Clássica Camoniana</title>
-          <link>http://gboncoffee.dev.br/literature/sobre-a-estetica-classica-camoniana/</link>
+          <link>http://localhost:1313/literature/sobre-a-estetica-classica-camoniana/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/sobre-a-estetica-classica-camoniana/</guid>
+          <guid>http://localhost:1313/literature/sobre-a-estetica-classica-camoniana/</guid>
           <description>Por que gosto de Camões.</description>
         </item>
             
         <item>
           <title>Soneto Sobre Café e Gatos</title>
-          <link>http://gboncoffee.dev.br/literature/soneto-sobre-cafe-e-gatos/</link>
+          <link>http://localhost:1313/literature/soneto-sobre-cafe-e-gatos/</link>
           <pubDate>Sun, 22 Jan 2023 17:51:55 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/soneto-sobre-cafe-e-gatos/</guid>
+          <guid>http://localhost:1313/literature/soneto-sobre-cafe-e-gatos/</guid>
           <description>(Não é um soneto sobre café nem sobre gatos, nem sobre café e gatos)</description>
         </item>
             
         <item>
           <title>Meu Lar</title>
-          <link>http://gboncoffee.dev.br/literature/meu-lar/</link>
+          <link>http://localhost:1313/literature/meu-lar/</link>
           <pubDate>Mon, 23 Sep 2019 17:00:00 -0300</pubDate>
           
-          <guid>http://gboncoffee.dev.br/literature/meu-lar/</guid>
+          <guid>http://localhost:1313/literature/meu-lar/</guid>
           <description>Nasci numa floresta.</description>
         </item>
             
