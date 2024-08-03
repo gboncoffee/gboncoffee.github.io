@@ -9,9 +9,11 @@ draft = false
 ## Hello
 
 My name is Gabriel and I'm a computer science student at
-[UFPR](https://web.inf.ufpr.br/dinf/). I'm mostly interested in all low-level
-stuff. My ultimate goal is to write an entire operational system from scratch
-for fun.
+[UFPR](https://web.inf.ufpr.br/dinf/). Nowadays, I'm mostly interested in:
+computer architecture and chip design, parallel and high efficient programming,
+compilers, hardware and hardware acceleration.
+
+My ultimate goal is to write an entire operational system from scratch for fun.
 
 Besides that, I'm also interested in philosophy of technology, computer
 networks, category theory, user interface and programming languages design.
