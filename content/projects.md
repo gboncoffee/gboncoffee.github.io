@@ -10,6 +10,7 @@ A (non-exaustive) list of my projects!
 - [Intergo]({{< ref "#intergo" >}})
 - [Rave]({{< ref "#rave" >}})
 - [b3.h]({{< ref "#b3h" >}})
+- [FinTEx]({{< ref "#fintex" >}})
 - [Striker]({{< ref "#striker" >}})
 - [Lunar Command]({{< ref "#lunarcommand" >}})
 - [Iguassu]({{< ref "#iguassu" >}})
@@ -58,6 +59,13 @@ Definitions for [B3](https://www.b3.com.br/en_us/) FIX/SBE messages. Header-only
 library.
 
 - [Source code](https://github.com/gboncoffee/b3.h)
+
+### FinTEx {#fintex}
+
+Financial Technological Exchange. A small and fast matching-engine for research
+of market strategies and embedding.
+
+- [Source Code](https://github.com/gboncoffee/fintex)
 
 ### Striker {#striker}
 
