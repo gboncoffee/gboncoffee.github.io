@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Gabriel G. de Brito - Projects </title>
     <link rel="stylesheet" type="text/css" href="/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
@@ -18,7 +18,7 @@
 <body>
 <header class="page-header">
     <div class="myname"> 
-        <h2><a href="http://gboncoffee.dev.br/">Gabriel G. de Brito</a></h2> 
+        <h2><a href="http://localhost:1313/">Gabriel G. de Brito</a></h2> 
     </div>
     <nav>
         <ul class="navbar">
@@ -55,6 +55,9 @@
 <ul>
 <li><a href="#egg">EGG</a></li>
 <li><a href="#intergo">Intergo</a></li>
+<li><a href="#ggb86">GGB86</a></li>
+<li><a href="#makefile">Universal Makefile</a></li>
+<li><a href="#pgm">pgm.h</a></li>
 <li><a href="#rave">Rave</a></li>
 <li><a href="#b3h">b3.h</a></li>
 <li><a href="#fintex">FinTEx</a></li>
@@ -88,6 +91,26 @@ work. Used for the internationalization in <a href="#egg">EGG</a>.</p>
 <ul>
 <li><a href="https://github.com/gboncoffee/intergo">Source code</a></li>
 <li><a href="https://pkg.go.dev/github.com/gboncoffee/intergo">Documentation</a></li>
+</ul>
+<h3 id="ggb86">GGB86 - Gabriel&rsquo;s Good Bootloader for x86</h3>
+<p>Simple bootloader for x86 machines and the FAT 32 filesystem. Loads kernels from
+the boot disk, from reserved FAT 32 sectors to the <code>0x1000</code> address, switches to
+32 bit protected mode and transfers control to the kernel.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/ggb86">Source Code</a></li>
+</ul>
+<h3 id="makefile">Universal Makefile</h3>
+<p>The only Makefile you&rsquo;ll ever need. Automatically adds every C and C++ source
+file with it&rsquo;s own object, and manages release and debug build profiles. And if
+that&rsquo;s not good enough, it&rsquo;s released under public domain.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/c-infrastructure">Source Code</a></li>
+</ul>
+<h3 id="pgm">pgm.h</h3>
+<p>Public domain single-header library for reading, manipulating and writing PGM
+images.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/pgm.h">Source Code</a></li>
 </ul>
 <h3 id="rave">Rave</h3>
 <p>Audio visualizer made with Raylib in C.</p>

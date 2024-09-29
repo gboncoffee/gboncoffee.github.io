@@ -8,6 +8,9 @@ A (non-exaustive) list of my projects!
 
 - [EGG]({{< ref "#egg" >}})
 - [Intergo]({{< ref "#intergo" >}})
+- [GGB86]({{< ref "#ggb86" >}})
+- [Universal Makefile]({{< ref "#makefile" >}})
+- [pgm.h]({{< ref "#pgm" >}})
 - [Rave]({{< ref "#rave" >}})
 - [b3.h]({{< ref "#b3h" >}})
 - [FinTEx]({{< ref "#fintex" >}})
@@ -44,6 +47,29 @@ work. Used for the internationalization in [EGG]({{< ref "#egg" >}}).
 
 - [Source code](https://github.com/gboncoffee/intergo)
 - [Documentation](https://pkg.go.dev/github.com/gboncoffee/intergo)
+
+### GGB86 - Gabriel's Good Bootloader for x86 {#ggb86}
+
+Simple bootloader for x86 machines and the FAT 32 filesystem. Loads kernels from
+the boot disk, from reserved FAT 32 sectors to the `0x1000` address, switches to
+32 bit protected mode and transfers control to the kernel.
+
+- [Source Code](https://github.com/gboncoffee/ggb86)
+
+### Universal Makefile {#makefile}
+
+The only Makefile you'll ever need. Automatically adds every C and C++ source
+file with it's own object, and manages release and debug build profiles. And if
+that's not good enough, it's released under public domain.
+
+- [Source Code](https://github.com/gboncoffee/c-infrastructure)
+
+### pgm.h {#pgm}
+
+Public domain single-header library for reading, manipulating and writing PGM
+images.
+
+- [Source Code](https://github.com/gboncoffee/pgm.h)
 
 ### Rave {#rave}
 
