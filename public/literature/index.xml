@@ -26,6 +26,16 @@
         
             
         <item>
+          <title>Marshmary</title>
+          <link>http://localhost:1313/literature/marshmary/</link>
+          <pubDate>Tue, 08 Oct 2024 01:08:05 -0300</pubDate>
+          
+          <guid>http://localhost:1313/literature/marshmary/</guid>
+          <description><!-- raw HTML omitted -->
+</description>
+        </item>
+            
+        <item>
           <title>I Would Love to Fall in Love With Haskell BUT</title>
           <link>http://localhost:1313/posts/i-would-love-to-fall-in-love-with-haskell-but/</link>
           <pubDate>Sat, 28 Sep 2024 21:21:40 -0300</pubDate>
