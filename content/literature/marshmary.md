@@ -35,7 +35,7 @@ Esti la brilo de viaj belaj okuloj?
 Mi decidis ke, en la tago morgaûa  
 Mi vestos min tiel bone kiel antaûe  
 Morgaû ami vin devas signifi  
-Ami vin ĉar ni estas unu!  
+Ami min ĉar ni estas unu!  
 
 La vortoj de via  
 Poemo estas gravaj  
