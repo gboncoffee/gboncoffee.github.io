@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gabriel G. de Brito - Notes on C&#43;&#43; </title>
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/styles.min.d1b3428734153d8c3b5e2f3598da20a6372f630ae87c763594b98c554c580343.css">
+    
+    
+    <link rel="icon" href="/profile.png">
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel G. de Brito">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<header class="page-header">
+    <div class="myname"> 
+        <h2><a href="http://gboncoffee.dev.br/">Gabriel G. de Brito</a></h2> 
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="">
+                <a href="/">
+                    <span>Me</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/projects/">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/posts/">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/literature/">
+                    <span>Literature</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="content">
+    <main>
+        <article>
+            
+            <h1 class="page-title blog">Notes on C&#43;&#43;</h1>
+            
+                <p class="blog-post-info">Posted: <time>2024-10-20</time>
+                
+
+
+</p>
+
+                <div class="blog-post-content">
+                <p>This is a list of stuff to remember when programming in this hell of a language
+called C++. I hate every single second of my life when I&rsquo;m programming with it.
+Unfortunatelly, I&rsquo;m forced to some times.</p>
+<p>By the way, this is mostly about C++98, except when noticed. The sanest version.
+Yes. Even the sanest version.</p>
+<p>I&rsquo;ll update this rather frequently.</p>
+<ul>
+<li>Never, ever copy a <code>std::vector</code>. They create a new instance of the underlying
+memory every time you copy them. Always keep only a single instance and pass
+pointers to it. Yes, this means you have to dynamically allocate them when
+they&rsquo;re shared with lower stack frames.</li>
+<li>Always reserve space in <code>std::vector</code>. Never, ever create one without
+reserving sane space first. They usually grow in dumb always, for example
+starting at 0 capacity and growing by 50% at each increment, when the sane way
+would be starting at about 8 and grow by doubling.</li>
+<li>Never use <code>std::endl</code>. They force a flush onto the underlying stream. A
+newline will flush a life-buffered output stream anyways, and you definitely
+don&rsquo;t want to force flush a file output.</li>
+<li>Avoid <code>static</code> duration objects as their initialization and termination
+processes happens at a not well-defined time.</li>
+</ul>
+
+                </div>
+                
+            
+        </article>
+    </main>
+
+        </div><footer>
+    <span>© Gabriel G. de Brito (CC-BY-NC)</span>
+</footer>
+</body>
+</html>
