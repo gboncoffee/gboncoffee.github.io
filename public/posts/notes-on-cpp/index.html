@@ -69,6 +69,7 @@ Yes. Even the sanest version.</p>
 memory every time you copy them. Always keep only a single instance and pass
 pointers to it. Yes, this means you have to dynamically allocate them when
 they&rsquo;re shared with lower stack frames.</li>
+<li>Never, ever copy <code>std::string</code> also.</li>
 <li>Always reserve space in <code>std::vector</code>. Never, ever create one without
 reserving sane space first. They usually grow in dumb always, for example
 starting at 0 capacity and growing by 50% at each increment, when the sane way

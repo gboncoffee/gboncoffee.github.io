@@ -17,6 +17,7 @@ I'll update this rather frequently.
   memory every time you copy them. Always keep only a single instance and pass
   pointers to it. Yes, this means you have to dynamically allocate them when
   they're shared with lower stack frames.
+- Never, ever copy `std::string` also.
 - Always reserve space in `std::vector`. Never, ever create one without
   reserving sane space first. They usually grow in dumb always, for example
   starting at 0 capacity and growing by 50% at each increment, when the sane way
