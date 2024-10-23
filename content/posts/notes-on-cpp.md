@@ -27,3 +27,7 @@ I'll update this rather frequently.
   don't want to force flush a file output.
 - Avoid `static` duration objects as their initialization and termination
   processes happens at a not well-defined time.
+- Classes only have RTTI when they're virtual, so, if, for some reason, you (May
+  God help you) need typeinfo for a non-polymorphic class, you must use a
+  placeholder USELESS virtual function like `virtual void
+  ImAClownForCodingInThisShittyLanguage()`.
