@@ -31,3 +31,5 @@ I'll update this rather frequently.
   God help you) need typeinfo for a non-polymorphic class, you must use a
   placeholder USELESS virtual function like `virtual void
   ImAClownForCodingInThisShittyLanguage()`.
+- When you have a `std::vector<T>`, passing a `T*` to it's `push_back()` method
+  may compile without errors and fuck you a lot.
