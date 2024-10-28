@@ -33,3 +33,5 @@ I'll update this rather frequently.
   ImAClownForCodingInThisShittyLanguage()`.
 - When you have a `std::vector<T>`, passing a `T*` to it's `push_back()` method
   may compile without errors and fuck you a lot.
+- If you have a `std::vector<T*>`, calling it's `clear()` won't delete the
+  memory of the objects the vector holds, tho it'll call it's destructors.

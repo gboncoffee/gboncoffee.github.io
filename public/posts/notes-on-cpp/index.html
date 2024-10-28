@@ -84,6 +84,8 @@ God help you) need typeinfo for a non-polymorphic class, you must use a
 placeholder USELESS virtual function like <code>virtual void ImAClownForCodingInThisShittyLanguage()</code>.</li>
 <li>When you have a <code>std::vector&lt;T&gt;</code>, passing a <code>T*</code> to it&rsquo;s <code>push_back()</code> method
 may compile without errors and fuck you a lot.</li>
+<li>If you have a <code>std::vector&lt;T*&gt;</code>, calling it&rsquo;s <code>clear()</code> won&rsquo;t delete the
+memory of the objects the vector holds, tho it&rsquo;ll call it&rsquo;s destructors.</li>
 </ul>
 
                 </div>
