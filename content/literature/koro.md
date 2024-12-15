@@ -12,9 +12,9 @@ Estas en viaj okuloj
 Kaj nur tie
 La bato de via koro, koro, koro estas bela
 La akvo ke mi trinkas
-Ĝi havas via   koro kaj la koro
+Ĝi havas vian  koron kaj   koro
 Ĝi estas bela ankaû
-Mi volas via    koro kaj  koro
+Mi volas vian   koron kaj koro
 Mi volas
 Mi admiras vian   koron koron
 Mia bona             koro
