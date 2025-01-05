@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>Projects</title>
+
+  <style>
+    html {
+      position: relative;
+      min-height: 100vh;
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      height: 70px;
+      position: absolute;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 70px;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Projects :: 2024-05-07 02:15:00 -->
+<h1>Projects</h1>
+<p>A (non-exaustive) list of my projects!</p>
+<h2>EGG</h2>
+<p>Abreviation for &quot;Emulador Genérico do Gabriel&quot;. EGG is an emulator tailored at
+computer science education, designed specifically with the needs of the
+Microcomputers classes at <a href="https://web.inf.ufpr.br/dinf/">UFPR</a>. Supports
+RISC-V, MIPS and a fantasy architecture named Sagui.</p>
+<h3>Features</h3>
+<ul>
+<li>Internationalized interface, currently translated only for Portuguese.</li>
+<li>Debugger with breakpoints, rewind, stepping and dump functionality.</li>
+<li>Assembly syntax designed to help students.</li>
+</ul>
+<p>EGG probably works in any system with virtual memory where Go also works.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/egg">Source code</a></li>
+<li><a href="https://github.com/gboncoffee/egg/releases">Binaries for Linux, Windows and Darwin</a></li>
+</ul>
+<h2>Intergo</h2>
+<p>Small internationalization library for Go inspired by Gettext. Languages are
+stored in hashmaps and thus the library does not require any runtime file to
+work. Used for the internationalization in [EGG]({{&lt; ref &quot;#egg&quot; &gt;}}).</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/intergo">Source code</a></li>
+<li><a href="https://pkg.go.dev/github.com/gboncoffee/intergo">Documentation</a></li>
+</ul>
+<h2>GGB86 - Gabriel's Good Bootloader for x86</h2>
+<p>Simple bootloader for x86 machines and the FAT 32 filesystem. Loads kernels from
+the boot disk, from reserved FAT 32 sectors to the <code>0x1000</code> address, switches to
+32 bit protected mode and transfers control to the kernel.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/ggb86">Source Code</a></li>
+</ul>
+<h2>Universal Makefile</h2>
+<p>The only Makefile you'll ever need. Automatically adds every C and C++ source
+file with it's own object, and manages release and debug build profiles. And if
+that's not good enough, it's released under public domain.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/c-infrastructure">Source Code</a></li>
+</ul>
+<h2>pgm.h</h2>
+<p>Public domain single-header library for reading, manipulating and writing PGM
+images.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/pgm.h">Source Code</a></li>
+</ul>
+<h2>Rave</h2>
+<p>Audio visualizer made with Raylib in C.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/rave">Source code</a></li>
+</ul>
+<p><img src="/static/rave.png" alt="Obligatory screenshot"></p>
+<h2>b3.h</h2>
+<p>Definitions for <a href="https://www.b3.com.br/en_us/">B3</a> FIX/SBE messages. Header-only
+library.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/b3.h">Source code</a></li>
+</ul>
+<h2>FinTEx</h2>
+<p>Financial Technological Exchange. A small and fast matching-engine for research
+of market strategies and embedding.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/fintex">Source Code</a></li>
+</ul>
+<h2>Striker</h2>
+<p>The Resistance remains in the Arctic Ocean. In the Spitsbergen Nuclear Facility,
+at the Svalbard Archipelago, near the town of Longyearbyen, you're under attack
+and needs to shoot down all enemy missiles. The Resistance needs your help
+fighting the Enemy.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/striker">Source code</a></li>
+</ul>
+<p><img src="/static/striker.png" alt="Obligatory screenshot"></p>
+<h2>Lunar Command</h2>
+<p>Point-and-click Missile Command clone made with <a href="https://love2d.org/">LÖVE</a>.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/lunar-command?tab=readme-ov-file">Source code</a></li>
+</ul>
+<p><img src="/static/lunar.png" alt="Obligatory screenshot"></p>
+<h3>Iguassu</h3>
+<p><code>rio</code> clone for X11.</p>
+<p>Differences from Plan 9 From User Space rio:</p>
+<ul>
+<li>Text rendering via Xft so TrueType support.</li>
+<li>Configuration via source code only (config.h).</li>
+<li>No compiled limits.</li>
+<li>Three keybinds: one for fullscreen, one for reshaping and one for fixing bad
+rendered windows.</li>
+<li>Additional menu on button 1 that shows all windows.</li>
+</ul>
+<p>See the repo for more information.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/iguassu">Source code</a></li>
+</ul>
+<p><img src="/static/iguassu.png" alt="Obligatory screenshot"></p>
+<h3>Barigui</h3>
+<p>Mouse-oriented dynamic window manager for X11.</p>
+<p>It manages windows in a floating way by default, but windows may be put in a
+tiled &quot;master-stack&quot; layer, similar to <a href="https://dwm.suckless.org/">dwm</a> but
+reversed. Windows may be hide and are controlled via a tiny bar at their side.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/barigui">Source code</a></li>
+</ul>
+<p><img src="/static/barigui.png" alt="Obligatory screenshot"></p>
+<h3>wwtobu</h3>
+<p>Acronym to &quot;Window Waiting TO Be Useful&quot;.</p>
+<p>This is a X window that display a bunch of labels which you can click to run
+commands. It also displays the name of the root window so it works as statusline
+with programs like slstatus.</p>
+<p>That's all. It just sits there in your desktop waiting to be useful.</p>
+<ul>
+<li><a href="https://github.com/gboncoffee/wwtobu">Source code</a></li>
+</ul>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>

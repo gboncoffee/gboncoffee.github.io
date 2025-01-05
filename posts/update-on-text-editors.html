@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>A Review On My Own Post On Text Editors</title>
+
+  <style>
+    html {
+      position: relative;
+      min-height: 100vh;
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      height: 70px;
+      position: absolute;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 70px;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- A Review On My Own Post On Text Editors :: 2023-10-20 21:24:49 -->
+<h1>A Review On My Own Post On Text Editors</h1>
+<p>Some time ago I wrote a
+<a href="/posts/on-text-editors.html">blogpost about my journey in text editor hopping</a>
+On the very bottom of the post, I talked about my overall current opinions
+on editors and how I may write one. Here I want to update that.</p>
+<p>As a resume, I became more minimalist because I tried a lot of editors and
+addressed what really matters in an editor, what is really usefull. And I
+talked with more experienced people too.</p>
+<p>Also, I found out that the Unix philosophy is really great, and that there's a
+really neat way of applying it for a graphical environment. I'll talk about
+that in the end of this post.</p>
+<h2>The <em>compile-mode</em></h2>
+<p>It's not that usefull. Yeah, I said it was my favorite feature from GNU Emacs
+but I just changed my opinion. Follow the history:</p>
+<p>I was upset that Emacs was terribly slow in my University computers. So
+I was using Vim. For the sake of keeping with the defaults, I
+wasn't using the plugin I wrote that mimics <em>compile-mode</em> for it,
+<a href="https://github.com/gboncoffee/run.vim">run.vim</a>. I tried Vim's <code>:make</code> but
+it's simply terrible. One of my teachers uses Vim, and I asked him what he
+uses for compiling. He said that he just opens another terminal window and
+compiles from there, jumping errors manually. When I told him I would like
+something that jumps errors for me and stuff like that, he just told me that
+he never needed that much efficiency. He's not programming on the market,
+he's just a scientist whatsoever.</p>
+<p>When thinking about that, I found out that a lot of times I just can't use
+<em>compile-mode</em> or some clone because I need to test programs interactively
+in the terminal, or when programming for X I need to test inside of
+Xephyr. Furthermore, ditchin made me open the eyes for a lot of other editors.</p>
+<h2>Trying stuff out</h2>
+<p>On the modal side, I'm using both Kakoune and Vim. Vim is a big editor with
+tons of features and lacks good mouse support. Kakoune is a small editor
+with not that much features and lacks good mouse support. Of course, both
+are modal and I'm not really into modal editing anymore.</p>
+<p>Besides that, window managing with Kakoune is a mess, because as it creates
+multiple terminal or tmux windows, the command prompt always changes location
+and I need to remember what window is the main one to don't close them all. I
+really like Kakoune's multiple cursor support though.</p>
+<p>Kakoune does try to follow more the Unix philosophy them Vim, though. But
+there are things that I don't like in the way it does it. For example,
+while editing Go code, I found out that if I pipe my file into <code>gofmt</code> with
+Kakoune's pipe command but some syntax error make <code>gofmt</code> fail, Kakoune will
+substitute my entire file for nothing (the stdout of a failed <code>gofmt</code>) and
+I must type <code>u</code> to undo that. That's not that big of a deal but pisses me off.</p>
+<p>Also, I think that modal editing creates an unecessary overhead and just
+using control and meta keybinds is better. The lack of good mouse support
+in both editors is not good too.</p>
+<p>So yeah, they're very great editors if you code in a 1980's text terminal
+without mouse. But in the 1980's text terminal you also wouldn't have color
+support so I don't know why both editors have syntax highlighting.</p>
+<h1>Ditching modal</h1>
+<p>I'm using three other non-modal editors nowadays besides Emacs:</p>
+<ul>
+<li><a href="https://micro-editor.github.io/">Micro</a>, a modern Nano replacement.</li>
+<li><a href="https://github.com/deadpixi/sam">A modern Sam version</a>, an editor from Rob
+Pike for the Bell Lab's Plan 9 Operating System.</li>
+<li><a href="https://apps.kde.org/kwrite/">KWrite</a>, an editor for the KDE Plasma
+environment.</li>
+</ul>
+<p>I don't like KWrite that much because I cannot deactivate the syntax
+highlighting. It's my system's default editor right now thought because I'm
+using KDE Plasma and I still didn't find what to use. I won't use KWrite for
+real coding.</p>
+<p>What about Sam? Sam is for nerds. And I'm a nerd. Probably the world would be
+better place if we all just used Plan 9's design in everything (with a dark mode
+thought). But unfortunatelly it isn't. Using Sam inside X is really clunk
+because it looks like a virtual machine: I have a window manager and windows
+inside another window. And Sam looks like you should learn the entire command
+language and use it almost entirely from the command window. But probably
+because I'm too lazy to create a bunch of keybinds to it. It has excellent mouse
+support, but I need to use it a lot more inside it, and that hurts.</p>
+<p>Micro is good, fast, has decent keybinds (I prefer Emacs' ones thought) and a
+good mouse support. But lacks piping text through commands, and that's not
+acceptable.</p>
+<p>Both Micro and Sam lacks trailing whitespace highlighting, which I like a lot.</p>
+<p>Sam also lacks support for a vertical column showing me the 80th text column,
+and that's very frustrating because it's such a simple feature. Also, lacks
+editorconfig support, which is also not acceptable.</p>
+<p>With Micro I cannot change files with the mouse too, which for a mouse-centric
+editor is not cool. And I need to keep line numbers in the left side of the
+screen to see if my lines are being wrapped and to format the text. I don't
+like those line numbers, they're a waste of space.</p>
+<h2>The Unix Philosophy Inside X Sessions</h2>
+<p>I'm using KDE Plasma and if you think I'm not allowed to call myself a
+minimalist because I'm liking it, so be it. But a good desktop environment,
+not resouce-heavy, with plenty of great tools and integration is very cool.
+The graphical interface and the stacking window system are two of the best
+things computer people ever made. Plasma reminds me a little about MacBooks,
+and that probably means someday, when I have the money, I'll buy myself a Mac.</p>
+<p>The integration between stuff inside Plasma is very cool. I can open Dolphin
+and manage files much better than inside the terminal, or with some program
+like Midnight Commander. Drag-and-drop is wonderfull. Having an applet in my
+panel that allows me to control <em>whatever</em> music player I use is very cool.</p>
+<p>So, of course, I want an editor that can be integrated in the desktop. This
+does not necessary means a graphical editor thought, as it's entirely possible
+to open the editor inside the terminal from the desktop applications, and have
+very good mouse support in it.</p>
+<h2>The overall idea</h2>
+<p>I'll certainly create a new editor. And it'll follow this:</p>
+<ul>
+<li>Support for some kind of trailing whitespace highlighting and text-width
+column;</li>
+<li>Emacs-inspired keybinds but without keychords;</li>
+<li>Great mouse support inspired by Sam;</li>
+<li>Just a sane UI that does not keep in my way and show me everything I need to
+see;</li>
+<li>Support for editorconfig via integration with the editorconfig C program.</li>
+</ul>
+<p>I'll probably write it in Go as it has great support for UTF-8 and is a very
+simple and efficient language.</p>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>

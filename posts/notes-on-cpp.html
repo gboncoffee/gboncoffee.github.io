@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>Notes on C++</title>
+
+  <style>
+    html {
+      position: relative;
+      min-height: 100vh;
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      height: 70px;
+      position: absolute;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 70px;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Notes on C++ :: 2024-10-20 21:50:44 -->
+<h1>Notes on C++</h1>
+<p>This is a list of stuff to remember when programming in this hell of a language
+called C++. I hate every single second of my life when I'm programming with it.
+Unfortunatelly, I'm forced to some times.</p>
+<p>By the way, this is mostly about C++98, except when noticed. The sanest version.
+Yes. Even the sanest version.</p>
+<p>I'll update this rather frequently.</p>
+<ul>
+<li>Never, ever copy a <code>std::vector</code>. They create a new instance of the underlying
+memory every time you copy them. Always keep only a single instance and pass
+pointers to it. Yes, this means you have to dynamically allocate them when
+they're shared with lower stack frames.</li>
+<li>Never, ever copy <code>std::string</code> also.</li>
+<li>Always reserve space in <code>std::vector</code>. Never, ever create one without
+reserving sane space first. They usually grow in dumb always, for example
+starting at 0 capacity and growing by 50% at each increment, when the sane way
+would be starting at about 8 and grow by doubling.</li>
+<li>Never use <code>std::endl</code>. They force a flush onto the underlying stream. A
+newline will flush a life-buffered output stream anyways, and you definitely
+don't want to force flush a file output.</li>
+<li>Avoid <code>static</code> duration objects as their initialization and termination
+processes happens at a not well-defined time.</li>
+<li>Classes only have RTTI when they're virtual, so, if, for some reason, you (May
+God help you) need typeinfo for a non-polymorphic class, you must use a
+placeholder USELESS virtual function like <code>virtual void ImAClownForCodingInThisShittyLanguage()</code>.</li>
+<li>When you have a <code>std::vector&lt;T&gt;</code>, passing a <code>T*</code> to it's <code>push_back()</code> method
+may compile without errors and fuck you a lot.</li>
+<li>If you have a <code>std::vector&lt;T*&gt;</code>, calling it's <code>clear()</code> won't delete the
+memory of the objects the vector holds, tho it'll call it's destructors.</li>
+</ul>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>Fuck Off With Your `curl | sh`</title>
+
+  <style>
+    html {
+      position: relative;
+      min-height: 100vh;
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      height: 70px;
+      position: absolute;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 70px;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Fuck Off With Your `curl | sh` :: 2024-09-27 23:24:06 -->
+<h1>Fuck Off With Your <code>curl | sh</code></h1>
+<p>Fuck off with your <code>curl something something something | sh</code> to install your
+tool.</p>
+<p>And this is not about security. I trust HTTPS. I trust you. But I want to know
+<strong>WHAT THE FUCK ARE YOU DOING WITH MY SYSTEM WITHOUT HAVING TO READ A FUCKING
+BASH SCRIPT IN A RANDOM URL</strong>. I just want to know how the installation of your
+tool work. What should be done to get your tool installed. Where are the paths?
+Which binaries?</p>
+<p>Long story short, I was going to install &quot;GHCup&quot; which is a manager for Haskell
+or something, and the website told me to do a <code>curl | sh</code> to do shit in my
+system and have a <code>ghcup</code> command working. Fortunatelly, they had a link which
+read &quot;I don't like <code>curl | sh</code>&quot; right below the command line. I clicked it and
+it read something like this:</p>
+<blockquote>
+<h3>Manual installation for Unix</h3>
+<p>Download the binary from https://somewhere and put in your goddamn <code>$PATH</code>.</p>
+</blockquote>
+<h2>DO YOU THINK I'M WHAT? FIVE?</h2>
+<p>Do you fucking think I cannot understand how to download a fucking binary and
+put somewhere in my <code>$PATH</code>? <strong>JUST SAY TO ME FOR YOUR TOOL TO WORK I JUST NEED
+1 (ONE) UNIT OF <code>ELF 64-bit LSB executable, x86-64, version 1 (SYSV)</code> SOMEWHERE
+IN THE FUCKING <code>$PATH</code>. I DON'T NEED A FUCKING BASH SCRIPT TO DO THAT.</strong></p>
+<p>Hell. That's why I like the <code>go</code> installation. They just say it to you: unpack
+the release somewhere. Put <code>somewhere/bin</code> in your <code>$PATH</code>. Now I know
+everything that's happening on my system. Fuck.</p>
+<p>I'm not even doing the installation. I'm going to sleep, it's almost midnight at
+UTC-3. Tomorrow I'll maybe download your goddamn ELF.</p>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>

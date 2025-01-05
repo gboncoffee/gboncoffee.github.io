@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>Another Update On Text Editors</title>
+
+  <style>
+    html {
+      position: relative;
+      min-height: 100vh;
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      height: 70px;
+      position: absolute;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 70px;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Another Update On Text Editors :: 2023-12-21 01:49:27 -->
+<h1>Another Update On Text Editors</h1>
+<h2>(or How I Got Into The Nerdiest Thing Ever + Rant On Modern Unix)</h2>
+<p>Some weeks ago I wrote <a href="/posts/on-text-editors.html">a blogpost</a> about my journey on
+text editor hopping, and them <a href="/posts/update-on-text-editors.html">another blogpost</a>
+reviewing my own post. Well, here we go again.</p>
+<p>In the last post I wrote about Plasma and the Unix philosophy in the desktop but
+that's mostly bullshit. And that's why the Linux desktop is a mess.</p>
+<p>Instead of the original Unix idea of multiple programs writing text to others,
+the Linux desktop is based on other APIs like the X server itself, dbus and
+etc. And often they don't talk the same language. QT vs GTK is an example of
+this, alongside with desktop portals, notification daemons, etc.</p>
+<p>Well, I wasn't happy with Plasma's design philosophy because of bloat. I tried
+GNOME but it's worse. End up on XFCE.</p>
+<p>XFCE is better as it's simple and minimal. But I really wanted to go back to
+using window managers and stuff like that.</p>
+<p>What I found out is that, in the end, what I really care about is having a sane
+and cohesive shell (using &quot;shell&quot; as &quot;interface&quot;). Plasma is a kinda cohesive
+graphical shell, but it's not that efficient. Menu-bar-driven, two-button mouse
+systems, i.e., the modern graphical paradigm popularized by the Microsoft
+Windows operating system, is not efficient.</p>
+<p>One could argue that the Unix terminal is more efficient, but I found it very
+incohesive. First, the shell language is a mess. Second, the command argument
+syntaxes are very diverse. Third, the ANSI terminal itself. It's an ancient hack
+that stick with us and should've been dropped when graphical interfaces became
+popular. We'd never implemented simple graphics API though so the result is that
+it's 2023 and we're still using curses. Also, modern Unix got a lot of stuff
+wrong, mainly due to the Free Software Foundation and the GNU project push
+towards the bloat. Much GNU documentation is acessible via the <code>info</code> pages that
+nobody really knows how to read, some commands have a <code>--help</code>, some have the
+manual (which is much better than any other alternative, <em>specially</em> <code>info</code>
+pages). And the manual opens inside the pager with a broken view in my terminal
+because it doesn't support bold.</p>
+<p>And them we got Emacs. Emacs is actually a very cohesive shell, but it's
+painfully slow and it's not particularly efficient. It's probably the least
+painfull way to use the GNU system &quot;the way it was intented&quot; nowadays, which is
+kinda funny because Emacs is it's own containeirized Lisp operating system.</p>
+<p>Wandering through the web, I read some Rob Pike's papers and found out the
+nerdiest thing in computing: <a href="https://plan9.io/plan9/">Plan 9 From Bell Labs</a>.
+It's almost perfect. The graphical shell is extremelly efficient, the mouse
+usage is geniously simple and easy, yet fast. The entire system is very simple
+and straighforward. So much that I had the Plan 9 From User Space port installed
+in my Debian system and in a couple hours I had learned everything I had to
+learn to be as efficient as I'm after years of learning Unix with my new shell
+and toys.</p>
+<p>Acme is specially a rather efficient shell. And, different from the hack that's
+the graphical Emacs, it was meant to be a shell. Everything is so cool that I'll
+be changing to a very minimalistic Unix system -
+<a href="https://www.alpinelinux.org/">Alpine</a>, so I can have everything in busybox and
+statically linked with musl - and using basically the Plan 9 tools and other
+minimalistic software to do my computing. I liked Plan 9 so much that I'm
+writing my own <code>rio</code> clone for X11.</p>
+<p>And I know exactly what I liked in it. Basically, the system allows, via the
+mouse, easy and free exchanging of text between different programs, running in
+parallel in the graphical environment, with a cohesive interface. It's possible
+to create such shell for Unix, but it would be a rather difficult task. Much
+difficultier than for Plan 9 as there would be no support from the system
+itself. I may try it though.</p>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>

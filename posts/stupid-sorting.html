@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>Stupid Sorting</title>
+
+  <style>
+    html {
+      position: relative;
+      min-height: 100vh;
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      height: 70px;
+      position: absolute;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 70px;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Stupid Sorting :: 2023-09-12 10:02:53 -->
+<h1>Stupid Sorting</h1>
+<p>The first topic in &quot;Algoritmos e Estruturas de Dados II&quot; (&quot;Algorithms and Data
+Structures II&quot;) classes are sorting algorithms. The first one we learn is the
+stupid Selection Sort. It's not really that usefull but it's a great example to
+learn. Then we learn stuff like the Insertion Sort, which's actually usefull and
+more complex to understand.</p>
+<p>But, as stupid as Selection Sort is, it's kinda straightforward. What about some
+really, really stupid and useless sorting algorithms?</p>
+<p>For this algorithms I used some <code>#includes</code> and a simple function that checks if
+an array is sorted. The entire source is available
+<a href="https://gist.github.com/gboncoffee/2ecfacb0bc7f03626e4c1d2e4d00253f">here at GitHub</a>.</p>
+<h2>Kill Sort</h2>
+<p>Sorts the array by removing unsorted itens. Returns the final size.</p>
+<pre><code class="language-c">int kill_sort(int *v, int n)
+{
+	int pad = 0;
+	for (int i = 1; i &lt; n; i++) {
+		if (v[i] &lt; v[i - 1 - pad])
+			pad++;
+		else
+			v[i - pad] = v[i];
+	}
+
+	return n - pad;
+}
+</code></pre>
+<p>The cool thing about this one is that it keeps the pointer valid. Of course,
+it's usefull if we want a sorted array but don't need all the elements. It's
+linear too, which is very cheap, but it writes a lot, and that's not great if
+writes are expensive.</p>
+<h2>Thanos Sort</h2>
+<p>Sorts the array by removing a random half of it until it's sorted. Returns the
+final array pointer and sets n to it's size.</p>
+<pre><code class="language-c">int* thanos_sort(int *v, int *n)
+{
+	srand(time(NULL));
+	while (*n &gt; 1 &amp;&amp; !sorted(v, *n)) {
+		if (random() % 2) {
+			v += *n / 2;
+		}
+
+		*n = *n / 2;
+	}
+
+	return v;
+}
+</code></pre>
+<p>Very similar to Kill Sort. Unfortunatelly, this one leads to much more data loss
+and does not have predictable behaviour. But it does not make a single write in
+the array and runs in logarithmic time. Extremelly cheap. Also, it may not keep
+the pointer valid, and that's why it returns a new one. This should be used with
+caution to not cause memory leaks.</p>
+<h2>Random Sort</h2>
+<p>Sorts the array by randomizing a sequence and them checking if it's sorted.</p>
+<pre><code class="language-c">void random_sort(int *v, int n)
+{
+	int x, y, tmp;
+	srand(time(NULL));
+	while (!sorted(v, n)) {
+		for (int i = 0; i &lt; n; i++) {
+			x = random() % n;
+			y = random() % n;
+			tmp = v[x];
+			v[x] = v[y];
+			v[y] = tmp;
+		}
+	}
+}
+</code></pre>
+<p>This one is fun. It has a little chance of sorting the array in a single
+iteration. I tested with an array with 10 elements and it usuallys takes between
+300 thousand and 700 thousand iterations to finish. As it have a chance of
+running a single iteration, it have a chance of never sorting at all too.</p>
+<h2>Intelligent Design Sort</h2>
+<p>Sorts the array by the following principle:</p>
+<ul>
+<li>There's n! chance of the array being sorted;</li>
+<li>So it must have been sorted by an intelligent designer.</li>
+</ul>
+<pre><code class="language-c">void intelligent_design_sort(int *v, int n)
+{
+	(void) v;
+	(void) n;
+}
+</code></pre>
+<p>This is the cheapest algorithm here. Runs in constant time and uses only a
+single stack frame of memory <em>at all, without compiler optimization</em>. I've only
+ever saw very few functions cheapest than this in computer science, and they're
+usually not usefull at all.</p>
+<h2>Miracle Sort</h2>
+<p>Sorts the array by waiting and hoping cosmic rays are going to flip the memory
+so the array get's sorted.</p>
+<pre><code class="language-c">void miracle_sort(int *v, int n)
+{
+	while (!sorted(v, n))
+		sleep(5);
+}
+</code></pre>
+<p>Yeah it just sits there and patiently waits for a miracle. You can adjust the
+sleep time to change the behaviour of the algorithm: more time will lead to a
+slightly slower sort, but less CPU usage. Less time will lead to a slightly
+faster sort, but more CPU usage.</p>
+<h2>Schrodinger Sort</h2>
+<p>It's not sorted nor unsorted until you check it.</p>
+<pre><code class="language-c">int schrodinger_sort(int *v, int n)
+{
+	return sorted(v, n);
+}
+</code></pre>
+<p>It sorts the array by telling you if it's sorted or not, so you decides what to
+do. Quantum mechanics are really cool, aren't they?</p>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>
