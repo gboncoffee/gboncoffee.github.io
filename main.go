@@ -121,7 +121,8 @@ func Build(path string) {
 }
 
 func BuildWalker(path string, entry os.DirEntry, err error) error {
-	if path != "." && strings.HasPrefix(filepath.Base(path), ".") {
+	parent := filepath.Base(filepath.Dir(path))
+	if parent != "." && strings.HasPrefix(parent, ".") {
 		return filepath.SkipDir
 	}
 
