@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>Linux Para Calouros</title>
+
+  <style>
+    html {
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      text-align: center;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 4em;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Linux Para Calouros :: 2025-03-18 07:49:04 -->
+<h1>Linux Para Calouros</h1>
+<h2>(Ou o que faltou em aula...)</h2>
+<p>Falando um pouco mais sobre coisas interessantes que não foram cobertas nas
+aulas de Linux da Semana de Calouros da Ciência da Computação da UFPR.</p>
+<p>Esse post vai dar uma ênfase maior em distros baseadas em Debian (Linux Mint,
+Ubuntu, etc) porque espera-se que sejam mais comuns e que se você usa outra
+coisa você provavelmente sabe o que está fazendo.</p>
+<p>Qualquer dúvida aqui pode <a href="mailto:ggb23@inf.ufpr.br">me mandar mensagem</a> ;)</p>
+<h2>htop e gerenciamento de recursos/tarefas</h2>
+<p>O htop é um gerenciador de tarefas. Sua interface padrão é algo assim:</p>
+<p><img src="/static/linux/htop.png" alt="htop"></p>
+<p>Para instalar no Mint/Ubuntu/Debian, <code>sudo apt install htop</code>.</p>
+<p>No topo, perceba que há barras mostrando o uso de alguns recursos. As barras
+numeradas (nesse caso, de 0 a 6) mostram o uso de cada núcleo (virtual) do seu
+processador. A barra &quot;Mem&quot; mostra o uso de memória RAM e a barra &quot;Swp&quot; mostra
+o uso do swap (já comentaremos o que é isso). Ao lado temos algumas estatísticas
+como número de processos rodando e, embaixo, uma tabela com todos os processos e
+várias informações sobre eles (como uso de memória, processamento, etc).</p>
+<p>Por padrão, essa tabela é ordenada pelos processos que estão utilizando mais
+processamento no momento, então note que ela fica trocando a ordem. Apertando
+F5, podemos trocar a organização da tabela para mostrar os processos em árvore
+(de acordo com qual processo iniciou qual processo).</p>
+<p>Com o mouse ou as setas do teclado, é possível selecionar processos. Apertando
+F9, um novo menu se abre com opções de sinais (Sinais são uma forma rudimentar
+de fazer comunicação entre processos) para enviar para esse processo. Por
+exemplo: abra um novo terminal e rode o comando <code>python3</code>. Deixe ele parado ali.
+No htop, procure o comando (vai ser mais fácil usar o &quot;modo árvore&quot; para isso).
+Ele vai ser filho de um processo <code>bash</code>, filho do processo que roda o seu
+terminal. Por exemplo, no meu Linux Mint:</p>
+<p><img src="/static/linux/htop-python.png" alt="python3 no htop"></p>
+<p>Aperte F9 e selecione o sinal padrão SIGTERM. Veja o que acontece no terminal
+que estava rodando Python. Você matou o processo!</p>
+<p>O htop é bastante configurável. Aperte F2 e navegue pelos menus para ver o que
+pode ser alterado. A minha configuração por exemplo abre em &quot;modo árvore&quot; por
+padrão e mostra a frequência e temperatura dos núcleos:</p>
+<p><img src="/static/linux/htop-config.png" alt="htop config"></p>
+<p>Comentando sobre o tal do swap: é uma região do disco que pode ser usada como
+memória. Normalmente só é usada se você estiver esgotando a sua memória RAM, mas
+também serve para outras coisas (quando você &quot;hiberna&quot; o computador por exemplo,
+toda a memória é copiada para o swap e o computador desliga. Quando você liga
+ele novamente, o Linux percebe que tinha uma memória copiada no swap e copia ela
+de volta para a RAM. Assim ele consegue &quot;voltar de onde parou&quot;).</p>
+<p>Comentando sobre memória: você pode perceber que somar os valores que o htop
+mostra não faz muito sentido. Memória pode parecer algo simples, mas existem
+diversos jeitos de contar quanta memória está sendo utilizada no sistema, cada
+um considerando alguma coisa como &quot;usada&quot; e outras não. Por exemplo, normalmente
+se os processos compartilham memória, essa memória compartilhada não é mostrada
+no uso de memória de cada processo, mas é mostrada no uso total do sistema.</p>
+<p>Além disso, perceba que o campo de &quot;uso de memória virtual&quot; por cada processo
+é bem estranho. Isso acontece porque os processos pedem memória para o sistema,
+e o sistema &quot;promete&quot; memória para eles (nisso o uso de memória virtual
+aumenta), mas não reserva a região de memória física no chip de RAM para o
+processo até que o processo realmente use essa memória. Em Programação I vocês
+vão começar a estudar alocação de memória, e em Arquitetura de Computadores e
+Software Básico vocês vão entender melhor como funciona a memória virtual.</p>
+<h2>Customização do desktop</h2>
+<p>O lugar onde a comunidade que customiza o desktop se reúne é o
+<a href="https://www.reddit.com/r/unixporn/">unixporn</a>. Procurando lá você encontra
+vários materiais e inspiração para customizar o seu desktop.
+<a href="https://www.reddit.com/r/unixporn/search/?q=author%3Agboncoffee&amp;cId=a68f400c-3ee3-423e-9f12-1a982c894c94&amp;iId=542ed4e8-fea2-4b60-970a-13066cf04c7a">Aqui estão</a>
+algumas customizações que eu já fiz por exemplo. Uma customização é chamada de
+&quot;rice&quot; (arroz).</p>
+<p>Para começar nesse mundo, a primeira coisa a ser fazer provavelmente é trocar
+seu <em>window manager</em>, como foi citado em aula. Só isso não é muito complicado:
+basta instalar o pacote (por exemplo, <code>sudo apt install awesome</code>) e, na tela de
+login, clicar no ícone para trocar de <em>window manager</em> (depende da distro, no
+Mint por exemplo é um ícone do lado do usuário).</p>
+<p>No mundo dos rices, o YouTube e a internet no geral são os seus melhores amigos!
+O único jeito certo de aprender a customizar é customizando.</p>
+<p>Ultimamente, o meu gosto tem tendido bastante para desktops retrôs.</p>
+<p>Um programa que utilizamos bastante nessas fotos é o Neofetch. Ele não serve
+basicamente para nada, mas mostra informações do seu sistema de um jeito
+bonitinho no terminal. Por exemplo, o neofetch na minha máquina do laboratório:</p>
+<p><img src="/static/linux/neofetch-amantino.png" alt="neofetch"></p>
+<p>Tem vários outros programas parecidos. O nome geralmente termina com &quot;fetch&quot;.</p>
+<p><a href="https://wiki.archlinux.org/title/Window_manager">Lista de <em>window managers</em> da Arch Wiki</a></p>
+<h2>Serviços do Sistema</h2>
+<p>Na maioria das distros modernas, o projeto <code>systemd</code> mantém a maioria das
+ferramentas que envolvam manutenção do sistema. Uma delas é o sistema de
+serviços. Um serviço do sistema é um programa (ou conjunto de) que se inicia
+normalmente no boot e geralmente roda até que o sistema desligue. Por exemplo,
+o servidor gráfico Xorg é um serviço. A tela de login é um serviço.</p>
+<p>O comando <code>systemctl</code> é utilizado para modificar a configuração de serviços.
+Vamos utilizá-lo para configurar o SSH depois.</p>
+<p>Serviços costumam terminar com a letra &quot;d&quot;, que significa &quot;daemon&quot; (demônio). O
+motivo é histórico. Esses programas que ficam rodando o tempo todo costumam ser
+chamados de demônios.</p>
+<h2>Servidor de SSH</h2>
+<p>É comicamente simples configurar um servidor de ssh para acessar uma máquina
+remotamente. Basta instalar o pacote <code>ssh</code>, e ativar o serviço:
+<code>sudo systemctl enable sshd</code>. Por padrão, a configuração permite que a máquina
+seja acessada com senha. Para desativar isso, vá no arquivo
+<code>/etc/ssh/sshd_config</code>, procure pela linha <code>PasswordAuthentication yes</code>, troque
+o &quot;yes&quot; por &quot;no&quot;, e reinicialize o SSH com o comando
+<code>sudo systemctl restart sshd</code>.</p>
+<h2>tmux</h2>
+<p>O tmux é um programa muito legal que funciona como um emulador de terminal
+dentro do terminal. Ele tem basicamente dois usos: manter sessões de terminal
+ativas e abrir várias janelas dentro de um mesmo terminal. Veja na foto o tmux
+com duas janelas abertas: na esquerda, o meu editor de texto preferido, o
+<a href="https://micro-editor.github.io/">micro</a> editando um projeto do HiPES. Na
+direita, tem um terminal aberto depois de rodar um programa para debuggar o
+projeto. Perceba que o tmux cria uma barra verde embaixo do terminal:</p>
+<p><img src="/static/linux/tmux.png" alt="tmux"></p>
+<p>O tmux também tem aparência e atalhos de teclado customizáveis.</p>
+<p>O outro uso além de criar várias janelas é manter sessões abertas. Por exemplo,
+imagine que você está conectado por SSH e a internet cai. Você perde tudo que
+estava fazendo, pois o SSH vai matar todos os processos que você iniciou na
+máquina remota. Se você se conectar via SSH e abrir o tmux, caso a conexão seja
+perdida, o tmux continuará rodando na máquina remota com tudo o que você estava
+fazendo salvo. Quando você se conectar novamente, pode rodar <code>tmux attach</code> e
+continuar de onde parou.</p>
+<h2>Bônus: sl</h2>
+<p>O <code>sl</code> é um programa meme que você pode instalar: <code>sudo apt install sl</code>.
+Basicamente, é comum que eventualmente você tente rodar um comando que digitou
+errado sem querer, especialmente quando estiver digitando rápido. No caso, é
+extremamente comum digitar &quot;sl&quot; ao invés de &quot;ls&quot;, até porque é um dos comandos
+mais comuns de se utilizar.</p>
+<p>O <code>sl</code> desenha um trem passando pelo seu terminal, e não tem como matar ele com
+CTRL+C. Agora sempre que você rodar &quot;sl&quot; tentando rodar &quot;ls&quot;, você é punido
+tendo que assistir o trem passar de um lado até o outro do terminal.</p>
+<p><img src="/static/linux/sl.png" alt="sl"></p>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>
