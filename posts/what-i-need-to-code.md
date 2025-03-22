@@ -24,6 +24,18 @@ it's LSP support, it's graphical debugging support, it has an rather ok file
 manager, I could easily setup `.editorconfig` support and automatic formatting,
 etc.
 
+Here are a bunch of articles that historically explain how I got to this point:
+
+- [On Text Editors](/posts/on-text-editors.html), on which I wrote about my
+  text editor hopping journey and features I like (at the moment).
+- [A Review On My Own Post On Text Editors](/posts/update-on-text-editors.html),
+  on which I wrote about the Unix philosophy, graphical desktops, modes of
+  editing and a bunch of other stuff.
+- [Another Update On Text Editors](/posts/update-on-text-editors-again.html), on
+  which I wrote about getting into [Plan 9 From Bell Labs](https://plan9.io/plan9/)
+- [I Completely Disagree With My Own Opinion](/posts/i-completely-disagree-with-my-own-opinion.html),
+  on which I wrote about how I went back to Visual Studio Code.
+
 For quick stuff I use [micro](https://micro-editor.github.io/).
 
 There are three obvious problems with my dependency on VS Code: first, Microsoft
