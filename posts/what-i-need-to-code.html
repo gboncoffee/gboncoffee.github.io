@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>What I Need to Code</title>
+
+  <style>
+    html {
+      background-color: #ffffea;
+      color: #000000;
+      text-align: justify;
+    }
+
+    a {
+      color: #8888cb;
+      text-decoration: none;
+    }
+
+    #bigtitle {
+      color: #000000;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      text-align: center;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 4em;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <!-- What I Need to Code :: 2025-03-22 14:09:01 -->
+<h1>What I Need to Code</h1>
+<h2>(And how could I maybe swap things out)</h2>
+<p>Recently,
+<a href="https://discourse.ubuntu.com/t/carefully-but-purposefully-oxidising-ubuntu/56995">an Ubuntu developer announced plans to migrate from the GNU Core Utils to uutils/coreutils</a>.
+While this post won't discuss the problems with this migration, I myself will
+not stay using Linux Mint in the case they follow the future change. This made
+me think about what tools I currently need to work, and how can I future-proof
+my programming setup.</p>
+<h2>Context</h2>
+<p>For context, my work is mostly coding in C, C++ and Go. Sometimes I like to play
+with other languages: mainly Lua, Haskell, Elixir and Erlang.</p>
+<h2>My setup</h2>
+<p>Nowadays, I depend heavily on Visual Studio Code, mainly because it's simply
+the better option in most things I value a lot: it's Git and GitHub integration,
+it's LSP support, it's graphical debugging support, it has an rather ok file
+manager, I could easily setup <code>.editorconfig</code> support and automatic formatting,
+etc.</p>
+<p>For quick stuff I use <a href="https://micro-editor.github.io/">micro</a>.</p>
+<p>There are three obvious problems with my dependency on VS Code: first, Microsoft
+is not reliable at all. Second, it keeps me stuck in Linux because it does not
+work in any other free Unix-like. The recent events made me realize I must
+be ready to migrate to other operating system shall I need, so that's extremelly
+important. Third, the VS Code distributed by Microsoft is a proprietary freeware
+and not a clean build from the MIT licensed VS Code repository.</p>
+<p>I started to write a text editor with the future goals of supporting most of the
+stuff I use on VS Code, but this is more of a long-term project and I need more
+immediate solutions.</p>
+<p>Let's approach the problem by analysing each of the features I use and how could
+I swap them out.</p>
+<h3>Git</h3>
+<p>I use a lot of the Git and GitHub integration in Visual Studio Code, because
+it's simply amazing. To be fair, this is mostly a quality-of-life improvement
+over command line Git and it's not that important. I tried other Git clients
+but the only one I also like is Magit, which is specific for Emacs, and I have
+some problems with the fact that Emacs has a shitty interface that did not
+improved over the last 50 years.</p>
+<h3>Debugger</h3>
+<p>Man this is heavy.</p>
+<p>I like to use LLDB in VS Code because it works greatly, and I also prefer the
+LLVM toolchain over the native one. I never managed to actually understand how
+to use the LLDB tui, though, so if I need for some ungodly reason use a debugger
+in the terminal, I use GDB. For debugging Go, I use of course Delve.</p>
+<p>I would like a solution with the same UI for both LLDB and Delve. Outside editor
+plugins, there's none I know of. Actually, I never used any debugger GUI except
+for the VS Code's one. I know Emacs also has DAP clients available, but again I
+have some problems with Emacs' interface.</p>
+<h3>LSP</h3>
+<p>Any editor with LSP support will work. Autocomplete is really neat, but what I
+really want to have is symbol renaming, goto-definition and this kind of stuff.
+To be fair, goto-definition can be achived for anything with ctags, and both Go
+and the LLVM toolchain have tools to do symbol renaming. But LSP gives all of
+that in a polished package.</p>
+<p>Acme has a LSP client that I never tried. Emacs has (supposedly good) LSP
+clients.</p>
+<h3>Formatting</h3>
+<p>I use <code>gofmt</code> and <code>clang-format</code>. I like it very much if my editor runs them
+automatically. LSP can be a substitute for that also.</p>
+<p>I also use <code>.editorconfig</code>, and something that keeps me out of Acme for instance
+is the fact that it simply does not support tab expansion.</p>
+<h3>File manager</h3>
+<p>I like file managers/explorers integrated into my development environment, but
+VS Code's one is just ok, not great.</p>
+<h2>My problems regarding interfaces</h2>
+<p>I don't think 50 year-old interfaces like Emacs' and Vim's are good at all. I
+think the correct way of doing minimalistic interfaces nowadays is the Plan 9
+way: modern yet simple. The mouse was invented and it's good. Graphics were
+invented and they're good. There's no scientific study showing that those old
+terminal or terminal-like interfaces are any better than proper graphical ones.</p>
+<h2>Conclusions</h2>
+<p>I didn't cited Textadept but it actually looks like a great alternative for me.</p>
+<p>Acme, Textadept, Emacs, each one has pros and cons. In the end none can give me
+the same sum that Visual Studio Code can. I'll probably have to spend some time
+working on setups with these editors to achieve my goal.</p>
+
+    </article>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>
