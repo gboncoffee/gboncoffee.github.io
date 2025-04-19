@@ -1,5 +1,7 @@
 <!-- Gabriel :: 2025-01-04 09:31:00 -->
 
+<a rel="me" href="https://mstdn.social/@gboncoffee"></a>
+
 # Hello
 
 My name is Gabriel and I'm a computer science student at
