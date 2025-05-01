@@ -101,7 +101,7 @@ func Build(path string) {
 	}
 
 	target := path[:strings.LastIndex(path, ".md")] + ".html"
-	content := []byte(fmt.Sprintf(FORMAT, title, buffer.Bytes()))
+	content := fmt.Appendf(nil, FORMAT, title, buffer.Bytes())
 
 	if err := os.WriteFile(target, content, 0600); err != nil {
 		fmt.Println(fmt.Errorf("warning: could not write to file %s: %v", target, err))
