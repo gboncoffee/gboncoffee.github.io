@@ -1,4 +1,4 @@
-<!-- Sobre a Estética Clássica Camoniana :: 2023-01-22 17:51:55 -->
+<!-- pt :: Sobre a Estética Clássica Camoniana :: 2023-01-22 17:51:55 -->
 
 # Sobre a Estética Clássica Camoniana
 

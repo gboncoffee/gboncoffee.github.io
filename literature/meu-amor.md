@@ -1,4 +1,4 @@
-<!-- Meu Amor :: 2025-01-07 01:55:04 -->
+<!-- pt :: Meu Amor :: 2025-01-07 01:55:04 -->
 
 A escuridão encontrará a nossa luz  
 Tão logo assim que essa noite brilhar  

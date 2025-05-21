@@ -1,4 +1,4 @@
-<!-- Passam-se as Estações :: 2023-12-12 02:39:00 -->
+<!-- pt :: Passam-se as Estações :: 2023-12-12 02:39:00 -->
 
 # Passam-se as Estações
 

@@ -1,4 +1,4 @@
-<!-- Sanktplonĝisto (Holy Diver) :: 2024-03-17 16:36:00 -->
+<!-- eo :: Sanktplonĝisto (Holy Diver) :: 2024-03-17 16:36:00 -->
 
 # Sanktplonĝisto (Holy Diver)
 

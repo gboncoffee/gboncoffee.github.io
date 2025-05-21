@@ -1,4 +1,4 @@
-<!-- Explodir-me-ei Para Longe :: 2023-06-04 00:15:22 -->
+<!-- pt :: Explodir-me-ei Para Longe :: 2023-06-04 00:15:22 -->
 
 # Explodir-me-ei Para Longe
 

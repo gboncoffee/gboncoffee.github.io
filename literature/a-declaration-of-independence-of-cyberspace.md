@@ -1,4 +1,4 @@
-<!-- A Declaration of Independence of Cyberspace :: 2023-01-22 17:51:55 -->
+<!-- en :: A Declaration of Independence of Cyberspace :: 2023-01-22 17:51:55 -->
 
 # A Declaration of Independence of Cyberspace
 ## By John Perry Barlow 

@@ -1,6 +1,4 @@
-<!-- Gabriel :: 2025-01-04 09:31:00 -->
-
-<a rel="me" href="https://mstdn.social/@gboncoffee"></a>
+<!-- en :: Gabriel :: 2025-01-04 09:31:00 -->
 
 # Hello
 
@@ -9,4 +7,8 @@ My name is Gabriel and I'm a computer science student at
 
 I like computers and alcohol.
 
-![Me holding a Nvidia Tesla](/static/profile.png)
+Find me on: <a rel="me" href="https://mstdn.social/@gboncoffee">Mastodon</a>,
+[Bluesky](https://bsky.app/profile/gboncoffee.dev.br) and
+[GitHub](https://github.com/gboncoffee).
+
+![Me holding a Nvidia Tesla. I have dark brown short hair and eyes, a green pair of glasses and I'm wearing a black "hacker" hoodie](/static/profile.png).

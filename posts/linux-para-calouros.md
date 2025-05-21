@@ -1,4 +1,4 @@
-<!-- Linux Para Calouros :: 2025-03-18 07:49:04 -->
+<!-- pt :: Linux Para Calouros :: 2025-03-18 07:49:04 -->
 
 # Linux Para Calouros
 

@@ -1,4 +1,4 @@
-<!-- Fuck Off With Your `curl | sh` :: 2024-09-27 23:24:06 -->
+<!-- en :: Fuck Off With Your `curl | sh` :: 2024-09-27 23:24:06 -->
 
 # Fuck Off With Your `curl | sh`
 

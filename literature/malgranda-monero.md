@@ -1,4 +1,4 @@
-<!-- Malgranda Monero :: 2024-07-30 21:14:05 -->
+<!-- eo :: Malgranda Monero :: 2024-07-30 21:14:05 -->
 
 # Malgranda Monero
 

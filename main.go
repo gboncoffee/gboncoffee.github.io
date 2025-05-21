@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	_ "embed"
-	"errors"
+	"flag"
 	"fmt"
 	"net/http"
 	"os"
@@ -46,7 +46,7 @@ func MakeIndex(dir string, list []MDInfo) {
 `, md.Path, md.Title, md.Timestamp.Format(time.DateTime))
 	}
 
-	content = fmt.Sprintf(FORMAT, fmt.Sprintf("Index - %s", dir), content)
+	content = fmt.Sprintf(FORMAT, "en", fmt.Sprintf("Index - %s", dir), content)
 	if err := os.WriteFile(target, []byte(content), 0600); err != nil {
 		fmt.Println(fmt.Errorf("warning: could not write to file %s: %v", target, err))
 	}
@@ -60,22 +60,21 @@ func MakeIndexes() {
 	}
 }
 
-func GetTitleAndTimestamp(source string) (string, string) {
+func GetMetadata(source string) (lang string, title string, timestamp string) {
 	newline := strings.IndexRune(source, '\n')
 	source = source[:newline]
-	var title string
-	var timestamp string
 
-	if len(source) > len("<!-- :: -->") {
+	if len(source) > len("<!-- :: :: -->") {
 		source = source[4:strings.Index(source, "-->")]
 		splitted := strings.Split(source, "::")
-		if len(splitted) == 2 {
-			title = strings.TrimSpace(splitted[0])
-			timestamp = strings.TrimSpace(splitted[1])
+		if len(splitted) == 3 {
+			lang = strings.TrimSpace(splitted[0])
+			title = strings.TrimSpace(splitted[1])
+			timestamp = strings.TrimSpace(splitted[2])
 		}
 	}
 
-	return title, timestamp
+	return
 }
 
 var md = goldmark.New(
@@ -92,7 +91,7 @@ func Build(path string) {
 		return
 	}
 
-	title, timestamp := GetTitleAndTimestamp(string(source))
+	lang, title, timestamp := GetMetadata(string(source))
 
 	var buffer bytes.Buffer
 	if err := md.Convert([]byte(source), &buffer); err != nil {
@@ -101,7 +100,7 @@ func Build(path string) {
 	}
 
 	target := path[:strings.LastIndex(path, ".md")] + ".html"
-	content := fmt.Appendf(nil, FORMAT, title, buffer.Bytes())
+	content := fmt.Appendf(nil, FORMAT, lang, title, buffer.Bytes())
 
 	if err := os.WriteFile(target, content, 0600); err != nil {
 		fmt.Println(fmt.Errorf("warning: could not write to file %s: %v", target, err))
@@ -133,9 +132,9 @@ func BuildWalker(path string, entry os.DirEntry, err error) error {
 	return nil
 }
 
-func WriteTemplate(target string, title string) {
+func WriteTemplate(lang string, target string, title string) {
 	timestamp := time.Now().Format(time.DateTime)
-	content := fmt.Sprintf("<!-- %s :: %s -->\n", title, timestamp)
+	content := fmt.Sprintf("<!-- %s :: %s :: %s -->\n", lang, title, timestamp)
 	if err := os.WriteFile(target, []byte(content), 0600); err != nil {
 		fmt.Println(fmt.Errorf("cannot write to file %s: %v", target, err))
 		os.Exit(1)
@@ -143,30 +142,53 @@ func WriteTemplate(target string, title string) {
 }
 
 func main() {
-	if len(os.Args) > 1 {
-		if os.Args[1] == "serve" {
-			fmt.Println("Serving on localhost:6969")
-			http.ListenAndServe(":6969", http.FileServer(http.Dir(".")))
-		} else if os.Args[1] == "new" {
-			if len(os.Args) < 3 {
-				fmt.Println(errors.New("no target passed to `new`"))
-				os.Exit(1)
-			}
-			if len(os.Args) < 4 {
-				fmt.Println(errors.New("no title passed to `new`"))
-				os.Exit(1)
-			}
-			if strings.Index(os.Args[3], "::") != -1 {
-				fmt.Println(errors.New("title must not have `::`"))
-				os.Exit(1)
-			}
-			WriteTemplate(os.Args[2], os.Args[3])
-		} else {
-			fmt.Println(fmt.Errorf("unknown command %s", os.Args[1]))
+	var serveMode bool
+	var newMode bool
+	var lang string
+	var target string
+
+	flag.BoolVar(&serveMode, "serve", false, "server mode")
+	flag.BoolVar(&serveMode, "s", false, "server mode")
+	flag.BoolVar(&newMode, "new", false, "new mode")
+	flag.StringVar(&lang, "lang", "", "set HTML language")
+	flag.StringVar(&lang, "l", "", "set HTML language")
+	flag.StringVar(&target, "output", "", "set file to create")
+	flag.StringVar(&target, "o", "", "set file to create")
+
+	flag.Parse()
+
+	if serveMode {
+		fmt.Println("Serving on localhost:6969")
+		http.ListenAndServe(":6969", http.FileServer(http.Dir(".")))
+		os.Exit(0)
+	}
+
+	if newMode {
+		args := flag.Args()
+		var titleB strings.Builder
+		for _, a := range args {
+			titleB.WriteString(a)
+			titleB.WriteRune(' ')
+		}
+		title := titleB.String()
+		title = strings.TrimSpace(title)
+
+		if title == "" {
+			fmt.Println("No title specified")
 			os.Exit(1)
 		}
 
-		os.Exit(0)
+		if lang == "" {
+			fmt.Println("No language specified")
+			os.Exit(1)
+		}
+
+		if target == "" {
+			fmt.Println("No target specified")
+			os.Exit(1)
+		}
+
+		WriteTemplate(lang, target, title)
 	}
 
 	if err := filepath.WalkDir(".", BuildWalker); err != nil {

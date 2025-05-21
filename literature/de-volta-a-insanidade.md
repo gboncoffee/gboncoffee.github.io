@@ -1,4 +1,4 @@
-<!-- De Volta à Insanidade :: 2024-08-25 20:27:32 -->
+<!-- pt :: De Volta à Insanidade :: 2024-08-25 20:27:32 -->
 
 # De Volta à Insanidade
 

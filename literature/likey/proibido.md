@@ -1,4 +1,4 @@
-<!-- Foi numa festa, pinga e tequila :: 2025-05-10 22:20:49 -->
+<!-- pt :: Foi numa festa, pinga e tequila :: 2025-05-10 22:20:49 -->
 
 Foi numa festa, pinga e tequila  
 E a DJ tocava o proibido  

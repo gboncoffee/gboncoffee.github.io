@@ -1,4 +1,4 @@
-<!-- Ĵetu la vagino al mi :: 2025-05-10 22:25:36 -->
+<!-- eo :: Ĵetu la vagino al mi :: 2025-05-10 22:25:36 -->
 
 Hodiaŭ estas festo  
 Estas ene mia hejmo  

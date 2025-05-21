@@ -1,4 +1,4 @@
-<!-- Zen do Gabriel de Desenvolvimento Tecnológico :: 2024-09-21 20:44:01 -->
+<!-- pt :: Zen do Gabriel de Desenvolvimento Tecnológico :: 2024-09-21 20:44:01 -->
 
 # Zen do Gabriel de Desenvolvimento Tecnológico
 

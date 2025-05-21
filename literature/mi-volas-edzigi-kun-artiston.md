@@ -1,4 +1,4 @@
-<!-- Mi Volas Edziĝi Kun Artiston :: 2024-01-21 23:01:07 -->
+<!-- eo :: Mi Volas Edziĝi Kun Artiston :: 2024-01-21 23:01:07 -->
 
 # Mi Volas Edziĝi Kun Artiston
 

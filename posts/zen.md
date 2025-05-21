@@ -1,4 +1,4 @@
-<!-- The Zen of Gabriel for Technology Development :: 2024-09-19 22:39:33 -->
+<!-- en :: The Zen of Gabriel for Technology Development :: 2024-09-19 22:39:33 -->
 
 # The Zen of Gabriel for Technology Development
 

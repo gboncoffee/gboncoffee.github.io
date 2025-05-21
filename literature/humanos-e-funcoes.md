@@ -1,4 +1,4 @@
-<!-- Humanos e Funções :: 2023-01-22 17:51:55 -->
+<!-- pt :: Humanos e Funções :: 2023-01-22 17:51:55 -->
 
 # Humanos e Funções
 

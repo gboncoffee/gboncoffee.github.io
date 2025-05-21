@@ -1,4 +1,4 @@
-<!-- O Sol é uma laranja boiante :: 2025-04-15 22:39:19 -->
+<!-- pt :: O Sol é uma laranja boiante :: 2025-04-15 22:39:19 -->
 
 O Sol é uma laranja boiante  
 No azul reflexo, no alto, do mar  

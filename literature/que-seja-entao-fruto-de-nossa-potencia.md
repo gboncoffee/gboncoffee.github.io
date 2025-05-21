@@ -1,4 +1,4 @@
-<!-- Que Seja Então Fruto de Nossa Potência :: 2023-04-03 20:55:41 -->
+<!-- pt :: Que Seja Então Fruto de Nossa Potência :: 2023-04-03 20:55:41 -->
 
 # Que Seja Então Fruto de Nossa Potência
 

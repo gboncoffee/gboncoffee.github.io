@@ -1,4 +1,4 @@
-<!-- Interaction as Tool Use em Programação :: 2025-03-16 19:20:42 -->
+<!-- pt :: Interaction as Tool Use em Programação :: 2025-03-16 19:20:42 -->
 
 Quanto ao uso do computador para programar, o design de interfaces (no caso,
 principalmente editores de texto, terminais, IDEs, outros programas auxiliares

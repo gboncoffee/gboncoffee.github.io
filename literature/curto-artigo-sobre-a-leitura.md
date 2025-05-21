@@ -1,4 +1,4 @@
-<!-- Curto Artigo Sobre a Leitura :: 2023-01-22 17:51:55 -->
+<!-- pt :: Curto Artigo Sobre a Leitura :: 2023-01-22 17:51:55 -->
 
 # Curto Artigo Sobre a Leitura
 

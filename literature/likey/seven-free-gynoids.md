@@ -1,4 +1,4 @@
-<!-- Seven free gynoids :: 2025-05-01 13:25:51 -->
+<!-- en :: Seven free gynoids :: 2025-05-01 13:25:51 -->
 
 Those seven free gynoids have  
 the rights to do what they want  

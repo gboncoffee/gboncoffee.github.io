@@ -1,4 +1,4 @@
-<!-- Meu Amigo do Chile :: 2023-02-15 23:09:37 -->
+<!-- pt :: Meu Amigo do Chile :: 2023-02-15 23:09:37 -->
 
 # Meu Amigo do Chile
 

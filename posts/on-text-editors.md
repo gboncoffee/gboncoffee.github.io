@@ -1,4 +1,4 @@
-<!-- On Text Editors :: 2023-09-20 23:58:40 -->
+<!-- en :: On Text Editors :: 2023-09-20 23:58:40 -->
 
 Here, I'll talk a little about my journey with a lot of text editors and what
 I'm currently liking. Maybe I'll eventually try creating my own with the ideas
