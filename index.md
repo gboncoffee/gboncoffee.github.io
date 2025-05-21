@@ -11,4 +11,4 @@ Find me on: <a rel="me" href="https://mstdn.social/@gboncoffee">Mastodon</a>,
 [Bluesky](https://bsky.app/profile/gboncoffee.dev.br) and
 [GitHub](https://github.com/gboncoffee).
 
-![Me holding a Nvidia Tesla. I have dark brown short hair and eyes, a green pair of glasses and I'm wearing a black "hacker" hoodie](/static/profile.png).
+![Me holding a Nvidia Tesla](/static/profile.png).
