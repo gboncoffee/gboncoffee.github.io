@@ -2,8 +2,9 @@
 
 # Hello
 
-My name is Gabriel and I'm a computer science student at
-[UFPR](https://web.inf.ufpr.br/dinf/).
+My name is Gabriel
+([pronounced gɑbriɛl](https://en.wikipedia.org/wiki/Help:IPA/English))
+and I'm a computer science student at [UFPR](https://web.inf.ufpr.br/dinf/).
 
 I like computers and alcohol.
 
