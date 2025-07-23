@@ -19,7 +19,7 @@ mi wile moku
 
 kipisi sijelo jan  
 li supa suwi  
-mi pilin ni  
+mi pilin e ni  
 ni li suli wawa  
 
 sina sona e  
