@@ -10,6 +10,6 @@ I like computers and alcohol.
 
 [GitHub](https://github.com/gboncoffee).
 
-![Me holding a Nvidia Tesla](/static/profile.png).
+![Me holding a Nvidia Tesla](/static/profile.png)
 
 Find me on <a rel="me" href="https://mastodon.social/@gboncoffee">Mastodon</a>.
