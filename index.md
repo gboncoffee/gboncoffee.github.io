@@ -8,8 +8,6 @@ and I'm a computer science student at [UFPR](https://web.inf.ufpr.br/dinf/).
 
 I like computers and alcohol.
 
-[GitHub](https://github.com/gboncoffee).
+[GitHub](https://github.com/gboncoffee). <a rel="me" href="https://mastodon.social/@gboncoffee">Mastodon</a>.
 
 ![Me holding a Nvidia Tesla](/static/profile.png)
-
-Find me on <a rel="me" href="https://mastodon.social/@gboncoffee">Mastodon</a>.
