@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="fediverse:creator" content="@gboncoffee@mastodon.social">
+  <link rel="icon" type="image/x-icon" href="/static/profile.png">
+  <title>CI1068 - Circuitos Digitais (PT)</title>
+
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      font-family: Inter, sans-serif;
+      font-feature-settings: 'liga' 1, 'calt' 1;
+    }
+
+    @supports (font-variation-settings: normal) {
+      :root {
+        font-family: InterVariable, sans-serif;
+      }
+    }
+
+    html {
+      background-color: #111111;
+      color: #e5e5e5;
+    }
+
+    a {
+      color: #0099ff;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #a287f4;
+      text-decoration: none;
+    }
+
+    code {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-style: normal;
+      font-size: small;
+    }
+
+    #navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #navlistitem {
+      display: inline;
+      padding-right: 2.5rem;
+    }
+
+    footer {
+      text-align: center;
+      bottom: 0;
+    }
+
+    article {
+      padding-bottom: 4em;
+    }
+
+    img {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    #bigtitle {
+      color: #e5e5e5;
+    }
+
+    @media (min-width:801px) {
+      #footerless {
+        margin-left: 25vw;
+        margin-right: 25vw;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="footerless">
+    <header>
+      <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+      </h1>
+      <nav>
+        <ul id="navlist">
+          <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+          <li id="navlistitem"><a href="/posts">Posts</a></li>
+          <li id="navlistitem"><a href="/literature">Literature</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <!-- pt :: CI1068 - Circuitos Digitais (PT) :: 2025-07-06 20:52:12 -->
+<p><em>Essas anotações foram originalmente escritas em papel e parte delas foi
+perdida</em>.</p>
+<h1>2023/03/30</h1>
+<p>Para converter racionais em racionais binários, método de multiplicação
+sucessiva / inverso do inteiro:</p>
+<pre><code>0,3(10) = 0,010011001100...  
+0,3 * 2 = **0**,6 -&gt; d1 = 0  
+0,6 * 2 = **1**,2 -&gt; d2 = 1  
+0,2 * 2 = **0**,4 -&gt; d3 = 0  
+etc
+</code></pre>
+<p>Para quando a parte fracionária for 0.</p>
+<h2>Lógica formal</h2>
+<p>Precedência: ¬, ∧, ∨, ⇒, ⇔.</p>
+<p>nota: lógica formal ñ dispensa<br>
+precedência é convenção</p>
+<h1>2023/04/04</h1>
+<p>Overflow só ocorre em operações com sinais iguais. Em operações com sinais
+diferentes, o resultado sempre será mais perto de zero que os operandos. Com
+sinais iguais, o resultado deve ter o mesmo sinal que os operandos. Caso
+contrário, ocorreu o overflow. Lembrando que máquinas não subtraem, elas somam
+com o complemento.</p>
+<p>Exemplo de multiplicação:</p>
+<p><img src="/static/lecture-notes/ci1068/multiply.png" alt="Esquema de como se multiplica 0b010 (2) por 0b011 (3)"></p>
+<p>Perceba que multiplicar um número de N bits por um de M bits, o pior caso tem
+tamanho de M+N bits.</p>
+<p>Máquinas de 64 bits também trabalham com palavras de 32 bits. A arquitetura
+denota só o barramento e acesso à memória.</p>
+<p>A álgebra booleana trata apenas de 0 e 1. Operações básicas:</p>
+<p>| E   | AND | ∧ | * | &amp;&amp;   |
+| OU  | OR  | ∨ | + | || |
+| NÃO | NOT | ~ | ! | -    |</p>
+<p>Tabela verdade:</p>
+<p>| X | Y | X ∧ Y | X ∨ Y | ~X |
+| 0 | 0 | 0     | 0     | 1  |
+| 0 | 1 | 0     | 1     | 1  |
+| 1 | 0 | 0     | 1     | 0  |
+| 1 | 1 | 1     | 1     | 0  |</p>
+<p>É possível criar funções:</p>
+<p><code>f(X, Y, Z) = X + Y - Z</code></p>
+<p>Precedência:</p>
+<p>1- Parênteses ()<br>
+2- NOT<br>
+3- AND<br>
+4- OR<br>
+5- XOR</p>
+<p>Tabela verdade de f:</p>
+<p>| X | Y | Z | X + Y - Z |
+| 0 | 0 | 0 | 0         |
+| 0 | 0 | 1 | 0         |
+| 0 | 1 | 0 | 0         |
+| 0 | 1 | 1 | 1         |
+| 1 | 0 | 0 | 1         |
+| 1 | 0 | 1 | 1         |
+| 1 | 1 | 0 | 1         |
+| 1 | 1 | 1 | 1         |</p>
+<p><code>f(X, Y) = !XY + X!Y</code>: XOR &quot;Ou exclusivo&quot;</p>
+<p>| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |</p>
+<p>Normalmente, XOR ⊕ pode ser 1 tanto somente se apenas 1 váriavel for 1, quanto
+se houverem ímpares 1.</p>
+<p>Algumas regras:</p>
+<p><code>X + !X * Y = X + Y</code> pois:</p>
+<pre><code>(X + !X) * (X + Y)
+1 * (X + Y)
+(X + Y)
+</code></pre>
+<p>Símbolos em circuitos:</p>
+<ul>
+<li>𜰕 OR</li>
+<li>𜰖 AND</li>
+<li>𜰙𜰘 NOT</li>
+</ul>
+<h1>2023/04/11</h1>
+<p>A álgebra booleana é toda baseada em dois valores: 0 e 1.</p>
+<p>A precedência tem a seguinte ordem:</p>
+<ul>
+<li>()</li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+<li>⊕</li>
+</ul>
+<p>| A | B | A * B | A + B | A ⊕ B |
+| 0 | 0 | 0     | 0     | 0     |
+| 0 | 1 | 0     | 1     | 1     |
+| 1 | 0 | 0     | 1     | 1     |
+| 1 | 1 | 1     | 1     | 0     |</p>
+<p>|                  | +                                 | *                     |
+| Identidade       | <code>X + 1 = 1</code>                       | X * 0 = 0             |
+| Elem. Neutro     | <code>X + 0 = 0</code>                       | X * 1 = X             |
+| Idempotência     | <code>X + X = X</code>                       | X * X = X             |
+| Involução        | <code>!!X = X</code>                         |                       |
+| Complemento      | <code>X + !X = 1</code>                      | X * !X = 0            |
+| Distributividade | <code>X + (Y * Z) = (X + Y) * (X + Z)</code> | X * (Y + Z) = XY + XZ |</p>
+<p>E a mais importante, a De Morgan:</p>
+<p><code>!(X + Y) = !X * !Y</code><br>
+<code>!(X * Y) = !X + !Y</code></p>
+<p>Para criar uma função a partir de uma tabela verdade, lista-se todos os casos
+com * e conecta-se com +.</p>
+<h1>2023/04/13</h1>
+
+      </article>
+    </main>
+  </div>
+
+  <footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+  </footer>
+</body>
+
+</html>

@@ -8,19 +8,46 @@
   <link rel="icon" type="image/x-icon" href="/static/profile.png">
   <title>Linux Para Calouros</title>
 
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
   <style>
+    :root {
+      font-family: Inter, sans-serif;
+      font-feature-settings: 'liga' 1, 'calt' 1;
+    }
+
+    @supports (font-variation-settings: normal) {
+      :root {
+        font-family: InterVariable, sans-serif;
+      }
+    }
+
     html {
-      background-color: #ffffea;
-      color: #000000;
+      background-color: #111111;
+      color: #e5e5e5;
     }
 
     a {
-      color: #50509a;
+      color: #0099ff;
       text-decoration: none;
     }
 
-    #bigtitle {
-      color: #000000;
+    a:visited {
+      color: #a287f4;
+      text-decoration: none;
+    }
+
+    code {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-style: normal;
+      font-size: small;
     }
 
     #navlist {
@@ -56,6 +83,10 @@
       text-align: center;
     }
 
+    #bigtitle {
+      color: #e5e5e5;
+    }
+
     @media (min-width:801px) {
       #footerless {
         margin-left: 25vw;
@@ -88,8 +119,8 @@
     </header>
 
     <main>
-    <article>
-      <!-- pt :: Linux Para Calouros :: 2025-03-18 07:49:04 -->
+      <article>
+        <!-- pt :: Linux Para Calouros :: 2025-03-18 07:49:04 -->
 <h1>Linux Para Calouros</h1>
 <h2>(Ou o que faltou em aula...)</h2>
 <p>Falando um pouco mais sobre coisas interessantes que não foram cobertas nas
@@ -213,7 +244,7 @@ CTRL+C. Agora sempre que você rodar &quot;sl&quot; tentando rodar &quot;ls&quot
 tendo que assistir o trem passar de um lado até o outro do terminal.</p>
 <p><img src="/static/linux/sl.png" alt="sl"></p>
 
-    </article>
+      </article>
     </main>
   </div>
 

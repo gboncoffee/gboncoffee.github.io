@@ -8,19 +8,46 @@
   <link rel="icon" type="image/x-icon" href="/static/profile.png">
   <title>What I Need to Code</title>
 
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
   <style>
+    :root {
+      font-family: Inter, sans-serif;
+      font-feature-settings: 'liga' 1, 'calt' 1;
+    }
+
+    @supports (font-variation-settings: normal) {
+      :root {
+        font-family: InterVariable, sans-serif;
+      }
+    }
+
     html {
-      background-color: #ffffea;
-      color: #000000;
+      background-color: #111111;
+      color: #e5e5e5;
     }
 
     a {
-      color: #50509a;
+      color: #0099ff;
       text-decoration: none;
     }
 
-    #bigtitle {
-      color: #000000;
+    a:visited {
+      color: #a287f4;
+      text-decoration: none;
+    }
+
+    code {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-style: normal;
+      font-size: small;
     }
 
     #navlist {
@@ -56,6 +83,10 @@
       text-align: center;
     }
 
+    #bigtitle {
+      color: #e5e5e5;
+    }
+
     @media (min-width:801px) {
       #footerless {
         margin-left: 25vw;
@@ -88,8 +119,8 @@
     </header>
 
     <main>
-    <article>
-      <!-- en :: What I Need to Code :: 2025-03-22 14:09:01 -->
+      <article>
+        <!-- en :: What I Need to Code :: 2025-03-22 14:09:01 -->
 <h1>What I Need to Code</h1>
 <h2>(And how could I maybe swap things out)</h2>
 <p>Recently,
@@ -176,7 +207,7 @@ terminal or terminal-like interfaces are any better than proper graphical ones.<
 the same sum that Visual Studio Code can. I'll probably have to spend some time
 working on setups with these editors to achieve my goal.</p>
 
-    </article>
+      </article>
     </main>
   </div>
 

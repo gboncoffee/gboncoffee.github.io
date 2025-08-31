@@ -8,19 +8,46 @@
   <link rel="icon" type="image/x-icon" href="/static/profile.png">
   <title>Interaction as Tool Use em Programação</title>
 
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
   <style>
+    :root {
+      font-family: Inter, sans-serif;
+      font-feature-settings: 'liga' 1, 'calt' 1;
+    }
+
+    @supports (font-variation-settings: normal) {
+      :root {
+        font-family: InterVariable, sans-serif;
+      }
+    }
+
     html {
-      background-color: #ffffea;
-      color: #000000;
+      background-color: #111111;
+      color: #e5e5e5;
     }
 
     a {
-      color: #50509a;
+      color: #0099ff;
       text-decoration: none;
     }
 
-    #bigtitle {
-      color: #000000;
+    a:visited {
+      color: #a287f4;
+      text-decoration: none;
+    }
+
+    code {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-style: normal;
+      font-size: small;
     }
 
     #navlist {
@@ -56,6 +83,10 @@
       text-align: center;
     }
 
+    #bigtitle {
+      color: #e5e5e5;
+    }
+
     @media (min-width:801px) {
       #footerless {
         margin-left: 25vw;
@@ -88,8 +119,8 @@
     </header>
 
     <main>
-    <article>
-      <!-- pt :: Interaction as Tool Use em Programação :: 2025-03-16 19:20:42 -->
+      <article>
+        <!-- pt :: Interaction as Tool Use em Programação :: 2025-03-16 19:20:42 -->
 <p>Quanto ao uso do computador para programar, o design de interfaces (no caso,
 principalmente editores de texto, terminais, IDEs, outros programas auxiliares
 como compiladores, etc) parece ser guiado principalmente pelo modelo de
@@ -176,7 +207,7 @@ experiente de teclado, a ideia de movimentar a mão para acertar essa tecla
 específica se torna invisível (a evidência que eu tenho disso é completamente
 anedótica, baseada no fato de que isso ocorre comigo).</p>
 
-    </article>
+      </article>
     </main>
   </div>
 
