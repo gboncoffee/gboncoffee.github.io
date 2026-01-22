@@ -4,6 +4,8 @@
 
 # A Dança das Romas
 
+## Canto I - *A Primeira Roma*
+
 O troiano que da guerra fugido  
 À Itália sua fuga levou  
 Fez Sílvia família e Reinado  
@@ -53,3 +55,25 @@ Primeira Roma faz-se da Guerra
 De Tróia quando Eneias fugiu  
 Terá essa a mais longa Era  
 Que nenhuma outra Roma já viu  
+
+## Canto II - *O Rapto das Sabinas*
+
+Rômulo, o primo Rei dos romanos  
+As damas sabinas mandou raptar  
+Para que casassem com os latinos  
+E grande prole pudessem gerar  
+
+Cenina e Antêmnas os atacaram  
+Pela honra da donzela sabina  
+À Roma, as cidades sucumbiram  
+E prevalesce a cidade romana  
+
+Os sabinos então já em fúria  
+A cidade romana, atacaram  
+Mas as damas não viram injúria  
+E a Roma os sabinos se uniram  
+
+Rômulo, o primeiro Rei romano  
+Funda tudo que as Romas terão  
+As armas e o Senado latino  
+O denário e o bravo pendão  
