@@ -10,4 +10,4 @@ I like computers and alcohol.
 
 [GitHub](https://github.com/gboncoffee). <a rel="me" href="https://mastodon.social/@gboncoffee">Mastodon</a>.
 
-![Me holding a Nvidia Tesla](/static/profile.png)
+![Me in a ship](/static/profile.png)
