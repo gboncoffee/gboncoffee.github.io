@@ -78,12 +78,47 @@ Funda tudo que as Romas terão
 As armas e o Senado latino  
 O denário e o bravo pendão  
 
+Ao Olimpo Rômulo ascendeu  
+E tornou-se então Deus Quirino  
+O povo, seu sucessor escolheu  
+Para ser líder do Reino latino  
+
 Numa Pompílio então foi o Rei  
 E o primeiro sabino a o ser  
 Religioso e quase um frei  
-Ao trono, ele não queria ascender  
+A Rei, ele não queria ascender  
 
 O sabino como frei Rei então  
 Os romanos se pôs a apaziguar  
 A paz foi marcante em sua gestão  
-Guerra e paz Roma viu se equilibrar  
+Guerra e paz ele soube equilibrar  
+
+Terceiro dos reis foi Hostílio  
+E semelhante a Rômulo reinou  
+Ele de primo nome era Túlio  
+E o povo d'Alba Longa derrotou  
+
+O próximo Rei foi Anco Márcio  
+E, como era de Pompílio neto  
+Pôs-se a almejar a paz de início  
+Mas lutou quando a guerra veio perto  
+
+O quinto Rei foi Tarquínio Prisco  
+Neste Roma mui expande o seu domínio  
+De Roma, foi o primo Rei etrusco  
+Por desavença, morreu de assassínio  
+
+Penúltimo Rei foi Sérvio Túlio  
+Eleito ele não foi pelo Senado  
+Rei ilegítimo, causa prélio  
+Este morre também assassinado  
+
+O último Rei, também espúrio  
+Soberbo, que Túlio removeu  
+Tirano e notório vigário  
+De Tarquínio, um neto era seu  
+
+Soberbo também era construtor  
+Mas Rei ilegítimo não honrais  
+E cansados do imane opressor  
+Clamam romanos: o Rei derrubais  
