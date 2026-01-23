@@ -77,3 +77,13 @@ Rômulo, o primeiro Rei romano
 Funda tudo que as Romas terão  
 As armas e o Senado latino  
 O denário e o bravo pendão  
+
+Numa Pompílio então foi o Rei  
+E o primeiro sabino a o ser  
+Religioso e quase um frei  
+Ao trono, ele não queria ascender  
+
+O sabino como frei Rei então  
+Os romanos se pôs a apaziguar  
+A paz foi marcante em sua gestão  
+Guerra e paz Roma viu se equilibrar  
