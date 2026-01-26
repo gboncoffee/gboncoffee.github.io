@@ -1,6 +1,6 @@
 <!-- pt :: A Dança das Romas :: 2026-01-21 00:50:43 -->
 
-*em progresso*
+*em progresso - iniciado a 20 de Janeiro de 2026 Anno Domini*
 
 # A Dança das Romas
 
@@ -51,10 +51,10 @@ E a guerra dessa forma surgiu
 Remo insulta o irmão, e o mataram  
 E Rômulo a cidade construiu  
 
-Primeira Roma faz-se da Guerra  
+Assim que Roma se faz da Guerra  
 De Tróia quando Eneias fugiu  
-Terá essa a mais longa Era  
-Que nenhuma outra Roma já viu  
+Romanos esperam que essa Era  
+Os dê glória que nunca se viu  
 
 ## Canto II - *O Rapto das Sabinas*
 
@@ -74,8 +74,8 @@ Mas as damas não viram injúria
 E a Roma os sabinos se uniram  
 
 Rômulo, o primeiro Rei romano  
-Funda tudo que as Romas terão  
-As armas e o Senado latino  
+Que constrói essa civilização  
+Funda armas e Senado latino  
 O denário e o bravo pendão  
 
 Ao Olimpo Rômulo ascendeu  
