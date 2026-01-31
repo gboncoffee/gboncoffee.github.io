@@ -3,11 +3,8 @@
 # Hello
 
 My name is Gabriel
-([pronounced gɑbriɛl](https://en.wikipedia.org/wiki/Help:IPA/English))
-and I'm a computer science student at [UFPR](https://web.inf.ufpr.br/dinf/).
-
-I like computers and alcohol.
-
-[GitHub](https://github.com/gboncoffee). <a rel="me" href="https://mastodon.social/@gboncoffee">Mastodon</a>.
+([pronounced gɑbriɛl](https://en.wikipedia.org/wiki/Help:IPA/English)).
+I like lusophony, computers and alcohol. You can find me on the web as
+`@gboncoffee`.
 
 ![Me in a ship](/static/profile.png)
