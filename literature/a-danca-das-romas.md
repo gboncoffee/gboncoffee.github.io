@@ -83,6 +83,8 @@ E tornou-se então Deus Quirino
 O povo, seu sucessor escolheu  
 Para ser líder do Reino latino  
 
+## Canto III - *O Reino de Roma*
+
 Numa Pompílio então foi o Rei  
 E o primeiro sabino a o ser  
 Religioso e quase um frei  
@@ -122,3 +124,20 @@ Soberbo também era construtor
 Mas Rei ilegítimo não honrais  
 E cansados do imane opressor  
 Clamam romanos: o Rei derrubais  
+
+## Canto IV - *A República*
+
+O filho do Rei Soberbo raptou  
+Mulher nobre de nome Lucrétia  
+Após o rapto ela se suicidou  
+E o reino não o deu anistia  
+
+Brutus então arrancou a faca  
+Que no seio, Lucrétia cravou  
+E fundou a Roma República  
+Por essa mulher que assim honrou  
+
+Antes de morrer Lucrétia pariu  
+Filha bastarda que Roma tomou  
+Foi a República que aí surgiu  
+Na revolta que Brutus liderou  
