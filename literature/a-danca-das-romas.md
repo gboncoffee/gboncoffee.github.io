@@ -141,3 +141,13 @@ Antes de morrer Lucrétia pariu
 Filha bastarda que Roma tomou  
 Foi a República que aí surgiu  
 Na revolta que Brutus liderou  
+
+São duzentos mais quarenta e quatro  
+Anos depois de ser Roma fundada  
+E retirando um rei tão atroz  
+A República foi consolidada  
+
+E dois cônsules eram eleitos  
+Para dividir o poder cada ano  
+Soberbo tenta retomar os súditos  
+Mas não reconquista o povo romano  
