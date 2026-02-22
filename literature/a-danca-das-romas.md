@@ -151,3 +151,18 @@ E dois cônsules eram eleitos
 Para dividir o poder cada ano  
 Soberbo tenta retomar os súditos  
 Mas não reconquista o povo romano  
+
+Logo, a República em guerra  
+Entra com os outros povos latinos  
+Buscando toda a latina terra  
+Muitas batalhas vencem os romanos  
+
+Perto do Lago Regilo venceram  
+A Liga por Soberbo liderada  
+Inimigos de Roma, padeceram  
+E a terra latina foi liberada  
+
+São trezentos e mais quatro anos  
+Passados após Roma ser fundada  
+Derrotaram os últimos sabinos  
+Esteve invicta a romana espada  
