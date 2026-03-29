@@ -5,4 +5,4 @@
 Kang Hae-rin.
 
 #+CAPTION: My black female cat with a Pepsi can
-[[../../literature/static/kang_hae-rin.jpg]]
+[[../static/literature/kang_hae-rin.jpg]]

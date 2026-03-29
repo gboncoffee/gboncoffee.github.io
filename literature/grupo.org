@@ -13,4 +13,4 @@ eu saí do meu grupo meses antes de quando falam, e a prova disso é como me tra
 não é à toa que dizem que o grupo se mantém mesmo mudando de casa, mas o apego que eu tenho é com ela
 
 #+CAPTION: Grupo
-[[../../literature/static/grupo.jpg]]
+[[../static/literature/grupo.jpg]]

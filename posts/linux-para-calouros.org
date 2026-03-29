@@ -14,7 +14,7 @@ Qualquer dúvida aqui pode [[mailto:ggb23@inf.ufpr.br][me mandar mensagem]] ;)
 
 O htop é um gerenciador de tarefas. Sua interface padrão é algo assim:
 
-[[../../posts/static/linux/htop.png]]
+[[../static/posts/linux/htop.png]]
 
 Para instalar no Mint/Ubuntu/Debian, ~sudo apt install htop~.
 
@@ -24,13 +24,13 @@ Por padrão, essa tabela é ordenada pelos processos que estão utilizando mais 
 
 Com o mouse ou as setas do teclado, é possível selecionar processos. Apertando F9, um novo menu se abre com opções de sinais (Sinais são uma forma rudimentar de fazer comunicação entre processos) para enviar para esse processo. Por exemplo: abra um novo terminal e rode o comando ~python3~. Deixe ele parado ali. No htop, procure o comando (vai ser mais fácil usar o "modo árvore" para isso). Ele vai ser filho de um processo ~bash~, filho do processo que roda o seu terminal. Por exemplo, no meu Linux Mint:
 
-[[../../posts/static/linux/htop-python.png]]
+[[../static/posts/linux/htop-python.png]]
 
 Aperte F9 e selecione o sinal padrão SIGTERM. Veja o que acontece no terminal que estava rodando Python. Você matou o processo!
 
 O htop é bastante configurável. Aperte F2 e navegue pelos menus para ver o que pode ser alterado. A minha configuração por exemplo abre em "modo árvore" por padrão e mostra a frequência e temperatura dos núcleos:
 
-[[../../posts/static/linux/htop-config.png]]
+[[../static/posts/linux/htop-config.png]]
 
 Comentando sobre o tal do swap: é uma região do disco que pode ser usada como memória. Normalmente só é usada se você estiver esgotando a sua memória RAM, mas também serve para outras coisas (quando você "hiberna" o computador por exemplo, toda a memória é copiada para o swap e o computador desliga. Quando você liga ele novamente, o Linux percebe que tinha uma memória copiada no swap e copia ela de volta para a RAM. Assim ele consegue "voltar de onde parou").
 
@@ -50,7 +50,7 @@ Ultimamente, o meu gosto tem tendido bastante para desktops retrôs.
 
 Um programa que utilizamos bastante nessas fotos é o Neofetch. Ele não serve basicamente para nada, mas mostra informações do seu sistema de um jeito bonitinho no terminal. Por exemplo, o neofetch na minha máquina do laboratório:
 
-[[../../posts/static/linux/neofetch-amantino.png]]
+[[../static/posts/linux/neofetch-amantino.png]]
 
 Tem vários outros programas parecidos. O nome geralmente termina com "fetch".
 
@@ -72,7 +72,7 @@ Serviços costumam terminar com a letra "d", que significa "daemon" (demônio). 
 
 O tmux é um programa muito legal que funciona como um emulador de terminal dentro do terminal. Ele tem basicamente dois usos: manter sessões de terminal ativas e abrir várias janelas dentro de um mesmo terminal. Veja na foto o tmux com duas janelas abertas: na esquerda, o meu editor de texto preferido, o [[https://micro-editor.github.io/][micro]] editando um projeto do HiPES. Na direita, tem um terminal aberto depois de rodar um programa para debuggar o projeto. Perceba que o tmux cria uma barra verde embaixo do terminal:
 
-[[../../posts/static/linux/tmux.png]]
+[[../static/posts/linux/tmux.png]]
 
 O tmux também tem aparência e atalhos de teclado customizáveis.
 
@@ -84,4 +84,4 @@ O ~sl~ é um programa meme que você pode instalar: ~sudo apt install sl~. Basic
 
 O ~sl~ desenha um trem passando pelo seu terminal, e não tem como matar ele com CTRL+C. Agora sempre que você rodar "sl" tentando rodar "ls", você é punido tendo que assistir o trem passar de um lado até o outro do terminal.
 
-[[../../posts/static/linux/sl.png]]
+[[../static/posts/linux/sl.png]]

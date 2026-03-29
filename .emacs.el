@@ -1,1 +1,1 @@
-(setq tasks '(("Build website" "emacs --batch -l 'build.el'")))
+(setq tasks '(("Build website" "emacs --batch -l build.el")))

@@ -1,3 +1,5 @@
 gboncoffee.github.io
-/gen/
-*.html
+public/
+/literature/index.html
+/literature/likey/index.html
+/posts/index.html
