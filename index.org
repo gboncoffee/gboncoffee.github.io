@@ -1,0 +1,5 @@
+#+TITLE: Hello
+
+ My name is Gabriel ([[https://en.wikipedia.org/wiki/Help:IPA/English][pronounced gɑbriɛl]]). I like lusophony, computers and alcohol. You can find me on the web as ~@gboncoffee~.
+
+ [[./static/profile.png]]
