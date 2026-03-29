@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stupid Sorting</title>
+<meta name="generator" content="Org Mode" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="/static/profile.png">
+
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+<style>
+ :root {
+     font-family: Inter, sans-serif;
+     font-feature-settings: 'liga' 1, 'calt' 1;
+ }
+
+ @supports (font-variation-settings: normal) {
+     :root {
+         font-family: InterVariable, sans-serif;
+     }
+ }
+
+ html {
+     background-color: #111111;
+     color: #e5e5e5;
+ }
+
+ a {
+     color: #0099ff;
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: #a287f4;
+     text-decoration: none;
+ }
+
+ code {
+     font-family: "IBM Plex Mono", monospace;
+     font-weight: 500;
+     font-style: normal;
+     font-size: small;
+ }
+
+ #navlist {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ #navlistitem {
+     display: inline;
+     padding-right: 2.5rem;
+ }
+
+ footer {
+     text-align: center;
+     bottom: 0;
+ }
+
+ #content {
+     padding-bottom: 4em;
+ }
+
+ img {
+     max-width: 80vw;
+     max-height: 80vh;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ header {
+     text-align: center;
+ }
+
+ #bigtitle {
+     color: #e5e5e5;
+ }
+
+ #date {
+     padding-top: 2em;
+ }
+
+ @media (min-width:801px) {
+     #content {
+         margin-left: 25vw;
+         margin-right: 25vw;
+     }
+
+     #date {
+         margin-left: 25vw;
+         margin-right: 25vw;
+	 text-align: center;
+     }
+
+     img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         max-width: 50vw;
+     }
+ }
+</style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+    <h1>
+        <a id="bigtitle" href="/">Gabriel</a>
+    </h1>
+    <nav>
+        <ul id="navlist">
+            <li id="navlistitem"><a href="/projects.html">Projects</a></li>
+            <li id="navlistitem"><a href="/posts/">Posts</a></li>
+            <li id="navlistitem"><a href="/literature/">Literature</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="date">
+    12 September, 2023 <i>Anno Domini</i> - 10:02
+</div>
+</div>
+<div id="content" class="content">
+<h1 class="title">Stupid Sorting</h1>
+<p>
+The first topic in "Algoritmos e Estruturas de Dados II" ("Algorithms and Data Structures II") classes are sorting algorithms. The first one we learn is the stupid Selection Sort. It's not really that usefull but it's a great example to learn. Then we learn stuff like the Insertion Sort, which's actually usefull and more complex to understand.
+</p>
+
+<p>
+But, as stupid as Selection Sort is, it's kinda straightforward. What about some really, really stupid and useless sorting algorithms?
+</p>
+
+<p>
+For this algorithms I used some <code>#includes</code> and a simple function that checks if an array is sorted. The entire source is available <a href="https://gist.github.com/gboncoffee/2ecfacb0bc7f03626e4c1d2e4d00253f">here at GitHub</a>.
+</p>
+
+<div id="outline-container-org529cc8c" class="outline-2">
+<h2 id="org529cc8c">Kill Sort</h2>
+<div class="outline-text-2" id="text-org529cc8c">
+<p>
+Sorts the array by removing unsorted itens. Returns the final size.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-C">int kill_sort(int *v, int n)
+{
+    int pad = 0;
+    for (int i = 1; i &lt; n; i++) {
+        if (v[i] &lt; v[i - 1 - pad])
+            pad++;
+        else
+            v[i - pad] = v[i];
+    }
+
+    return n - pad;
+}
+</pre>
+</div>
+
+<p>
+The cool thing about this one is that it keeps the pointer valid. Of course, it's usefull if we want a sorted array but don't need all the elements. It's linear too, which is very cheap, but it writes a lot, and that's not great if writes are expensive.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7a6a45e" class="outline-2">
+<h2 id="org7a6a45e">Thanos Sort</h2>
+<div class="outline-text-2" id="text-org7a6a45e">
+<p>
+Sorts the array by removing a random half of it until it's sorted. Returns the final array pointer and sets n to it's size.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-C">int* thanos_sort(int *v, int *n)
+{
+    srand(time(NULL));
+    while (*n &gt; 1 &amp;&amp; !sorted(v, *n)) {
+        if (random() % 2) {
+            v += *n / 2;
+        }
+
+        *n = *n / 2;
+    }
+
+    return v;
+}
+</pre>
+</div>
+
+<p>
+Very similar to Kill Sort. Unfortunatelly, this one leads to much more data loss and does not have predictable behaviour. But it does not make a single write in the array and runs in logarithmic time. Extremelly cheap. Also, it may not keep the pointer valid, and that's why it returns a new one. This should be used with caution to not cause memory leaks.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org885597b" class="outline-2">
+<h2 id="org885597b">Random Sort</h2>
+<div class="outline-text-2" id="text-org885597b">
+<p>
+Sorts the array by randomizing a sequence and them checking if it's sorted.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-C">void random_sort(int *v, int n)
+{
+    int x, y, tmp;
+    srand(time(NULL));
+    while (!sorted(v, n)) {
+        for (int i = 0; i &lt; n; i++) {
+            x = random() % n;
+            y = random() % n;
+            tmp = v[x];
+            v[x] = v[y];
+            v[y] = tmp;
+        }
+    }
+}
+</pre>
+</div>
+
+<p>
+This one is fun. It has a little chance of sorting the array in a single iteration. I tested with an array with 10 elements and it usuallys takes between 300 thousand and 700 thousand iterations to finish. As it have a chance of running a single iteration, it have a chance of never sorting at all too.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4cf4ef1" class="outline-2">
+<h2 id="org4cf4ef1">Intelligent Design Sort</h2>
+<div class="outline-text-2" id="text-org4cf4ef1">
+<p>
+Sorts the array by the following principle:<br />
+</p>
+<ul class="org-ul">
+<li>There's n! chance of the array being sorted;<br /></li>
+<li>So it must have been sorted by an intelligent designer.</li>
+</ul>
+
+<div class="org-src-container">
+<pre class="src src-C">void intelligent_design_sort(int *v, int n)
+{
+    (void) v;
+    (void) n;
+}
+</pre>
+</div>
+
+<p>
+This is the cheapest algorithm here. Runs in constant time and uses only a single stack frame of memory <i>at all, without compiler optimization</i>. I've only ever saw very few functions cheapest than this in computer science, and they're usually not usefull at all.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1437122" class="outline-2">
+<h2 id="org1437122">Miracle Sort</h2>
+<div class="outline-text-2" id="text-org1437122">
+<p>
+Sorts the array by waiting and hoping cosmic rays are going to flip the memory so the array get's sorted.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-C">void miracle_sort(int *v, int n)
+{
+    while (!sorted(v, n))
+        sleep(5);
+}
+</pre>
+</div>
+
+<p>
+Yeah it just sits there and patiently waits for a miracle. You can adjust the sleep time to change the behaviour of the algorithm: more time will lead to a slightly slower sort, but less CPU usage. Less time will lead to a slightly faster sort, but more CPU usage.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0169460" class="outline-2">
+<h2 id="org0169460">Schrodinger Sort</h2>
+<div class="outline-text-2" id="text-org0169460">
+<p>
+It's not sorted nor unsorted until you check it.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-C">int schrodinger_sort(int *v, int n)
+{
+    return sorted(v, n);
+}
+</pre>
+</div>
+
+<p>
+It sorts the array by telling you if it's sorted or not, so you decides what to do. Quantum mechanics are really cool, aren't they?
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<footer>
+    <hr width="80%">
+    © Gabriel G. de Brito (CC-BY-NC). Code for this page is free and open
+    source, licensed under the MIT license. Help improving it on
+    <a href="https://github.com/gboncoffee/gboncoffee.github.io">GitHub</a>.
+</footer>
+</div>
+</body>
+</html>
