@@ -1,0 +1,8 @@
+#+TITLE: Kang Hae-rin
+#+DATE: <2025-07-26 Sat 23:44>
+#+LANGUAGE: en
+
+Kang Hae-rin.
+
+#+CAPTION: My black female cat with a Pepsi can
+[[../../literature/static/kang_hae-rin.jpg]]

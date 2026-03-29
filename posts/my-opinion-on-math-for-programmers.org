@@ -1,7 +1,5 @@
 #+TITLE: My Opinion on Math for Programmers
-#+INDEX: My Opinion on Math for Programmers
 #+DATE: <2024-05-13 Mon 23:15>
+#+LANGUAGE: en
 
-#+BEGIN_HTML
-  <meta http-equiv="refresh" content="0; url='https://youtu.be/T1GkoEIkhzM?si=_VMMTXd0uQhB1SKg'" />
-#+END_HTML
+@@html:<meta http-equiv="refresh" content="0; url='https://youtu.be/T1GkoEIkhzM?si=_VMMTXd0uQhB1SKg'" />@@

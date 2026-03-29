@@ -1,0 +1,5 @@
+#+TITLE: Teoria do Caos
+#+DATE: <2023-02-23 Thu 22:51>
+#+LANGUAGE: pt
+
+A Teoria do Caos é uma parte deveras interessante da matemática. Seu conceito mais popular é, de longe, o "Efeito Borboleta". Perceber-se-á tal efeito bastante ao conversar com gente. Isso, pois, caso erre, torna-te a pior pessoa do mundo.

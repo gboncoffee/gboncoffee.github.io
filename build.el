@@ -17,6 +17,8 @@
 	      (format-time-string "%d %B\\, %Y /Anno Domini/ - %R"
 				  (org-publish-find-date entry project))))))
 
+(setq org-export-date-timestamp-format "%d %B, %Y /Anno Domini/ - %R")
+(setq org-html-html5-fancy t)
 (setq org-html-validation-link nil)
 (setq org-html-head-include-scripts nil)
 (setq org-html-head-include-default-style nil)
@@ -26,7 +28,13 @@
 (setq org-export-with-toc nil)
 (setq org-export-with-section-numbers nil)
 (setq org-export-with-date t)
-(setq org-html-preamble (read-file-to-string "header.html"))
+(setq org-export-html-header (read-file-to-string "header.html"))
+(setq org-html-preamble
+      (lambda (info)
+	(format org-export-html-header
+		(or
+		 (org-export-get-date info "%d %B, %Y <i>Anno Domini</i> - %R")
+		 ""))))
 (setq org-html-postamble (read-file-to-string "footer.html"))
 
 (setq org-publish-project-alist

@@ -1,5 +1,4 @@
 #+TITLE: A Review On My Own Post On Text Editors
-#+INDEX: A Review On My Own Post On Text Editors
 #+DATE: <2023-10-20 Fri 21:24>
 #+LANGUAGE: en
 

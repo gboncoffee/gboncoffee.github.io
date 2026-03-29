@@ -1,0 +1,9 @@
+#+TITLE: Neve
+#+DATE: <2025-01-07 Tue 01:25>
+#+LANGUAGE: pt
+
+#+BEGIN_VERSE
+Sonhei que nevava
+E escrevíamos coisas bonitas sobre a neve
+Acordei com a chuva
+#+END_VERSE

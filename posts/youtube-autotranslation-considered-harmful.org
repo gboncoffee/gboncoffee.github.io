@@ -1,5 +1,4 @@
 #+TITLE: YouTube Autotranslation Considered Harmful
-#+INDEX: YouTube Autotranslation Considered Harmful
 #+DATE: <2025-06-02 Mon 13:09>
 #+LANGUAGE: en
 

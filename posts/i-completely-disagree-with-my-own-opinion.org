@@ -1,6 +1,5 @@
 #+TITLE: I completely disagree with my own opinion
 #+DATE: <2024-04-27 Sat 20:59>
-#+INDEX: I completely disagree with my own opinion
 #+LANGUAGE: en
 
 That's exactly it. I completely disagree with my own opinion!

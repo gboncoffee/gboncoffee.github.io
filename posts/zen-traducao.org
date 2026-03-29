@@ -1,5 +1,4 @@
 #+TITLE: Zen do Gabriel de Desenvolvimento Tecnológico
-#+INDEX: Zen do Gabriel de Desenvolvimento Tecnológico
 #+DATE: <2024-09-21 20:44:01>
 #+LANGUAGE: pt
 

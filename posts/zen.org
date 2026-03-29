@@ -1,5 +1,4 @@
 #+TITLE: The Zen of Gabriel for Technology Development
-#+INDEX: The Zen of Gabriel for Technology Development
 #+DATE: <2024-09-19 Thu 22:39>
 #+LANGUAGE: en
 

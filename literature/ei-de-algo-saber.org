@@ -1,0 +1,15 @@
+#+TITLE: Ei de Algo Saber
+#+DATE: <2026-01-15 Thu 22:03>
+#+LANGUAGE: pt
+
+#+BEGIN_VERSE
+Ei de algo saber sobre Amor
+Pois uma vez eu o vi estar
+Tantos anos vivi o terror
+E tu me viu, e como é amar
+
+Pois quando eu vier a morrer
+Na Guerra, que o ódio trará
+O último pensar do meu ser
+Inteiramente a ti será
+#+END_VERSE

@@ -1,0 +1,24 @@
+#+TITLE: De Muziko Malpeza
+#+DATE: <2024-02-13 Tue 10:47>
+#+LANGUAGE: eo
+
+* Originalo de Soda Stereo
+#+BEGIN_VERSE
+Ŝi dormis, en homamasvarmego
+Kaj mi vekis, volante sonĝi ŝin
+Lastatempe, pensis pri skribi
+Pri neniam forkuris de amkaptilo
+
+De tiu amo,
+De muziko malpeza
+Ni ne liberiĝas
+Nenio por ni restas
+
+Mi ne sendos al vi cindron de rozoj
+Nek mi evitas tuŝo sekreta
+
+De tiu amo,
+De muziko malpeza
+Ni ne liberiĝas
+Nenio por ni restas
+#+END_VERSE

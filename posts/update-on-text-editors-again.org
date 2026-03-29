@@ -1,5 +1,4 @@
 #+TITLE: Another Update On Text Editors
-#+INDEX: Another Update On Text Editors
 #+DATE: <2023-12-21 Thu 01:49>
 #+LANGUAGE: en
 

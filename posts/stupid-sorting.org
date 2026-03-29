@@ -1,5 +1,4 @@
 #+TITLE: Stupid Sorting
-#+INDEX: Stupid Sorting
 #+DATE: <2023-09-12 Tue 10:02>
 #+LANGUAGE: en
 

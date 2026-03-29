@@ -1,6 +1,6 @@
 #+TITLE: Liar's Card: a Version of the Liar's Dice Game For Playing Cards Sets
-#+INDEX: Liar's Card: a Version of the Liar's Dice Game For Playing Cards Sets
  #+DATE: <2025-06-22 19:43:21>
+ #+LANGUAGE: en
 
 I like the game of Liar's dice a lot (if you don't remember, it's the one they play in the Flying Dutchman at Pirates of The Caribbean: Dead Man's Chest), but it's too bureaucratic: you need five dices for each player, and dice sets aren't actually that popular.
 

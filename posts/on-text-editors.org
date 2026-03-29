@@ -1,6 +1,6 @@
 #+TITLE: On Text Editors
-#+INDEX: On Text Editors
 #+DATE: <2023-09-20 Wed 23:58>
+#+LANGUAGE: en
 
 Here, I'll talk a little about my journey with a lot of text editors and what I'm currently liking. Maybe I'll eventually try creating my own with the ideas resumed here.
 

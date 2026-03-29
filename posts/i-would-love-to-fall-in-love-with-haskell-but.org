@@ -1,6 +1,6 @@
 #+TITLE: I Would Love to Fall in Love With Haskell BUT
-#+INDEX: I Would Love to Fall in Love With Haskell BUT
 #+DATE: <2024-09-28 Sat 21:21>
+#+LANGUAGE: en
 
 Title. I would love to fall in love with Haskell, BUT...
 

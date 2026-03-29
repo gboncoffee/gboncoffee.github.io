@@ -1,5 +1,4 @@
 #+TITLE: What I Need to Code
-#+INDEX: What I Need to Code
 #+DATE: <2025-03-22 Sat 14:09>
 #+LANGUAGE: en
 

@@ -1,5 +1,4 @@
 #+TITLE: Interaction as Tool Use em Programação
-#+INDEX: Interaction as Tool Use em Programação
 #+DATE: <2025-03-16 Sun 19:20>
 #+LANGUAGE: pt
 

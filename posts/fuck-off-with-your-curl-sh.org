@@ -1,7 +1,6 @@
 #+TITLE: Fuck Off With Your ~curl | sh~
 #+DATE: <2024-09-27 Fri 23:24>
 #+LANGUAGE: en
-#+INDEX: Fuck Off With Your ~curl | sh~
 
 Fuck off with your ~curl something something something | sh~ to install your tool.
 

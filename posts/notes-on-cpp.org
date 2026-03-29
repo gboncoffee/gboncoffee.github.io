@@ -1,6 +1,6 @@
 #+TITLE: Notes on C++
-#+INDEX: Notes on C++
 #+DATE: <2024-10-20 Sun 21:50>
+#+LANGUAGE: en
 
 This is a list of stuff to remember when programming in this hell of a language called C++. I hate every single second of my life when I'm programming with it. Unfortunatelly, I'm forced to some times.
 
