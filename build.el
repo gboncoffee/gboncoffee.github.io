@@ -45,6 +45,13 @@
 	     :publishing-directory "./public/"
 	     :publishing-function #'org-html-publish-to-html
 	     :time-stamp-file nil)
+       (list "etc"
+	     :recursive nil
+	     :base-directory "./etc/"
+	     :base-extension 'any
+	     :publishing-directory "./public/"
+	     :publishing-function #'org-publish-attachment
+	     :time-stamp-file nil)
        (list "static"
 	     :recursive t
 	     :base-directory "./static/"
