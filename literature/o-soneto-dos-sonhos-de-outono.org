@@ -1,0 +1,23 @@
+#+TITLE: O Soneto dos Sonhos de Outono
+#+DATE: <2026-04-02 Thu 22:07>
+#+LANGUAGE: pt
+
+#+BEGIN_VERSE
+E me vêm estes sonhos nesse Outono
+Agora após as chuvas do Verão
+Q'estavam tirando de mim o sono
+E sonhos perdidos, para onde irão?
+
+E me caem folhas nesse Outono
+Verdes estas nunca mais serão
+Destes teus amarelos eu me adono
+E em breve no solo se espalharão
+
+É o vigésimo segundo Outono
+Que me leva a passear neste campo
+E pelo Verão me desapaixono
+
+E no campo sigo, assim, diáfono
+Pois somos jovens e temos tempo
+E por este campo, serei epígono
+#+END_VERSE
