@@ -1,0 +1,20 @@
+#+TITLE: Cordel em Ocasião do Aniversário de Nadia Lobkov
+#+DATE: <2025-05-27 Tue>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Hoje é o dia
+De uma bailarina
+Nadia Lobkov
+Brilha como purpurina
+
+É tão elegante
+Em seus passos a bailar
+Tão inteligente
+Em seus saltos pelo ar
+
+Nadia vai bailando
+Nadia baila agora
+Nadia Lobkov
+Vai bailando a toda hora
+#+END_VERSE
