@@ -1,0 +1,25 @@
+#+TITLE: Soneto aos Gaúchos no Paraná
+#+DATE: <2026-04-13 Mon 00:10>
+#+LANG: pt
+
+/Pode-se também considerar um xote./
+
+#+BEGIN_VERSE
+A piazada que do Rio Grande subiu
+Subiu na guia do Cruzeiro estrelado
+À terra que mais linda jamais se viu
+E nesses campos os piás têm trabalhado
+
+Agora estamos plantando o mate e o café
+Nesse chão que dai-nos Deus, avermelhado
+Pois vereis como é firme essa nossa fé
+Que é por nossa terra que temos cultivado
+
+A piazada veio do Rio Grande em trote
+Ao nosso Paraná, norte e terras tão belas
+Nessa viagem que mais parecia um xote
+
+Pois as gurias, cá também vinham elas
+Trazendo a bomba e a cuia de amargo mate
+Para depois de tomar, dançar às estrelas
+#+END_VERSE
