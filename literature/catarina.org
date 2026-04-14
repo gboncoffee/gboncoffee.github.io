@@ -1,0 +1,23 @@
+#+TITLE: Catarina
+#+DATE: <2026-04-14 Tue 07:32>
+#+LANG: pt
+
+#+BEGIN_VERSE
+De cá, o rincão dos povos missionários
+Que te fizeram casa ao Uruguai
+Por estes campos extraordinários
+Que se estendem até o Paraguai
+
+Para o sul do Iguaçu tua querência
+Onde tens a tua vida mateira
+Mas veja e dê uma tanta deferência
+Se não morre a tradição da campeira
+
+Porém segues do campo tão charmosa
+Nestas flores de primavera eterna
+Assim faceira, tão maravilhosa
+
+Abandonai teu leste, Catarina
+Junta-te a quem te vê mais formosa
+Assim tu não serás a peregrina
+#+END_VERSE
