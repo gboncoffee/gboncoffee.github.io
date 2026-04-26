@@ -136,9 +136,9 @@
 <div id="content" class="content">
 <h1 class="title">Linux Para Calouros</h1>
 
-<div id="outline-container-orgf30e1f4" class="outline-2">
-<h2 id="orgf30e1f4">(Ou o que faltou em aula&#x2026;)</h2>
-<div class="outline-text-2" id="text-orgf30e1f4">
+<div id="outline-container-org55e6dfc" class="outline-2">
+<h2 id="org55e6dfc">(Ou o que faltou em aula&#x2026;)</h2>
+<div class="outline-text-2" id="text-org55e6dfc">
 <p>
 Falando um pouco mais sobre coisas interessantes que não foram cobertas nas aulas de Linux da Semana de Calouros da Ciência da Computação da UFPR.
 </p>
@@ -152,15 +152,15 @@ Qualquer dúvida aqui pode <a href="mailto:ggb23@inf.ufpr.br">me mandar mensagem
 </p>
 </div>
 
-<div id="outline-container-orgf2a8af0" class="outline-3">
-<h3 id="orgf2a8af0">htop e gerenciamento de recursos/tarefas</h3>
-<div class="outline-text-3" id="text-orgf2a8af0">
+<div id="outline-container-org1cc67b8" class="outline-3">
+<h3 id="org1cc67b8">htop e gerenciamento de recursos/tarefas</h3>
+<div class="outline-text-3" id="text-org1cc67b8">
 <p>
 O htop é um gerenciador de tarefas. Sua interface padrão é algo assim:
 </p>
 
 
-<div id="org704e89e" class="figure">
+<div id="org4a23e64" class="figure">
 <p><img src="../static/posts/linux/htop.png" alt="htop.png" />
 </p>
 </div>
@@ -182,7 +182,7 @@ Com o mouse ou as setas do teclado, é possível selecionar processos. Apertando
 </p>
 
 
-<div id="org171b426" class="figure">
+<div id="org90e51ea" class="figure">
 <p><img src="../static/posts/linux/htop-python.png" alt="htop-python.png" />
 </p>
 </div>
@@ -196,7 +196,7 @@ O htop é bastante configurável. Aperte F2 e navegue pelos menus para ver o que
 </p>
 
 
-<div id="org87ab6f5" class="figure">
+<div id="orga1ff4cb" class="figure">
 <p><img src="../static/posts/linux/htop-config.png" alt="htop-config.png" />
 </p>
 </div>
@@ -215,9 +215,9 @@ Além disso, perceba que o campo de "uso de memória virtual" por cada processo 
 </div>
 </div>
 
-<div id="outline-container-org93b169c" class="outline-3">
-<h3 id="org93b169c">Customização do desktop</h3>
-<div class="outline-text-3" id="text-org93b169c">
+<div id="outline-container-org1599cb1" class="outline-3">
+<h3 id="org1599cb1">Customização do desktop</h3>
+<div class="outline-text-3" id="text-org1599cb1">
 <p>
 O lugar onde a comunidade que customiza o desktop se reúne é o <a href="https://www.reddit.com/r/unixporn/">unixporn</a>. Procurando lá você encontra vários materiais e inspiração para customizar o seu desktop. <a href="https://www.reddit.com/r/unixporn/search/?q=author%3Agboncoffee&amp;cId=a68f400c-3ee3-423e-9f12-1a982c894c94&amp;iId=542ed4e8-fea2-4b60-970a-13066cf04c7a">Aqui estão</a> algumas customizações que eu já fiz por exemplo. Uma customização é chamada de "rice" (arroz).
 </p>
@@ -239,7 +239,7 @@ Um programa que utilizamos bastante nessas fotos é o Neofetch. Ele não serve b
 </p>
 
 
-<div id="org13f14be" class="figure">
+<div id="orgd65f9bb" class="figure">
 <p><img src="../static/posts/linux/neofetch-amantino.png" alt="neofetch-amantino.png" />
 </p>
 </div>
@@ -254,9 +254,9 @@ Tem vários outros programas parecidos. O nome geralmente termina com "fetch".
 </div>
 </div>
 
-<div id="outline-container-org4487c59" class="outline-3">
-<h3 id="org4487c59">Serviços do Sistema</h3>
-<div class="outline-text-3" id="text-org4487c59">
+<div id="outline-container-orgc2c4546" class="outline-3">
+<h3 id="orgc2c4546">Serviços do Sistema</h3>
+<div class="outline-text-3" id="text-orgc2c4546">
 <p>
 Na maioria das distros modernas, o projeto <code>systemd</code> mantém a maioria das ferramentas que envolvam manutenção do sistema. Uma delas é o sistema de serviços. Um serviço do sistema é um programa (ou conjunto de) que se inicia normalmente no boot e geralmente roda até que o sistema desligue. Por exemplo, o servidor gráfico Xorg é um serviço. A tela de login é um serviço.
 </p>
@@ -271,24 +271,24 @@ Serviços costumam terminar com a letra "d", que significa "daemon" (demônio). 
 </div>
 </div>
 
-<div id="outline-container-orgfed1cce" class="outline-3">
-<h3 id="orgfed1cce">Servidor de SSH</h3>
-<div class="outline-text-3" id="text-orgfed1cce">
+<div id="outline-container-org32dd257" class="outline-3">
+<h3 id="org32dd257">Servidor de SSH</h3>
+<div class="outline-text-3" id="text-org32dd257">
 <p>
 É comicamente simples configurar um servidor de ssh para acessar uma máquina remotamente. Basta instalar o pacote <code>ssh</code>, e ativar o serviço: <code>sudo systemctl enable sshd</code>. Por padrão, a configuração permite que a máquina seja acessada com senha. Para desativar isso, vá no arquivo <code>/etc/ssh/sshd_config</code>, procure pela linha <code>PasswordAuthentication yes</code>, troque o "yes" por "no", e reinicialize o SSH com o comando <code>sudo systemctl restart sshd</code>.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org847fb51" class="outline-3">
-<h3 id="org847fb51">tmux</h3>
-<div class="outline-text-3" id="text-org847fb51">
+<div id="outline-container-org7c828fc" class="outline-3">
+<h3 id="org7c828fc">tmux</h3>
+<div class="outline-text-3" id="text-org7c828fc">
 <p>
 O tmux é um programa muito legal que funciona como um emulador de terminal dentro do terminal. Ele tem basicamente dois usos: manter sessões de terminal ativas e abrir várias janelas dentro de um mesmo terminal. Veja na foto o tmux com duas janelas abertas: na esquerda, o meu editor de texto preferido, o <a href="https://micro-editor.github.io/">micro</a> editando um projeto do HiPES. Na direita, tem um terminal aberto depois de rodar um programa para debuggar o projeto. Perceba que o tmux cria uma barra verde embaixo do terminal:
 </p>
 
 
-<div id="orgc00fff3" class="figure">
+<div id="org13c50cc" class="figure">
 <p><img src="../static/posts/linux/tmux.png" alt="tmux.png" />
 </p>
 </div>
@@ -303,9 +303,9 @@ O outro uso além de criar várias janelas é manter sessões abertas. Por exemp
 </div>
 </div>
 
-<div id="outline-container-org6f38b19" class="outline-3">
-<h3 id="org6f38b19">Bônus: sl</h3>
-<div class="outline-text-3" id="text-org6f38b19">
+<div id="outline-container-org381bfff" class="outline-3">
+<h3 id="org381bfff">Bônus: sl</h3>
+<div class="outline-text-3" id="text-org381bfff">
 <p>
 O <code>sl</code> é um programa meme que você pode instalar: <code>sudo apt install sl</code>. Basicamente, é comum que eventualmente você tente rodar um comando que digitou errado sem querer, especialmente quando estiver digitando rápido. No caso, é extremamente comum digitar "sl" ao invés de "ls", até porque é um dos comandos mais comuns de se utilizar.
 </p>
@@ -315,7 +315,7 @@ O <code>sl</code> desenha um trem passando pelo seu terminal, e não tem como ma
 </p>
 
 
-<div id="org824cbd3" class="figure">
+<div id="org224495a" class="figure">
 <p><img src="../static/posts/linux/sl.png" alt="sl.png" />
 </p>
 </div>
