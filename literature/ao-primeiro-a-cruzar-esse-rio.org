@@ -1,0 +1,23 @@
+#+TITLE: Soneto ao Primeiro a Cruzar o Rio
+#+DATE: <2026-04-25 Sat 23:24>
+#+LANG: pt
+
+#+BEGIN_VERSE
+O primeiro a cruzar o rio jamais
+Terá por nós seu legado esquecido
+Ainda que outros o cruzem no mais
+Há de ser o primeiro enaltecido
+
+Pois tudo que temos a esse devemos
+Já que construímos à essa outra margem
+Então foi por ele que nós pudemos
+Para esse lado partir em viagem
+
+E ainda que outras águas cruzemos
+A memória ainda seguirá
+Conosco por onde quer que passemos
+
+E em tudo que lá gente essa erguerá
+Pois seu brio de herança recebemos
+Essa urbe o seu fundador honrará
+#+END_VERSE
