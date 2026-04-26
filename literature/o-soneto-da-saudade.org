@@ -1,0 +1,23 @@
+#+TITLE: O Soneto da Saudade
+#+DATE: <2026-04-26 Sun 12:43>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Mas bah! As vezes me bate a saudade
+daquele a muito conhecido rosto
+Como deixava meu coração posto
+com uma feliz peculiaridade
+
+De aproveito, vou falar na beleza…
+Lembro dos defeitos q’eu tanto amava,
+das falhas as quais eu admirava,
+de como eu tinha tamanha certeza…
+
+Agora restam só essa tristeza,
+a melancolia e essa fraqueza
+E ficam esses a implorar piedade:
+
+Coração chorando a triste verdade,
+verde do mate de amarga sofrença
+Que baita saudade, ó benquerença!
+#+END_VERSE
