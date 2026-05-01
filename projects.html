@@ -139,19 +139,19 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org3445106">EGG</a></li>
-<li><a href="#orgbb1334f">Intergo</a></li>
-<li><a href="#orgf8e603e">GGB86 - Gabriel's Good Bootloader for x86</a></li>
-<li><a href="#orgda06ec6">Universal Makefile</a></li>
-<li><a href="#org671f221">pgm.h</a></li>
-<li><a href="#org4627b3d">Rave</a></li>
-<li><a href="#org712e555">b3.h</a></li>
-<li><a href="#org67e4244">FinTEx</a></li>
-<li><a href="#org7edb1bf">Striker</a></li>
-<li><a href="#org7b05c99">Lunar Command</a></li>
-<li><a href="#orgdb20141">Iguassu</a></li>
-<li><a href="#orgb32eb0e">Barigui</a></li>
-<li><a href="#org6681f9b">wwtobu</a></li>
+<li><a href="#orge0c0ad0">EGG</a></li>
+<li><a href="#org52e132a">Intergo</a></li>
+<li><a href="#orgaeef9be">GGB86 - Gabriel's Good Bootloader for x86</a></li>
+<li><a href="#org57cd938">Universal Makefile</a></li>
+<li><a href="#org80ed3a5">pgm.h</a></li>
+<li><a href="#org6505907">Rave</a></li>
+<li><a href="#org685fe8e">b3.h</a></li>
+<li><a href="#org689b520">FinTEx</a></li>
+<li><a href="#orgb7d10f2">Striker</a></li>
+<li><a href="#org62ce6ce">Lunar Command</a></li>
+<li><a href="#orge5c5e84">Iguassu</a></li>
+<li><a href="#orgc3bd268">Barigui</a></li>
+<li><a href="#orgee848f2">wwtobu</a></li>
 </ul>
 </div>
 </div>
@@ -159,17 +159,17 @@
 A (non-exaustive) list of my projects!
 </p>
 
-<div id="outline-container-org3445106" class="outline-2">
-<h2 id="org3445106">EGG</h2>
-<div class="outline-text-2" id="text-org3445106">
+<div id="outline-container-orge0c0ad0" class="outline-2">
+<h2 id="orge0c0ad0">EGG</h2>
+<div class="outline-text-2" id="text-orge0c0ad0">
 <p>
 Abreviation for "Emulador Genérico do Gabriel". EGG is an emulator tailored at computer science education, designed specifically with the needs of the Microcomputers classes at <a href="https://web.inf.ufpr.br/dinf/">UFPR</a>. Supports RISC-V, MIPS and a fantasy architecture named Sagui.
 </p>
 </div>
 
-<div id="outline-container-org845d86f" class="outline-4">
-<h4 id="org845d86f">Features</h4>
-<div class="outline-text-4" id="text-org845d86f">
+<div id="outline-container-org3203b10" class="outline-4">
+<h4 id="org3203b10">Features</h4>
+<div class="outline-text-4" id="text-org3203b10">
 <ul class="org-ul">
 <li>Internationalized interface, currently translated only for Portuguese.</li>
 <li>Debugger with breakpoints, rewind, stepping and dump functionality.</li>
@@ -188,11 +188,11 @@ EGG probably works in any system with virtual memory where Go also works.
 </div>
 </div>
 
-<div id="outline-container-orgbb1334f" class="outline-2">
-<h2 id="orgbb1334f">Intergo</h2>
-<div class="outline-text-2" id="text-orgbb1334f">
+<div id="outline-container-org52e132a" class="outline-2">
+<h2 id="org52e132a">Intergo</h2>
+<div class="outline-text-2" id="text-org52e132a">
 <p>
-Small internationalization library for Go inspired by Gettext. Languages are stored in hashmaps and thus the library does not require any runtime file to work. Used for the internationalization in <a href="#org3445106">EGG</a>.
+Small internationalization library for Go inspired by Gettext. Languages are stored in hashmaps and thus the library does not require any runtime file to work. Used for the internationalization in <a href="#orge0c0ad0">EGG</a>.
 </p>
 
 <ul class="org-ul">
@@ -202,9 +202,9 @@ Small internationalization library for Go inspired by Gettext. Languages are sto
 </div>
 </div>
 
-<div id="outline-container-orgf8e603e" class="outline-2">
-<h2 id="orgf8e603e">GGB86 - Gabriel's Good Bootloader for x86</h2>
-<div class="outline-text-2" id="text-orgf8e603e">
+<div id="outline-container-orgaeef9be" class="outline-2">
+<h2 id="orgaeef9be">GGB86 - Gabriel's Good Bootloader for x86</h2>
+<div class="outline-text-2" id="text-orgaeef9be">
 <p>
 Simple bootloader for x86 machines and the FAT 32 filesystem. Loads kernels from the boot disk, from reserved FAT 32 sectors to the `0x1000` address, switches to 32 bit protected mode and transfers control to the kernel.
 </p>
@@ -215,9 +215,9 @@ Simple bootloader for x86 machines and the FAT 32 filesystem. Loads kernels from
 </div>
 </div>
 
-<div id="outline-container-orgda06ec6" class="outline-2">
-<h2 id="orgda06ec6">Universal Makefile</h2>
-<div class="outline-text-2" id="text-orgda06ec6">
+<div id="outline-container-org57cd938" class="outline-2">
+<h2 id="org57cd938">Universal Makefile</h2>
+<div class="outline-text-2" id="text-org57cd938">
 <p>
 The only Makefile you'll ever need. Automatically adds every C and C++ source file with it's own object, and manages release and debug build profiles. And if that's not good enough, it's released under public domain.
 </p>
@@ -228,9 +228,9 @@ The only Makefile you'll ever need. Automatically adds every C and C++ source fi
 </div>
 </div>
 
-<div id="outline-container-org671f221" class="outline-2">
-<h2 id="org671f221">pgm.h</h2>
-<div class="outline-text-2" id="text-org671f221">
+<div id="outline-container-org80ed3a5" class="outline-2">
+<h2 id="org80ed3a5">pgm.h</h2>
+<div class="outline-text-2" id="text-org80ed3a5">
 <p>
 Public domain single-header library for reading, manipulating and writing PGM images.
 </p>
@@ -241,9 +241,9 @@ Public domain single-header library for reading, manipulating and writing PGM im
 </div>
 </div>
 
-<div id="outline-container-org4627b3d" class="outline-2">
-<h2 id="org4627b3d">Rave</h2>
-<div class="outline-text-2" id="text-org4627b3d">
+<div id="outline-container-org6505907" class="outline-2">
+<h2 id="org6505907">Rave</h2>
+<div class="outline-text-2" id="text-org6505907">
 <p>
 Audio visualizer made with Raylib in C.
 </p>
@@ -253,16 +253,16 @@ Audio visualizer made with Raylib in C.
 </ul>
 
 
-<div id="orgea0edd7" class="figure">
+<div id="org65c5408" class="figure">
 <p><img src="./static/rave.png" alt="rave.png" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org712e555" class="outline-2">
-<h2 id="org712e555">b3.h</h2>
-<div class="outline-text-2" id="text-org712e555">
+<div id="outline-container-org685fe8e" class="outline-2">
+<h2 id="org685fe8e">b3.h</h2>
+<div class="outline-text-2" id="text-org685fe8e">
 <p>
 Definitions for <a href="https://www.b3.com.br/en_us/">B3</a> FIX/SBE messages. Header-only library.
 </p>
@@ -273,9 +273,9 @@ Definitions for <a href="https://www.b3.com.br/en_us/">B3</a> FIX/SBE messages. 
 </div>
 </div>
 
-<div id="outline-container-org67e4244" class="outline-2">
-<h2 id="org67e4244">FinTEx</h2>
-<div class="outline-text-2" id="text-org67e4244">
+<div id="outline-container-org689b520" class="outline-2">
+<h2 id="org689b520">FinTEx</h2>
+<div class="outline-text-2" id="text-org689b520">
 <p>
 Financial Technological Exchange. A small and fast matching-engine for research of market strategies and embedding.
 </p>
@@ -286,9 +286,9 @@ Financial Technological Exchange. A small and fast matching-engine for research 
 </div>
 </div>
 
-<div id="outline-container-org7edb1bf" class="outline-2">
-<h2 id="org7edb1bf">Striker</h2>
-<div class="outline-text-2" id="text-org7edb1bf">
+<div id="outline-container-orgb7d10f2" class="outline-2">
+<h2 id="orgb7d10f2">Striker</h2>
+<div class="outline-text-2" id="text-orgb7d10f2">
 <p>
 The Resistance remains in the Arctic Ocean. In the Spitsbergen Nuclear Facility, at the Svalbard Archipelago, near the town of Longyearbyen, you're under attack and needs to shoot down all enemy missiles. The Resistance needs your help fighting the Enemy.
 </p>
@@ -298,16 +298,16 @@ The Resistance remains in the Arctic Ocean. In the Spitsbergen Nuclear Facility,
 </ul>
 
 
-<div id="org5305608" class="figure">
+<div id="orge71daff" class="figure">
 <p><img src="./static/striker.png" alt="striker.png" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org7b05c99" class="outline-2">
-<h2 id="org7b05c99">Lunar Command</h2>
-<div class="outline-text-2" id="text-org7b05c99">
+<div id="outline-container-org62ce6ce" class="outline-2">
+<h2 id="org62ce6ce">Lunar Command</h2>
+<div class="outline-text-2" id="text-org62ce6ce">
 <p>
 Point-and-click Missile Command clone made with <a href="https://love2d.org/">LÖVE</a>.
 </p>
@@ -317,16 +317,16 @@ Point-and-click Missile Command clone made with <a href="https://love2d.org/">L�
 </ul>
 
 
-<div id="org0cff5c3" class="figure">
+<div id="orgaa8bece" class="figure">
 <p><img src="./static/lunar.png" alt="lunar.png" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgdb20141" class="outline-2">
-<h2 id="orgdb20141">Iguassu</h2>
-<div class="outline-text-2" id="text-orgdb20141">
+<div id="outline-container-orge5c5e84" class="outline-2">
+<h2 id="orge5c5e84">Iguassu</h2>
+<div class="outline-text-2" id="text-orge5c5e84">
 <p>
 <code>rio</code> clone for X11.
 </p>
@@ -352,16 +352,16 @@ See the repo for more information.
 </ul>
 
 
-<div id="org30537f8" class="figure">
+<div id="orgabcd603" class="figure">
 <p><img src="./static/iguassu.png" alt="iguassu.png" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgb32eb0e" class="outline-2">
-<h2 id="orgb32eb0e">Barigui</h2>
-<div class="outline-text-2" id="text-orgb32eb0e">
+<div id="outline-container-orgc3bd268" class="outline-2">
+<h2 id="orgc3bd268">Barigui</h2>
+<div class="outline-text-2" id="text-orgc3bd268">
 <p>
 Mouse-oriented dynamic window manager for X11.
 </p>
@@ -375,16 +375,16 @@ It manages windows in a floating way by default, but windows may be put in a til
 </ul>
 
 
-<div id="orgf4d532c" class="figure">
+<div id="org7170ef1" class="figure">
 <p><img src="./static/barigui.png" alt="barigui.png" />
 </p>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org6681f9b" class="outline-2">
-<h2 id="org6681f9b">wwtobu</h2>
-<div class="outline-text-2" id="text-org6681f9b">
+<div id="outline-container-orgee848f2" class="outline-2">
+<h2 id="orgee848f2">wwtobu</h2>
+<div class="outline-text-2" id="text-orgee848f2">
 <p>
 Acronym to "Window Waiting TO Be Useful".
 </p>
