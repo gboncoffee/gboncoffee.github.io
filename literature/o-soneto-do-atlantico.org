@@ -1,0 +1,45 @@
+#+TITLE: O Soneto do Atlântico
+#+DATE: <2026-05-01 Fri 14:13>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Atlântico azul, bem grande e salgado
+Que escondes para trás de si o Tejo
+Por quem inúmeros tem muito entejo
+Mas que para o meu povo é sagrado
+
+Por te vencermos que cá pude estar
+Tendo desse lado uma nata terra
+A qual crescemos de espólios de guerra
+História que esta estava a gestar
+
+Foi pela tua grandiosidade
+Que ficaram as noivas por casar
+Com estes que em ti pereceram, mar
+
+Por ti mães nomearam nossa saudade
+E em vão ficaram filhos a rezar
+Pois tua glória escolhemos amar
+#+END_VERSE
+
+* OBS
+
+É relevante citar as claras referências a "Mar Português", de Fernando Pessoa (já domínio público):
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Ó mar salgado, quanto do teu sal/
+/São lágrimas de Portugal!/
+/Por te cruzarmos, quantas mães choraram,/
+/Quantos filhos em vão rezaram!/
+/Quantas noivas ficaram por casar/
+/Para que fosses nosso, ó mar!/
+
+/Valeu a pena? Tudo vale a pena/
+/Se a alma não é pequena./
+/Quem quer passar além do Bojador/
+/Tem que passar além da dor./
+/Deus ao mar o perigo e o abismo deu,/
+/Mas nele é que espelhou o céu./
+#+END_VERSE
+#+END_QUOTE
