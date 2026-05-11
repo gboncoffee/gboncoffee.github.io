@@ -1,0 +1,23 @@
+#+TITLE: O Soneto de Segunda-Feira
+#+DATE: <2026-05-11 Mon 12:39>
+#+LANG: pt
+
+#+BEGIN_VERSE
+E mais uma vez para ti escrevi
+Muito humildemente, um soneto
+Rimas pobres e verso imperfeito
+Sem conseguir honrar o que em ti vi
+
+Os teus belos traços eu descrevi
+Como se fosse eu naturalista
+Adorando, me tornei romancista
+Rimei "amar" com curvas que entrevi
+
+Eu contei as sílabas em teu nome
+No dicionário o procurei
+Para ao texto ser divino presente
+
+Seria tão belo este sobrenome
+Evocaria glória de rei
+E ficou nesse soneto latente
+#+END_VERSE
