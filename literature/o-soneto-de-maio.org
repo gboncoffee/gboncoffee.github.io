@@ -1,0 +1,26 @@
+#+TITLE: O Soneto de Maio
+#+DATE: <2026-05-14 Thu 23:02>
+#+LANG: pt
+
+#+BEGIN_VERSE
+No pé do morro, araucárias da serra
+E pela estrada eucaliptos plantados
+Estes são trazidos de uma outra terra
+Por algum dos nossos antepassados
+
+Em Maio os pinhões no chão esparramam
+Nos braseiros a lenha a água esquenta
+E nas lareiras as grimpas declamam
+O chimarrão o coração requenta
+
+Leva-me o mate, volto à primavera
+De mãos e coração quentes, libertos
+Do frio intenso que corta essa era
+
+E por que de ficarmos descobertos?
+Eu sei que esse frio não persevera
+Mas faz brancos até os campos abertos
+#+END_VERSE
+
+* OBS
+Qualquer paranaense pronuncia "araucárias" com quatro sílabas, ao invés das "tradicionais" cinco: "a.rau.cá.rias." ao invés de "a.rau.cá.ri.as.". É feito apenas um movimento com a língua, de forma a tornar o "i" é muito fraco e o "as" muito forte.
