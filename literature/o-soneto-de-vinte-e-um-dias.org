@@ -1,0 +1,27 @@
+#+TITLE: O Soneto de Vinte e Um Dias
+#+DATE: <2026-06-01 Mon 19:05>
+#+LANG: pt
+
+#+BEGIN_VERSE
+À minha frente há um mar vermelho
+Quando eu paro para olhar no espelho
+Para trás eu vejo um grande mar branco
+Ao meu lado há um vazio banco
+
+E a guitarra que eu escuto tocar
+Desafina-se ao me provocar
+A boêmia destas ruas me chama
+Para o universo que você clama
+
+Mas por aqui somos todos adultos
+Mesmo assim ficamos todos ocultos
+E fico eu aqui a ver estas curvas
+
+Aos meus olhos agora estão tão turvas
+Tanto que me causam bastante náusea
+Quando passo em veloz e infeliz cláusea
+#+END_VERSE
+
+* OBS
+
+Levei vinte e um dias para escrever este soneto, tendo vinte e um anos de idade. Foi coincidência.
