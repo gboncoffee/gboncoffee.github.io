@@ -1,0 +1,23 @@
+#+TITLE: Terceiro Soneto Sobre Café e Gatos
+#+DATE: <2026-06-01 Mon 21:09>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Namoro, gatos, selva e litoral
+Café passado bem longe do norte
+Bem preto ainda mas não muito forte
+Não tinhámos tanto no temporal
+
+Cansados, era querência a praia
+E de mãos demos as nossas morenas
+Doces, mas fortes, eram as lorenas
+Não foi isso que pensou a lacraia
+
+Mas por q'estes gatos se importariam?
+Se são esses que devem se importar
+Dois a dois gatos e direitos
+
+Vê, ti, quem são os que bem casariam
+Mas calma que vais desconcertar
+Pois estes que são gatinhos aceitos!
+#+END_VERSE
