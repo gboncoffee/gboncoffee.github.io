@@ -1,0 +1,13 @@
+#+TITLE: Emacs my Beloved
+#+DATE: <2026-06-06 Sat 13:42>
+#+LANG: en
+
+I wrote my last post about text editors in March 2025, so I guess it's time for yet another one.
+
+I'm using Emacs again, and this probably needs a lot of explanation. First and foremost, it's important to make it clear I'm not using it because it's /productive/, but because it's /confortable/. If I were to code in Visual Studio Code I would be outpputing more code with roughly the same quality as I'm doing in Emacs, but I'm not using Emacs just for coding.
+
+And that's the main point here. Emacs is not just a text editor. It's more like a shell, or a virtual machine userland. To use Emacs is very much like to use Plan 9 From User Space, where you swap most of your host operating system userland with it's functionality and compatible tools. With Emacs, you stop using a terminal and a file manager to use Emacs functionality.
+
+And as with lots of things in computing, it's more important to have a standard at all than to seek the perfect standard. Emacs standardizes the interface for a lot of functionality in your system, and thus it's more confortable to use it than to context-switch between various things. If I'm coding and suddenly needs to mess with some files in another directory, it's very convenient to do that in Emacs, and Dired works great as a general-purpose file manager (imagine using Visual Studio Code's tree as a general-purpose file manager). This standardization of the interface gets even better due to the sheer amount of nice software written for it (for instance, Magit and Org mode).
+
+Emacs is great, but there're problems I identify and would like to solve. It's old and tired, and in need of a spiritual successor. I very much like the "virtual-machine" architecture, and for this I'm doing some experiments using Elixir, as I think the BEAM virtual machine would be perfect for this use case. But, I may also only implement the things I need -- coding tools including Git, file manager, Org mode, Email reader and music player -- and go on with a simpler approach.
