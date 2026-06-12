@@ -1,0 +1,23 @@
+#+TITLE: O Soneto do Rocio
+#+DATE: <2026-06-11 Thu 22:47>
+#+LANG: pt
+
+#+BEGIN_VERSE
+E chove em Nossa Senhora da Luz
+Corta o vento no campo entre as serras
+Cá onde pinheiros cobrem as terras
+E ruas largas, à meia-luz
+
+Mas foi lá na base desses planaltos
+De repente, pelo orvalho, surgiu
+E na rede de Berê, emergiu
+Para reinar até os Sete Saltos
+
+Na manhã de rocio branco e gélido
+Em que muita graça tornou-se à gente
+Saiu das águas do nosso litoral
+
+Rogando por todo caboclo cálido
+Como nossa santíssima regente
+Hoje venerada em nossa capital
+#+END_VERSE
