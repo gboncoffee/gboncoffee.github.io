@@ -1,0 +1,23 @@
+#+TITLE: Soneto de uma Carmesim Luísa
+#+DATE: <2026-06-14 Sun 01:27>
+#+LANG: pt
+
+#+BEGIN_VERSE
+O carmesim desta dona guerreira
+Me faz pedir irado por um mais
+Tempo feliz que não volta jamais
+De lenços rubros em nossa fogueira
+
+Eu nem me lembro de quando começa
+Ao Outono, ou talvez é sempiterno?
+Este tempo deu lugar ao Inverno
+Mesmo não sendo coisa que se meça
+
+Em casa as noites são mais geladas
+Do que as passadas ao cruel relento
+Como foram estas noites ousadas
+
+Pois foi a luísa levada ao vento
+Para o púrpura nanquim de baladas
+Deixando esse soneto de lamento
+#+END_VERSE
