@@ -1,0 +1,142 @@
+#+TITLE: Análise do Hino Nacional Brasileiro
+#+DATE: <2026-06-13 Sat 22:48>
+#+LANG: pt
+
+Como o assunto do pós-jogo Brasil X Marrocos foi "o hino do Brasil não fala sobre guerra", eu decidi fazer essa análise da sua letra.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Ouviram do Ipiranga as margens plácidas/
+/De um povo heróico o brado retumbante,/
+/E o sol da liberdade, em raios fúlgidos,/
+/Brilhou no céu da pátria nesse instante./
+/Se o penhor dessa igualdade/
+/Conseguimos conquistar com braço forte,/
+/Em teu seio, ó liberdade,/
+/Desafia o nosso peito a própria morte!/
+#+END_VERSE
+#+END_QUOTE
+
+O hino começa falando da guerra pela independência do Brasil. Sim, todos esses versos são sobre guerra.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Ó Pátria amada,/
+/Idolatrada,/
+/Salve! Salve!/
+#+END_VERSE
+#+END_QUOTE
+
+Esses versos são apenas adoração genérica.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Brasil, um sonho intenso, um raio vívido/
+/De amor e de esperança à terra desce,/
+/Se em teu formoso céu, risonho e límpido,/
+/A imagem do Cruzeiro resplandece./
+#+END_VERSE
+#+END_QUOTE
+
+Essa é uma parte particularmente complicada de entender, principalmente porque a frase que quer ser dita está ao contrário da maneira com que se costuma dizer. "Traduzindo", ela fica algo como "O Brasil é um sonho intenso. Se a imagem do Cruzeiro (do Sul) resplandesce em teu (do Brasil) formoso, risonho e límpido céu, então um raio vívido de amor e de esperança vem para a terra (do Brasil)".
+
+Pode-se entender o Cruzeiro aqui como não apenas o Cruzeiro do Sul no céu, mas também o símbolo religioso. A esperança citada é a ânsia de se ter uma nação, que é formada por várias coisas, entre elas a guerra. O amor é o próprio. Portanto, uma interpretação bem clara para esse trecho é que o Brasil possui graça divina para se construir como nação.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Gigante pela própria natureza,/
+#+END_VERSE
+#+END_QUOTE
+
+Natureza aqui não quer dizer "mato, bicho, rio e fruta". Aqui se usa "natureza" da mesma maneira com que se diz que alguém tem "talento nato". O país é gigante por virtude de ser. É característica intrínseca ao Brasil ser gigante.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/És belo, és forte, impávido colosso,/
+/E o teu futuro espelha essa grandeza./
+#+END_VERSE
+#+END_QUOTE
+
+Alguém que não entende o que é uma nação pode erroneamente acreditar que esses dois versos (e o anterior também) se referem à natureza "mato, bicho, rio e fruta". Na verdade, eles dizem que, como nação, o país é forte (no sentido de "vence guerras" mesmo). "Impávido" significa "aquele que não teme", e "colosso" significa "gigante". O país é um gigante que não tem medo. Novamente, uma nação forte.
+
+O próximo verso diz que o futuro da nação será bom devido as características da nação descritas no verso anterior.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Terra adorada,/
+/Entre outras mil,/
+/És tu, Brasil,/
+/Ó Pátria amada!/
+/Dos filhos deste solo és mãe gentil,/
+/Pátria amada,/
+/Brasil!/
+#+END_VERSE
+#+END_QUOTE
+
+Novamente versos de adoração sem muito significado adicional. Aqui, porém, há o verso que, ironicamente, diz que a nação cuida bem de seus filhos (o seu povo).
+
+Essa estrofe encerra a primeira parte. Frequentemente, apenas essa parte é tocada pois o hino todo é particularmente longo.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Deitado eternamente em berço esplêndido,/
+/Ao som do mar e à luz do céu profundo,/
+/Fulguras, ó Brasil, florão da América,/
+/Iluminado ao sol do Novo Mundo!/
+/Do que a terra, mais garrida,/
+/Teus risonhos, lindos campos têm mais flores;/
+/"Nossos bosques têm mais vida",/
+/"Nossa vida" no teu seio "mais amores."/
+#+END_VERSE
+#+END_QUOTE
+
+A segunda parte começa com uma sequência sobre a beleza da natureza (dessa vez, "mato, bicho, rio e fruta") do território. Junto, há a afirmação de que o Brasil é a jóia da América, uma grande nação construída no Novo Mundo. Vale notar que o uso do termo "Novo Mundo" também insere a história do país nesse trecho (possivelmente de maneira acidental, para formar a rima e manter o ritmo). Especificamente, a ideia de que a nação foi construída através da colonização europeia.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Ó Pátria amada,/
+/Idolatrada,/
+/Salve! Salve!/
+#+END_VERSE
+#+END_QUOTE
+
+Mais adoração genérica sem significado particular.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Brasil, de amor eterno seja símbolo/
+/O lábaro que ostentas estrelado,/
+/E diga o verde-louro dessa flâmula/
+/\- "Paz no futuro e glória no passado."/
+#+END_VERSE
+#+END_QUOTE
+
+Os três primeiros versos dessa estrofe citam a bandeira. Ela foi inserida especificamente para melhorar a aceitação popular da troca do brasão imperial pelo círculo celeste republicano e o lema positivista "Ordem e progresso". Os dois últimos citam o verde da bandeira -- cor da esperança -- atribuindo a ele a afirmação da glória passada (das guerras vencidas para a formação da nação) e a ânsia de paz no futuro. Novamente, guerra.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Mas, se ergues da justiça a clava forte,/
+/Verás que um filho teu não foge à luta,/
+/Nem teme, quem te adora, a própria morte./
+#+END_VERSE
+#+END_QUOTE
+
+Realmente espero que não seja preciso comentar o que esse verso fala diretamente: se a nação for ultrajada, seu povo a defenderá. Guerra.
+
+#+BEGIN_QUOTE
+#+BEGIN_VERSE
+/Terra adorada,/
+/Entre outras mil,/
+/És tu, Brasil,/
+/Ó Pátria amada!/
+/Dos filhos deste solo és mãe gentil,/
+/Pátria amada,/
+/Brasil!/
+#+END_VERSE
+#+END_QUOTE
+
+O hino fecha com a mesma estrofe que encerra a primeira parte.
+
+* OBS
+
+Eu [[https://gboncoffee.dev.br/literature][costumo escrever melhor]], porém estou sob efeito de álcool, muito churrasco, ovinhos de amendoim e Doritos. Peço encarecidamente que o leitor me perdoe pela escrita horrível desse artigo. Que Deus lhe abencoe.
