@@ -1,0 +1,23 @@
+#+TITLE: Soneto à Guria Paranaense
+#+DATE: <2026-06-23 Tue 08:56>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Guria ninfa, que guerras fariam
+Helenos e troianos, se te vissem?
+Lusos, se de ti, rumores ouvissem,
+Quanto salgado mar, navegariam?
+
+Quanto suor sagrado a ti correu,
+Nas lavouras que mantém esta terra?
+E, quando viram estes campos guerra,
+Quanto soldado por ti não morreu?
+
+Os rumores se mostraram corretos
+Por todos que no Paraná moderno
+Semeiam os nossos campos abertos
+
+Pois são filhos de algum herói eterno
+Que desbravou esses rincões remotos
+Para você estar cá neste inverno
+#+END_VERSE
