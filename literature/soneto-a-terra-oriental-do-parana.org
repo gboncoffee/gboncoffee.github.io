@@ -1,0 +1,23 @@
+#+TITLE: Soneto à Terra Oriental do Paraná
+#+DATE: <2026-07-02 Thu 01:03>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Paraná, terra de tão belo campo
+Verde árvore no solo grená
+Filha bela como ti, Paraná
+Aguarda-te um belo e próximo tempo
+
+Paraná, mas que terra abençoada
+Eu beijo o teu solo cor de grená
+Logo à nossa margem do Paraná
+Para que saibas que tu és amada
+
+Na terra oriental do Paraná
+As águas e o Sol revezam teu teto
+Para pendurar seu lenço grená
+
+Paraná, para ti dou meu afeto
+Amada do mar até o Paraná
+Para que eu possa sentir-me completo
+#+END_VERSE
