@@ -1,0 +1,23 @@
+#+TITLE: Soneto a Ti
+#+DATE: <2026-07-13 Mon 22:44>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Esvai-se tosco o republicanismo
+E por ter já visto sua beleza
+Nunca assim tão feliz foi a tristeza
+De se ver a praticar lacronismo
+
+E tiveste tu tamanha certeza!
+Que jamais cairia em anarquismo
+Sem ver d'onde vem o puritanismo
+E entender, de todos, a natureza
+
+Ouve os sinos que por ti dobrarão
+Seu terrível silêncio inimigo
+Que pares de olhos por ti chorarão?
+
+Quando estiver em campo desamigo?
+Quais são os que por ti em vão, rezarão?
+Poderás contar só mesmo comigo
+#+END_VERSE
