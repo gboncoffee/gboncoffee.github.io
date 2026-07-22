@@ -1,0 +1,23 @@
+#+TITLE: Sol de Maio
+#+DATE: <2026-07-21 Tue 09:44>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Sol de Maio quiseras vir à terra
+Galega no fim do mundo platino
+Que é anglo, germano, italiano
+E também luso nas curvas da serra
+
+Como brilha seu reflexo na prata
+E seus raios dourados iluminam
+As sementes que por aqui germinam
+Para alimentar essa gente grata
+
+Como emana, dos seus olhos as cores
+Azul nos rios de toda platina
+E verde nos campos cheios de amores
+
+Belos do Mato Grosso à Argentina
+Férteis, agora libertos, verdores
+Por cá chegar essa luz vespertina
+#+END_VERSE
