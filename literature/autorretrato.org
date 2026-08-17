@@ -1,0 +1,23 @@
+#+TITLE: Autorretrato
+#+DATE: <2026-08-17 Mon 08:41>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Magro, não alto, cara de cansado
+O cabelo é castanho bem escuro
+Olho marrom também, porém mais claro
+Barba feita, com bigode, ocludo
+
+A orelha, vem do sangue, meio grande
+Nariz, italiano, engraçado
+O resto, de um Portugal passado
+Que espera, sem razão, que não abrande
+
+Do seu Paraná, fala sem cessar
+E sobre dinheiro, mulher, governo
+E qualquer coisa que interessar
+
+Pecador, vive um eterno inverno
+Por se orgulhar, odiar, cobiçar
+Mas ama e tenta muito ser fraterno
+#+END_VERSE
