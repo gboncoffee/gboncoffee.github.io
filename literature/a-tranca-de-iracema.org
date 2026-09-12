@@ -1,0 +1,23 @@
+#+TITLE: A Trança de Iracema
+#+DATE: <2026-09-11 Fri 23:11>
+#+LANG: pt
+
+#+BEGIN_VERSE
+O caboclo que inventou a saudade
+Esqueceu-se de também inventar
+A cachaça que te faz a aguentar
+E de trançá-la com a liberdade
+
+A trança da cabocla Iracema
+Hoje vive apenas na tua memória
+E por mais que tu não veja a vitória
+A ti virá a vitória, suprema
+
+A ti não importa vê-la abraçada
+Se quem ela abraçou foi a derrota
+Sua mente no peito foi trançada
+
+Para ela voltar como devota
+Para a jornada que já foi traçada
+Com a promessa de não ser chacota
+#+END_VERSE
