@@ -1,0 +1,23 @@
+#+TITLE: Soneto à Primavera
+#+DATE: <2026-09-24 Thu 00:09>
+#+LANG: pt
+
+#+BEGIN_VERSE
+O céu cinza, hoje azul despertou
+E já não há mais pinhas pela grama
+Nem mais três cobertas em minha cama
+Já que a Primavera, enfim, voltou
+
+Da viagem que ela fez para o Norte
+Voltou para ver o ipê florir
+E para ver o sulista sorrir
+Após acabar este Inverno forte
+
+Ela retorna para a grená terra
+E junto de si ela traz a vida
+Anunciando outra vez nova Era
+
+Se vê nos morros e campos a vinda
+Da nossa tão sonhada Primavera
+Que é tão fértil, tão gentil e tão linda!
+#+END_VERSE
