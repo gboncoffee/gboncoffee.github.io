@@ -1,0 +1,23 @@
+#+TITLE: Soneto à Platina
+#+DATE: <2026-10-20 ter 00:41>
+#+LANG: pt
+
+#+BEGIN_VERSE
+Um dia notaram que, na viagem
+Tão logo foi o Equador cruzado
+A Cruz, bússola no manto estrelado
+Lhes dizia: "Ao Sul, quem tiver Coragem!"
+
+Tão tarde foi o dia que notaram
+Que o espírito os seguia a bordo
+Navegando com quem o tem amado
+Ficando na terra em que aportaram
+
+E as velhas, antes cheias de beleza
+Já não são as terras mais elegantes!
+Pois esqueceram sua natureza
+
+Os de lá não são os mesmos de antes
+E em sua pequenez, têm a certeza
+Que seus construtores eram gigantes
+#+END_VERSE
