@@ -47,13 +47,6 @@
 		  :publishing-directory "./public/"
 		  :publishing-function #'org-html-publish-to-html
 		  :time-stamp-file nil)
-	    (list "etc"
-		  :recursive nil
-		  :base-directory "./etc/"
-		  :base-extension 'any
-		  :publishing-directory "./public/"
-		  :publishing-function #'org-publish-attachment
-		  :time-stamp-file nil)
 	    (list "static"
 		  :recursive t
 		  :base-directory "./static/"
@@ -69,17 +62,6 @@
 		  :sitemap-sort-files 'anti-chronologically
 		  :sitemap-filename "index.html"
 		  :sitemap-title "Literature"
-		  :sitemap-format-entry #'sitemap-format-entry-html
-		  :auto-sitemap t)
-	    (list "likey"
-		  :recursive nil
-		  :base-directory "./literature/likey"
-		  :publishing-directory "./public/literature/likey/"
-		  :publishing-function #'org-html-publish-to-html
-		  :time-stamp-file nil
-		  :sitemap-sort-files 'anti-chronologically
-		  :sitemap-filename "index.html"
-		  :sitemap-title "Likey"
 		  :sitemap-format-entry #'sitemap-format-entry-html
 		  :auto-sitemap t)
 	    (list "posts"
