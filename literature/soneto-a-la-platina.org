@@ -1,0 +1,25 @@
+#+TITLE: Soneto a la Platina
+#+DATE: <2026-10-24 sáb 01:31>
+#+LANG: es
+
+Traducción del [[file:soneto-a-platina.org][original en portugués]].
+
+#+BEGIN_VERSE
+Un día notaron, en el viaje
+En cuanto fue el Ecuador cruzado
+La Cruz, brújula en manto estrellado
+Les decía: “¡Al Sur, quien tenga Coraje!”
+
+Tan tarde fue el día en que notaron
+Que el espíritu los seguía a bordo
+Navegando con quien lo ha amado
+Quedándose en la tierra a que arribaron
+
+Las viejas, antes llenas de belleza
+¡Ya no son las tierras más elegantes!
+Porque olvidaron su naturaleza
+
+Los de allá no son los mismos de antes
+Y en su pequeñez, tienen la certeza
+Que sus constructores eran gigantes
+#+END_VERSE
